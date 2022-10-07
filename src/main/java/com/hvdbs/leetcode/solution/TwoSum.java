@@ -1,5 +1,9 @@
-package leetcode.solution;
+package com.hvdbs.leetcode.solution;
 
+import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
+
+@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Two Sum", url = "https://leetcode.com/problems/two-sum/")
 public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
