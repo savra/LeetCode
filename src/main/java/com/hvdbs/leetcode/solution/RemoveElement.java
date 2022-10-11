@@ -1,7 +1,11 @@
 package com.hvdbs.leetcode.solution;
 
+import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
+
 import java.util.Arrays;
 
+@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Remove Element", url = "https://leetcode.com/problems/remove-element/")
 public class RemoveElement {
     public int removeElement(int[] nums, int val) {
         int[] ints = Arrays.stream(nums).filter(value -> value != val).toArray();
