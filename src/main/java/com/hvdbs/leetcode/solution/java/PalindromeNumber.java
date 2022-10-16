@@ -1,4 +1,4 @@
-package com.hvdbs.leetcode.solution;
+package com.hvdbs.leetcode.solution.java;
 
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;

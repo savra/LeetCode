@@ -13,8 +13,8 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class StatsGenerator {
-    private static final String packageName = "com.hvdbs.leetcode.solution";
-    private static final String solutionBaseUrl = "https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/";
+    private static final String packageName = "com.hvdbs.leetcode.solution.java";
+    private static final String solutionBaseUrl = "https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/";
 
     public static void generate() {
         try (InputStream inputStream = ClassLoader.getSystemClassLoader().getResourceAsStream(packageName.replace('.', '/'))) {
