@@ -11,6 +11,7 @@ Solving problems on LeetCode
 |Defanging an IP Address|https://leetcode.com/problems/defanging-an-ip-address/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DefangingAnIPAddress.java|
 |Final Value of Variable After Performing Operations|https://leetcode.com/problems/final-value-of-variable-after-performing-operations/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FinalValueOfVariableAfterPerformingOperations.java|
 |Maximum Number of Words Found in Sentences|https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MaximumNumberOfWordsFoundInSentences.java|
+|Number of Good Pairs|https://leetcode.com/problems/number-of-good-pairs/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/NumberOfGoodPairs.java|
 |Palindrome Number|https://leetcode.com/problems/palindrome-number/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/PalindromeNumber.java|
 |Remove Duplicates from Sorted Array|https://leetcode.com/problems/remove-duplicates-from-sorted-array/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RemoveDuplicatesFromSortedArray.java|
 |Remove Element|https://leetcode.com/problems/remove-element/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RemoveElement.java|
