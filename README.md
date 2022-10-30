@@ -13,6 +13,7 @@ Solving problems on LeetCode
 |Maximum Number of Words Found in Sentences|https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MaximumNumberOfWordsFoundInSentences.java|
 |Number of Good Pairs|https://leetcode.com/problems/number-of-good-pairs/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/NumberOfGoodPairs.java|
 |Palindrome Number|https://leetcode.com/problems/palindrome-number/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/PalindromeNumber.java|
+|Design Parking System|https://leetcode.com/problems/design-parking-system/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ParkingSystem.java|
 |Remove Duplicates from Sorted Array|https://leetcode.com/problems/remove-duplicates-from-sorted-array/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RemoveDuplicatesFromSortedArray.java|
 |Remove Element|https://leetcode.com/problems/remove-element/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RemoveElement.java|
 |Richest Customer Wealth|https://leetcode.com/problems/richest-customer-wealth/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RichestCustomerWealth.java|

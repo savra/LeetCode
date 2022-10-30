@@ -10,6 +10,8 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class StatsGenerator {
@@ -39,16 +41,21 @@ public class StatsGenerator {
                             try {
                                 LeetCodeInfo leetCodeInfo = Class.forName(className).getAnnotation(LeetCodeInfo.class);
 
-                                return OutputLeetCodeFormat.builder()
-                                        .difficulty(leetCodeInfo.difficulty())
-                                        .name(leetCodeInfo.name())
-                                        .problemUrl(leetCodeInfo.url())
-                                        .solutionUrl(solutionBaseUrl + solution.replace("class", "java"))
-                                        .build();
+                                if (leetCodeInfo != null) {
+                                    return OutputLeetCodeFormat.builder()
+                                            .difficulty(leetCodeInfo.difficulty())
+                                            .name(leetCodeInfo.name())
+                                            .problemUrl(leetCodeInfo.url())
+                                            .solutionUrl(solutionBaseUrl + solution.replace("class", "java"))
+                                            .build();
+                                }
+
+                                return null;
                             } catch (ClassNotFoundException e) {
                                 return null;
                             }
                         })
+                        .filter(Predicate.not(Objects::isNull))
                         .collect(Collectors.groupingBy(OutputLeetCodeFormat::getDifficulty));
 
                 for (Difficulty difficulty : difficultyListMap.keySet()) {
