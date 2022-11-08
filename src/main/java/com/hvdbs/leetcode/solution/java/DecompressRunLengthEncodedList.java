@@ -17,6 +17,7 @@ public class DecompressRunLengthEncodedList {
 
         for (int i = 0; i < nums.length; i += 2) {
             Integer[] tmp = new Integer[nums[i]];
+            String s = "";
 
             j = nums[i];
             k = 0;
