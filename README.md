@@ -7,6 +7,7 @@ Solving problems on LeetCode
 |---|---|---|
 |Add Two Integers|https://leetcode.com/problems/add-two-integers/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AddTwoIntegers.java|
 |Build Array from Permutation|https://leetcode.com/problems/build-array-from-permutation/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/BuildArrayFromPermutation.java|
+|Cells in a Range on an Excel Sheet|https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CellsInARangeOnAnExcelSheet.java|
 |Check if the Sentence Is Pangram|https://leetcode.com/problems/check-if-the-sentence-is-pangram/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CheckIfTheSentenceIsPangram.java|
 |Concatenation of Array|https://leetcode.com/problems/concatenation-of-array/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ConcatenationOfArray.java|
 |Create Target Array in the Given Order|https://leetcode.com/problems/create-target-array-in-the-given-order/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CreateTargetArrayInTheGivenOrder.java|
