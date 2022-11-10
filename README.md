@@ -24,6 +24,7 @@ Solving problems on LeetCode
 |Number of Steps to Reduce a Number to Zero|https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/NumberOfStepsToReduceANumberToZero.java|
 |Palindrome Number|https://leetcode.com/problems/palindrome-number/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/PalindromeNumber.java|
 |Design Parking System|https://leetcode.com/problems/design-parking-system/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ParkingSystem.java|
+|Range Sum of BST|https://leetcode.com/problems/range-sum-of-bst/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RangeSumOfBST.java|
 |Remove Duplicates from Sorted Array|https://leetcode.com/problems/remove-duplicates-from-sorted-array/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RemoveDuplicatesFromSortedArray.java|
 |Remove Element|https://leetcode.com/problems/remove-element/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RemoveElement.java|
 |Richest Customer Wealth|https://leetcode.com/problems/richest-customer-wealth/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RichestCustomerWealth.java|
