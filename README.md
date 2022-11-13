@@ -10,6 +10,7 @@ Solving problems on LeetCode
 |Cells in a Range on an Excel Sheet|https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CellsInARangeOnAnExcelSheet.java|
 |Check if the Sentence Is Pangram|https://leetcode.com/problems/check-if-the-sentence-is-pangram/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CheckIfTheSentenceIsPangram.java|
 |Concatenation of Array|https://leetcode.com/problems/concatenation-of-array/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ConcatenationOfArray.java|
+|Convert the Temperature|https://leetcode.com/problems/convert-the-temperature/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ConvertTheTemperature.java|
 |Count Asterisks|https://leetcode.com/problems/count-asterisks/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountAsterisks.java|
 |Create Target Array in the Given Order|https://leetcode.com/problems/create-target-array-in-the-given-order/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CreateTargetArrayInTheGivenOrder.java|
 |Decode the Message|https://leetcode.com/problems/decode-the-message/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DecodeTheMessage.java|
