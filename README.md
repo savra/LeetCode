@@ -12,6 +12,7 @@ Solving problems on LeetCode
 |Concatenation of Array|https://leetcode.com/problems/concatenation-of-array/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ConcatenationOfArray.java|
 |Convert the Temperature|https://leetcode.com/problems/convert-the-temperature/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ConvertTheTemperature.java|
 |Count Asterisks|https://leetcode.com/problems/count-asterisks/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountAsterisks.java|
+|Count Items Matching a Rule|https://leetcode.com/problems/count-items-matching-a-rule/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountItemsMatchingARule.java|
 |Create Target Array in the Given Order|https://leetcode.com/problems/create-target-array-in-the-given-order/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CreateTargetArrayInTheGivenOrder.java|
 |Decode the Message|https://leetcode.com/problems/decode-the-message/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DecodeTheMessage.java|
 |Decompress Run-Length Encoded List|https://leetcode.com/problems/decompress-run-length-encoded-list/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DecompressRunLengthEncodedList.java|
