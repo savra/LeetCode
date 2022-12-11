@@ -30,6 +30,11 @@ public class MaximumDifferenceBetweenNodeAndAncestor {
 
     public static int maxAncestorDiff(TreeNode root) {
         int maxDiff = 0;
+        String f = "f";
+        char[] cc = f.toCharArray();
+        java.util.Arrays.sort(cc);
+        String ff = "ff";
+        ff.equals(f);
 
         int[] maxMin = new int[]{root.val, root.val};
         int[] prevMaxMin = new int[]{root.val, root.val};
