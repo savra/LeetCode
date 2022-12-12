@@ -43,6 +43,7 @@ Solving problems on LeetCode
 |Range Sum of BST|https://leetcode.com/problems/range-sum-of-bst/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RangeSumOfBST.java|
 |Remove Duplicates from Sorted Array|https://leetcode.com/problems/remove-duplicates-from-sorted-array/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RemoveDuplicatesFromSortedArray.java|
 |Remove Element|https://leetcode.com/problems/remove-element/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RemoveElement.java|
+|Replace All Digits with Characters|https://leetcode.com/problems/replace-all-digits-with-characters/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ReplaceAllDigitsWithCharacters.java|
 |Richest Customer Wealth|https://leetcode.com/problems/richest-customer-wealth/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RichestCustomerWealth.java|
 |Root Equals Sum of Children|https://leetcode.com/problems/root-equals-sum-of-children/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RootEqualsSumOfChildren.java|
 |Running Sum of 1d Array|https://leetcode.com/problems/running-sum-of-1d-array/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RunningSumOf1dArray.java|
