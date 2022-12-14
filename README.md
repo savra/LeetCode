@@ -54,6 +54,7 @@ Solving problems on LeetCode
 |Sort the People|https://leetcode.com/problems/sort-the-people/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SortThePeople.java|
 |Split a String in Balanced Strings|https://leetcode.com/problems/split-a-string-in-balanced-strings/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SplitAStringInBalancedStrings.java|
 |Subtract the Product and Sum of Digits of an Integer|https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SubtractTheProductAndSumOfDigitsOfAnInteger.java|
+|To Lower Case|https://leetcode.com/problems/to-lower-case/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ToLowerCase.java|
 |Truncate Sentence|https://leetcode.com/problems/truncate-sentence/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TruncateSentence.java|
 |Two Sum|https://leetcode.com/problems/two-sum/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TwoSum.java|
 </details>
