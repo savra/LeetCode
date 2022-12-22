@@ -31,6 +31,7 @@ Solving problems on LeetCode
 |Jewels and Stones|https://leetcode.com/problems/jewels-and-stones/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/JewelsAndStones.java|
 |Kids With the Greatest Number of Candies|https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/KidsWithTheGreatestNumberOfCandies.java|
 |Leaf-Similar Trees|https://leetcode.com/problems/leaf-similar-trees/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/LeafSimilarTrees.java|
+|Matrix Diagonal Sum|https://leetcode.com/problems/matrix-diagonal-sum/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MatrixDiagonalSum.java|
 |Maximum 69 Number|https://leetcode.com/problems/maximum-69-number/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/Maximum69Number.java|
 |Maximum Number of Words Found in Sentences|https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MaximumNumberOfWordsFoundInSentences.java|
 |Maximum Product of Two Elements in an Array|https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MaximumProductOfTwoElementsInAnArray.java|
