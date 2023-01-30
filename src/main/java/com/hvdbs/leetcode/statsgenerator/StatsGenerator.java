@@ -82,7 +82,7 @@ public class StatsGenerator {
                 bufferedWriter.append("</details>");
             }
 
-        } catch (IOException e) {
+        } catch (IOException ignored) {
 
         }
     }
