@@ -24,6 +24,7 @@ Solving problems on LeetCode
 |Decompress Run-Length Encoded List|https://leetcode.com/problems/decompress-run-length-encoded-list/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DecompressRunLengthEncodedList.java|
 |Defanging an IP Address|https://leetcode.com/problems/defanging-an-ip-address/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DefangingAnIPAddress.java|
 |Determine if String Halves Are Alike|https://leetcode.com/problems/determine-if-string-halves-are-alike/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DetermineIfStringHalvesAreAlike.java|
+|Difference Between Element Sum and Digit Sum of an Array|https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DifferenceBetweenElementSumAndDigitSumOfAnArray.java|
 |Evaluate Boolean Binary Tree|https://leetcode.com/problems/evaluate-boolean-binary-tree/solutions/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/EvaluateBooleanBinaryTree.java|
 |Final Value of Variable After Performing Operations|https://leetcode.com/problems/final-value-of-variable-after-performing-operations/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FinalValueOfVariableAfterPerformingOperations.java|
 |Find Center of Star Graph|https://leetcode.com/problems/find-center-of-star-graph/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FindCenterOfStarGraph.java|
@@ -65,4 +66,10 @@ Solving problems on LeetCode
 |To Lower Case|https://leetcode.com/problems/to-lower-case/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ToLowerCase.java|
 |Truncate Sentence|https://leetcode.com/problems/truncate-sentence/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TruncateSentence.java|
 |Two Sum|https://leetcode.com/problems/two-sum/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TwoSum.java|
+<summary>MEDIUM</summary>
+
+|Name|Problem|Solution|
+|---|---|---|
+|Partitioning Into Minimum Number Of Deci-Binary Numbers|https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java|
+|Subrectangle Queries|https://leetcode.com/problems/subrectangle-queries/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SubrectangleQueries.java|
 </details>
