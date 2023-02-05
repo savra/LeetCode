@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.IntStream;
 
 @LeetCodeInfo(difficulty = Difficulty.MEDIUM, name = "Deepest Leaves Sum",
         url = "https://leetcode.com/problems/deepest-leaves-sum/")

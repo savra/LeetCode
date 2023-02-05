@@ -5,6 +5,7 @@ Solving problems on LeetCode
 
 |Name|Problem|Solution|
 |---|---|---|
+|Deepest Leaves Sum|https://leetcode.com/problems/deepest-leaves-sum/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeepestLeavesSum.java|
 |Partitioning Into Minimum Number Of Deci-Binary Numbers|https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java|
 |Strictly Palindromic Number|https://leetcode.com/problems/strictly-palindromic-number/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/StrictlyPalindromicNumber.java|
 |Subrectangle Queries|https://leetcode.com/problems/subrectangle-queries/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SubrectangleQueries.java|
