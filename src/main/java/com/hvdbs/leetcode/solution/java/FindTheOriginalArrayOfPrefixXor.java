@@ -4,9 +4,9 @@ import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 @LeetCodeInfo(difficulty = Difficulty.MEDIUM,
-        name = "Using a Robot to Print the Lexicographically Smallest String",
-        url = "https://leetcode.com/problems/find-the-original-array-of-prefix-xor/submissions/892451074/")
-public class UsingARobotToPrintTheLexicographicallySmallestString {
+        name = "Find The Original Array of Prefix Xor",
+        url = "https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description/")
+public class FindTheOriginalArrayOfPrefixXor {
     public int[] findArray(int[] pref) {
         int[] arr = new int[pref.length];
 
