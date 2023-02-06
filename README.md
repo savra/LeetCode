@@ -1,14 +1,6 @@
 # LeetCode
 Solving problems on LeetCode
 <details>
-<summary>MEDIUM</summary>
-
-|Name|Problem|Solution|
-|---|---|---|
-|Deepest Leaves Sum|https://leetcode.com/problems/deepest-leaves-sum/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeepestLeavesSum.java|
-|Partitioning Into Minimum Number Of Deci-Binary Numbers|https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java|
-|Strictly Palindromic Number|https://leetcode.com/problems/strictly-palindromic-number/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/StrictlyPalindromicNumber.java|
-|Subrectangle Queries|https://leetcode.com/problems/subrectangle-queries/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SubrectangleQueries.java|
 <summary>EASY</summary>
 
 |Name|Problem|Solution|
@@ -22,6 +14,7 @@ Solving problems on LeetCode
 |Convert Binary Number in a Linked List to Integer|https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ConvertBinaryNumberInALinkedListToInteger.java|
 |Convert the Temperature|https://leetcode.com/problems/convert-the-temperature/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ConvertTheTemperature.java|
 |Count Asterisks|https://leetcode.com/problems/count-asterisks/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountAsterisks.java|
+|Count Equal and Divisible Pairs in an Array|https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountEqualAndDivisiblePairsInAnArray.java|
 |Count Items Matching a Rule|https://leetcode.com/problems/count-items-matching-a-rule/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountItemsMatchingARule.java|
 |Count Number of Pairs With Absolute Difference K|https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountNumberOfPairsWithAbsoluteDifferenceK.java|
 |Count of Matches in Tournament|https://leetcode.com/problems/count-of-matches-in-tournament/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountOfMatchesInTournament.java|
@@ -74,4 +67,13 @@ Solving problems on LeetCode
 |To Lower Case|https://leetcode.com/problems/to-lower-case/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ToLowerCase.java|
 |Truncate Sentence|https://leetcode.com/problems/truncate-sentence/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TruncateSentence.java|
 |Two Sum|https://leetcode.com/problems/two-sum/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TwoSum.java|
+<summary>MEDIUM</summary>
+
+|Name|Problem|Solution|
+|---|---|---|
+|Deepest Leaves Sum|https://leetcode.com/problems/deepest-leaves-sum/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeepestLeavesSum.java|
+|Find The Original Array of Prefix Xor|https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FindTheOriginalArrayOfPrefixXor.java|
+|Partitioning Into Minimum Number Of Deci-Binary Numbers|https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java|
+|Strictly Palindromic Number|https://leetcode.com/problems/strictly-palindromic-number/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/StrictlyPalindromicNumber.java|
+|Subrectangle Queries|https://leetcode.com/problems/subrectangle-queries/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SubrectangleQueries.java|
 </details>
