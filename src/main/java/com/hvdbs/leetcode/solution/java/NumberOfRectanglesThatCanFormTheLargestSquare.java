@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class NumberOfRectanglesThatCanFormTheLargestSquare {
     public int countGoodRectangles(int[][] rectangles) {
         int largestSquares = 0;
-        int minLen = 0;
+        int minLen;
         int[] result = new int[rectangles.length];
 
         for (int i = 0; i < rectangles.length; i++) {
