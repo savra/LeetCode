@@ -64,6 +64,7 @@ Solving problems on LeetCode
 |Remove Duplicates from Sorted Array|https://leetcode.com/problems/remove-duplicates-from-sorted-array/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RemoveDuplicatesFromSortedArray.java|
 |Remove Element|https://leetcode.com/problems/remove-element/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RemoveElement.java|
 |Replace All Digits with Characters|https://leetcode.com/problems/replace-all-digits-with-characters/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ReplaceAllDigitsWithCharacters.java|
+|Reverse Prefix of Word|https://leetcode.com/problems/reverse-prefix-of-word/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ReversePrefixOfWord.java|
 |Reverse Words in a String III|https://leetcode.com/problems/reverse-words-in-a-string-iii/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ReverseWordsInAStringIII.java|
 |Richest Customer Wealth|https://leetcode.com/problems/richest-customer-wealth/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RichestCustomerWealth.java|
 |Rings and Rods|https://leetcode.com/problems/rings-and-rods/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RingsAndRods.java|
