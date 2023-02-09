@@ -72,6 +72,7 @@ Solving problems on LeetCode
 |Rings and Rods|https://leetcode.com/problems/rings-and-rods/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RingsAndRods.java|
 |Root Equals Sum of Children|https://leetcode.com/problems/root-equals-sum-of-children/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RootEqualsSumOfChildren.java|
 |Running Sum of 1d Array|https://leetcode.com/problems/running-sum-of-1d-array/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RunningSumOf1dArray.java|
+|Search in a Binary Search Tree|https://leetcode.com/problems/search-in-a-binary-search-tree/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SearchInABinarySearchTree.java|
 |Shuffle String|https://leetcode.com/problems/shuffle-string/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ShuffleString.java|
 |Shuffle the Array|https://leetcode.com/problems/shuffle-the-array/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ShuffleTheArray.java|
 |Smallest Even Multiple|https://leetcode.com/problems/smallest-even-multiple/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SmallestEvenMultiple.java|
