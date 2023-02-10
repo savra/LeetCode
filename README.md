@@ -1,6 +1,15 @@
 # LeetCode
 Solving problems on LeetCode
 <details>
+<summary>MEDIUM</summary>
+
+|Name|Problem|Solution|
+|---|---|---|
+|Deepest Leaves Sum|https://leetcode.com/problems/deepest-leaves-sum/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeepestLeavesSum.java|
+|Find The Original Array of Prefix Xor|https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FindTheOriginalArrayOfPrefixXor.java|
+|Partitioning Into Minimum Number Of Deci-Binary Numbers|https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java|
+|Strictly Palindromic Number|https://leetcode.com/problems/strictly-palindromic-number/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/StrictlyPalindromicNumber.java|
+|Subrectangle Queries|https://leetcode.com/problems/subrectangle-queries/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SubrectangleQueries.java|
 <summary>EASY</summary>
 
 |Name|Problem|Solution|
@@ -25,6 +34,7 @@ Solving problems on LeetCode
 |Decode XORed Array|https://leetcode.com/problems/decode-xored-array/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DecodeXORedArray.java|
 |Decompress Run-Length Encoded List|https://leetcode.com/problems/decompress-run-length-encoded-list/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DecompressRunLengthEncodedList.java|
 |Defanging an IP Address|https://leetcode.com/problems/defanging-an-ip-address/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DefangingAnIPAddress.java|
+|Design an Ordered Stream|https://leetcode.com/problems/design-an-ordered-stream/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DesignAnOrderedStream.java|
 |Determine Color of a Chessboard Square|https://leetcode.com/problems/determine-color-of-a-chessboard-square/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DetermineColorOfAChessboardSquare.java|
 |Determine if String Halves Are Alike|https://leetcode.com/problems/determine-if-string-halves-are-alike/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DetermineIfStringHalvesAreAlike.java|
 |Difference Between Element Sum and Digit Sum of an Array|https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DifferenceBetweenElementSumAndDigitSumOfAnArray.java|
@@ -78,13 +88,4 @@ Solving problems on LeetCode
 |Truncate Sentence|https://leetcode.com/problems/truncate-sentence/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TruncateSentence.java|
 |Two Sum|https://leetcode.com/problems/two-sum/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TwoSum.java|
 |Unique Morse Code Words|https://leetcode.com/problems/unique-morse-code-words/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/UniqueMorseCodeWords.java|
-<summary>MEDIUM</summary>
-
-|Name|Problem|Solution|
-|---|---|---|
-|Deepest Leaves Sum|https://leetcode.com/problems/deepest-leaves-sum/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeepestLeavesSum.java|
-|Find The Original Array of Prefix Xor|https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FindTheOriginalArrayOfPrefixXor.java|
-|Partitioning Into Minimum Number Of Deci-Binary Numbers|https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java|
-|Strictly Palindromic Number|https://leetcode.com/problems/strictly-palindromic-number/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/StrictlyPalindromicNumber.java|
-|Subrectangle Queries|https://leetcode.com/problems/subrectangle-queries/description/|https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SubrectangleQueries.java|
 </details>
