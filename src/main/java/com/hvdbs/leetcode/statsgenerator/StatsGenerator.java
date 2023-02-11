@@ -19,7 +19,8 @@ public class StatsGenerator {
     private static final String solutionBaseUrl = "https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/";
 
     public static void generate() {
-        try (InputStream inputStream = ClassLoader.getSystemClassLoader().getResourceAsStream(packageName.replace('.', '/'))) {
+        try (InputStream inputStream = ClassLoader.getSystemClassLoader()
+                .getResourceAsStream(packageName.replace('.', '/'))) {
             if (inputStream == null) {
                 return;
             }
@@ -30,9 +31,6 @@ public class StatsGenerator {
                 bufferedWriter.append("# LeetCode");
                 bufferedWriter.newLine();
                 bufferedWriter.append("Solving problems on LeetCode");
-                bufferedWriter.newLine();
-                bufferedWriter.append("<details>");
-                bufferedWriter.newLine();
 
                 Map<Difficulty, List<OutputLeetCodeFormat>> difficultyListMap = bufferedReader.lines()
                         .map(solution -> {
@@ -59,6 +57,9 @@ public class StatsGenerator {
                         .collect(Collectors.groupingBy(OutputLeetCodeFormat::getDifficulty));
 
                 for (Difficulty difficulty : difficultyListMap.keySet()) {
+                    bufferedWriter.newLine();
+                    bufferedWriter.append("<details>");
+                    bufferedWriter.newLine();
                     bufferedWriter.append("<summary>").append(String.valueOf(difficulty)).append("</summary>");
                     bufferedWriter.newLine();
                     bufferedWriter.newLine();
@@ -73,13 +74,12 @@ public class StatsGenerator {
                                 .append("|")
                                 .append(outputLeetCodeFormat.getProblemUrl())
                                 .append("|")
-                                .append(outputLeetCodeFormat.getSolutionUrl())
+                                .append("<a href='").append(outputLeetCodeFormat.getSolutionUrl()).append("'>").append(outputLeetCodeFormat.getName()).append("</a>")
                                 .append("|");
                         bufferedWriter.newLine();
                     }
+                    bufferedWriter.append("</details>");
                 }
-
-                bufferedWriter.append("</details>");
             }
 
         } catch (IOException ignored) {
