@@ -34,6 +34,8 @@ public class MergeNodesInBetweenZeros {
 
         for (int i = 1; i < result.size(); i++) {
             root.next = new ListNode(result.get(i));
+            ListNode c = root.next;
+            c.next = new ListNode(result.get(i));
         }
 
         return root;
