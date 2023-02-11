@@ -74,7 +74,7 @@ public class StatsGenerator {
                                 .append("|")
                                 .append(outputLeetCodeFormat.getProblemUrl())
                                 .append("|")
-                                .append("<a target = '_blank' href='").append(outputLeetCodeFormat.getSolutionUrl()).append("'>").append(outputLeetCodeFormat.getName()).append("</a>")
+                                .append("<a href='").append(outputLeetCodeFormat.getSolutionUrl()).append("'>").append(outputLeetCodeFormat.getName()).append("</a>")
                                 .append("|");
                         bufferedWriter.newLine();
                     }
