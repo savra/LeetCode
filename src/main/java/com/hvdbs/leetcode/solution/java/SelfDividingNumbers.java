@@ -11,7 +11,6 @@ import java.util.List;
 public class SelfDividingNumbers {
     public List<Integer> selfDividingNumbers(int left, int right) {
         List<Integer> result = new ArrayList<>();
-
         int lastDigit;
         int countDigit;
         int countCurrentNumberDigit;
