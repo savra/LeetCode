@@ -10,8 +10,9 @@ import java.util.List;
         url = "https://leetcode.com/problems/self-dividing-numbers/")
 public class SelfDividingNumbers {
     public List<Integer> selfDividingNumbers(int left, int right) {
-        int lastDigit;
         List<Integer> result = new ArrayList<>();
+
+        int lastDigit;
         int countDigit;
         int countCurrentNumberDigit;
 
