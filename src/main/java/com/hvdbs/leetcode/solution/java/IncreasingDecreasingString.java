@@ -27,7 +27,7 @@ public class IncreasingDecreasingString {
 
         i = chars.length - 2;
 
-        while(i > k + 1) {
+        while(i > 1) {
             if (chars[i] < sb.charAt(sb.length() - 1)) {
                 sb.append(chars[i]);
             }
