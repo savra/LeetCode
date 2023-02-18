@@ -1,6 +1,17 @@
 # LeetCode
 Solving problems on LeetCode
 <details>
+<summary>MEDIUM</summary>
+
+|Name|Problem|Solution|
+|---|---|---|
+|Deepest Leaves Sum|https://leetcode.com/problems/deepest-leaves-sum/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeepestLeavesSum.java'>Deepest Leaves Sum</a>|
+|Find The Original Array of Prefix Xor|https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FindTheOriginalArrayOfPrefixXor.java'>Find The Original Array of Prefix Xor</a>|
+|Partitioning Into Minimum Number Of Deci-Binary Numbers|https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java'>Partitioning Into Minimum Number Of Deci-Binary Numbers</a>|
+|Strictly Palindromic Number|https://leetcode.com/problems/strictly-palindromic-number/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/StrictlyPalindromicNumber.java'>Strictly Palindromic Number</a>|
+|Subrectangle Queries|https://leetcode.com/problems/subrectangle-queries/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SubrectangleQueries.java'>Subrectangle Queries</a>|
+</details>
+<details>
 <summary>EASY</summary>
 
 |Name|Problem|Solution|
@@ -30,10 +41,12 @@ Solving problems on LeetCode
 |Determine Color of a Chessboard Square|https://leetcode.com/problems/determine-color-of-a-chessboard-square/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DetermineColorOfAChessboardSquare.java'>Determine Color of a Chessboard Square</a>|
 |Determine if String Halves Are Alike|https://leetcode.com/problems/determine-if-string-halves-are-alike/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DetermineIfStringHalvesAreAlike.java'>Determine if String Halves Are Alike</a>|
 |Difference Between Element Sum and Digit Sum of an Array|https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DifferenceBetweenElementSumAndDigitSumOfAnArray.java'>Difference Between Element Sum and Digit Sum of an Array</a>|
+|DI String Match|https://leetcode.com/problems/di-string-match/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DiStringMatch.java'>DI String Match</a>|
 |Evaluate Boolean Binary Tree|https://leetcode.com/problems/evaluate-boolean-binary-tree/solutions/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/EvaluateBooleanBinaryTree.java'>Evaluate Boolean Binary Tree</a>|
 |Final Value of Variable After Performing Operations|https://leetcode.com/problems/final-value-of-variable-after-performing-operations/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FinalValueOfVariableAfterPerformingOperations.java'>Final Value of Variable After Performing Operations</a>|
 |Find Center of Star Graph|https://leetcode.com/problems/find-center-of-star-graph/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FindCenterOfStarGraph.java'>Find Center of Star Graph</a>|
 |Find First Palindromic String in the Array|https://leetcode.com/problems/find-first-palindromic-string-in-the-array/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FindFirstPalindromicStringInTheArray.java'>Find First Palindromic String in the Array</a>|
+|Find Numbers with Even Number of Digits|https://leetcode.com/problems/find-numbers-with-even-number-of-digits/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FindNumbersWithEvenNumberOfDigits.java'>Find Numbers with Even Number of Digits</a>|
 |Find N Unique Integers Sum up to Zero|https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FindNUniqueIntegersSumUpToZero.java'>Find N Unique Integers Sum up to Zero</a>|
 |Find the Highest Altitude|https://leetcode.com/problems/find-the-highest-altitude/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FindTheHighestAltitude.java'>Find the Highest Altitude</a>|
 |First Letter to Appear Twice|https://leetcode.com/problems/first-letter-to-appear-twice/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FirstLetterToAppearTwice.java'>First Letter to Appear Twice</a>|
@@ -83,15 +96,4 @@ Solving problems on LeetCode
 |Two Sum|https://leetcode.com/problems/two-sum/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TwoSum.java'>Two Sum</a>|
 |Unique Morse Code Words|https://leetcode.com/problems/unique-morse-code-words/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/UniqueMorseCodeWords.java'>Unique Morse Code Words</a>|
 |XOR Operation in an Array|https://leetcode.com/problems/xor-operation-in-an-array/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/XorOperationInAnArray.java'>XOR Operation in an Array</a>|
-</details>
-<details>
-<summary>MEDIUM</summary>
-
-|Name|Problem|Solution|
-|---|---|---|
-|Deepest Leaves Sum|https://leetcode.com/problems/deepest-leaves-sum/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeepestLeavesSum.java'>Deepest Leaves Sum</a>|
-|Find The Original Array of Prefix Xor|https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FindTheOriginalArrayOfPrefixXor.java'>Find The Original Array of Prefix Xor</a>|
-|Partitioning Into Minimum Number Of Deci-Binary Numbers|https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java'>Partitioning Into Minimum Number Of Deci-Binary Numbers</a>|
-|Strictly Palindromic Number|https://leetcode.com/problems/strictly-palindromic-number/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/StrictlyPalindromicNumber.java'>Strictly Palindromic Number</a>|
-|Subrectangle Queries|https://leetcode.com/problems/subrectangle-queries/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SubrectangleQueries.java'>Subrectangle Queries</a>|
 </details>
