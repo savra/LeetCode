@@ -1,6 +1,17 @@
 # LeetCode
 Solving problems on LeetCode
 <details>
+<summary>MEDIUM</summary>
+
+|Name|Problem|Solution|
+|---|---|---|
+|Deepest Leaves Sum|https://leetcode.com/problems/deepest-leaves-sum/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeepestLeavesSum.java'>Deepest Leaves Sum</a>|
+|Find The Original Array of Prefix Xor|https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FindTheOriginalArrayOfPrefixXor.java'>Find The Original Array of Prefix Xor</a>|
+|Partitioning Into Minimum Number Of Deci-Binary Numbers|https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java'>Partitioning Into Minimum Number Of Deci-Binary Numbers</a>|
+|Strictly Palindromic Number|https://leetcode.com/problems/strictly-palindromic-number/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/StrictlyPalindromicNumber.java'>Strictly Palindromic Number</a>|
+|Subrectangle Queries|https://leetcode.com/problems/subrectangle-queries/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SubrectangleQueries.java'>Subrectangle Queries</a>|
+</details>
+<details>
 <summary>EASY</summary>
 
 |Name|Problem|Solution|
@@ -51,6 +62,7 @@ Solving problems on LeetCode
 |Leaf-Similar Trees|https://leetcode.com/problems/leaf-similar-trees/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/LeafSimilarTrees.java'>Leaf-Similar Trees</a>|
 |Matrix Diagonal Sum|https://leetcode.com/problems/matrix-diagonal-sum/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MatrixDiagonalSum.java'>Matrix Diagonal Sum</a>|
 |Maximum 69 Number|https://leetcode.com/problems/maximum-69-number/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/Maximum69Number.java'>Maximum 69 Number</a>|
+|Maximum Count of Positive Integer and Negative Integer|https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MaximumCountOfPositiveIntegerAndNegativeInteger.java'>Maximum Count of Positive Integer and Negative Integer</a>|
 |Maximum Number of Words Found in Sentences|https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MaximumNumberOfWordsFoundInSentences.java'>Maximum Number of Words Found in Sentences</a>|
 |Maximum Product of Two Elements in an Array|https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MaximumProductOfTwoElementsInAnArray.java'>Maximum Product of Two Elements in an Array</a>|
 |Merge Strings Alternately|https://leetcode.com/problems/merge-strings-alternately|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MergeStringsAlternately.java'>Merge Strings Alternately</a>|
@@ -92,15 +104,4 @@ Solving problems on LeetCode
 |Two Sum|https://leetcode.com/problems/two-sum/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TwoSum.java'>Two Sum</a>|
 |Unique Morse Code Words|https://leetcode.com/problems/unique-morse-code-words/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/UniqueMorseCodeWords.java'>Unique Morse Code Words</a>|
 |XOR Operation in an Array|https://leetcode.com/problems/xor-operation-in-an-array/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/XorOperationInAnArray.java'>XOR Operation in an Array</a>|
-</details>
-<details>
-<summary>MEDIUM</summary>
-
-|Name|Problem|Solution|
-|---|---|---|
-|Deepest Leaves Sum|https://leetcode.com/problems/deepest-leaves-sum/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeepestLeavesSum.java'>Deepest Leaves Sum</a>|
-|Find The Original Array of Prefix Xor|https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FindTheOriginalArrayOfPrefixXor.java'>Find The Original Array of Prefix Xor</a>|
-|Partitioning Into Minimum Number Of Deci-Binary Numbers|https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java'>Partitioning Into Minimum Number Of Deci-Binary Numbers</a>|
-|Strictly Palindromic Number|https://leetcode.com/problems/strictly-palindromic-number/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/StrictlyPalindromicNumber.java'>Strictly Palindromic Number</a>|
-|Subrectangle Queries|https://leetcode.com/problems/subrectangle-queries/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SubrectangleQueries.java'>Subrectangle Queries</a>|
 </details>
