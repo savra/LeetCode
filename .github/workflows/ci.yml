@@ -1,2 +1,17 @@
-- name: Metrics embed
-  uses: lowlighter/metrics@v3.32
+name: build
+
+on:
+  push:
+    branches: [ master ]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Metrics embed
+      uses: lowlighter/metrics@v3.32
