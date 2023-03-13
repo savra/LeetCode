@@ -21,7 +21,6 @@ public class TwoOutOfThree {
         result.addAll(intersect(set3, set1, set2));
 
         return new ArrayList<>(result);
-
     }
 
     Set<Integer> intersect(Set<Integer> set1, Set<Integer> set2, Set<Integer> set3) {
