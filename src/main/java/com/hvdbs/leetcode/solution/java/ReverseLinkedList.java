@@ -30,5 +30,7 @@ public class ReverseLinkedList {
         while (head.next != null) {
 
         }
+
+        return new ListNode();
     }
 }
