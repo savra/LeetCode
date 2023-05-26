@@ -1,6 +1,17 @@
 # LeetCode
 Solving problems on LeetCode
 <details>
+<summary>MEDIUM</summary>
+
+|Name|Problem|Solution|
+|---|---|---|
+|Deepest Leaves Sum|https://leetcode.com/problems/deepest-leaves-sum/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeepestLeavesSum.java'>Deepest Leaves Sum</a>|
+|Find The Original Array of Prefix Xor|https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FindTheOriginalArrayOfPrefixXor.java'>Find The Original Array of Prefix Xor</a>|
+|Partitioning Into Minimum Number Of Deci-Binary Numbers|https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java'>Partitioning Into Minimum Number Of Deci-Binary Numbers</a>|
+|Strictly Palindromic Number|https://leetcode.com/problems/strictly-palindromic-number/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/StrictlyPalindromicNumber.java'>Strictly Palindromic Number</a>|
+|Subrectangle Queries|https://leetcode.com/problems/subrectangle-queries/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SubrectangleQueries.java'>Subrectangle Queries</a>|
+</details>
+<details>
 <summary>EASY</summary>
 
 |Name|Problem|Solution|
@@ -28,6 +39,7 @@ Solving problems on LeetCode
 |Count Negative Numbers in a Sorted Matrix|https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountNegativeNumbersInASortedMatrix.java'>Count Negative Numbers in a Sorted Matrix</a>|
 |Count Number of Pairs With Absolute Difference K|https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountNumberOfPairsWithAbsoluteDifferenceK.java'>Count Number of Pairs With Absolute Difference K</a>|
 |Count of Matches in Tournament|https://leetcode.com/problems/count-of-matches-in-tournament/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountOfMatchesInTournament.java'>Count of Matches in Tournament</a>|
+|Count Pairs Of Similar Strings|https://leetcode.com/problems/count-pairs-of-similar-strings|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountPairsOfSimilarStrings.java'>Count Pairs Of Similar Strings</a>|
 |Count Prefixes of a Given String|https://leetcode.com/problems/count-prefixes-of-a-given-string|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountPrefixesOfAGivenString.java'>Count Prefixes of a Given String</a>|
 |Count the Digits That Divide a Number|https://leetcode.com/problems/count-the-digits-that-divide-a-number/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountTheDigitsThatDivideANumber.java'>Count the Digits That Divide a Number</a>|
 |Count the Number of Consistent Strings|https://leetcode.com/problems/count-the-number-of-consistent-strings/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountTheNumberOfConsistentStrings.java'>Count the Number of Consistent Strings</a>|
@@ -145,15 +157,4 @@ Solving problems on LeetCode
 |Unique Morse Code Words|https://leetcode.com/problems/unique-morse-code-words/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/UniqueMorseCodeWords.java'>Unique Morse Code Words</a>|
 |Unique Number of Occurrences|https://leetcode.com/problems/unique-number-of-occurrences/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/UniqueNumberOfOccurrences.java'>Unique Number of Occurrences</a>|
 |XOR Operation in an Array|https://leetcode.com/problems/xor-operation-in-an-array/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/XorOperationInAnArray.java'>XOR Operation in an Array</a>|
-</details>
-<details>
-<summary>MEDIUM</summary>
-
-|Name|Problem|Solution|
-|---|---|---|
-|Deepest Leaves Sum|https://leetcode.com/problems/deepest-leaves-sum/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeepestLeavesSum.java'>Deepest Leaves Sum</a>|
-|Find The Original Array of Prefix Xor|https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FindTheOriginalArrayOfPrefixXor.java'>Find The Original Array of Prefix Xor</a>|
-|Partitioning Into Minimum Number Of Deci-Binary Numbers|https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java'>Partitioning Into Minimum Number Of Deci-Binary Numbers</a>|
-|Strictly Palindromic Number|https://leetcode.com/problems/strictly-palindromic-number/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/StrictlyPalindromicNumber.java'>Strictly Palindromic Number</a>|
-|Subrectangle Queries|https://leetcode.com/problems/subrectangle-queries/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SubrectangleQueries.java'>Subrectangle Queries</a>|
 </details>
