@@ -24,7 +24,6 @@ public class CountPairsOfSimilarStrings {
                 if (tmp1.size() == tmp2.size() && tmp1.containsAll(tmp2)) {
                     result++;
                 }
-
             }
 
             tmp1.clear();
