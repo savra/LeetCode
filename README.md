@@ -147,6 +147,7 @@ Solving problems on LeetCode
 |Two Sum|https://leetcode.com/problems/two-sum/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TwoSum.java'>Two Sum</a>|
 |Unique Morse Code Words|https://leetcode.com/problems/unique-morse-code-words/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/UniqueMorseCodeWords.java'>Unique Morse Code Words</a>|
 |Unique Number of Occurrences|https://leetcode.com/problems/unique-number-of-occurrences/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/UniqueNumberOfOccurrences.java'>Unique Number of Occurrences</a>|
+|Univalued Binary Tree|https://leetcode.com/problems/univalued-binary-tree/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/UnivaluedBinaryTree.java'>Univalued Binary Tree</a>|
 |XOR Operation in an Array|https://leetcode.com/problems/xor-operation-in-an-array/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/XorOperationInAnArray.java'>XOR Operation in an Array</a>|
 </details>
 <details>
