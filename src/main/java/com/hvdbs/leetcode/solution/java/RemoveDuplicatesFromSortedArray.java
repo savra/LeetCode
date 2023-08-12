@@ -12,7 +12,8 @@ import java.util.TreeSet;
         name = "Remove Duplicates from Sorted Array",
         url = "https://leetcode.com/problems/remove-duplicates-from-sorted-array/")
 public class RemoveDuplicatesFromSortedArray {
-    public int removeDuplicates(int[] nums) {
+    public static int removeDuplicates(int[] nums) {
+        /* NOT IN-PLACE
         Set<Integer> uniqueArray = new TreeSet<Integer>();
 
         for (int i = 0; i < nums.length; i++) {
@@ -25,6 +26,33 @@ public class RemoveDuplicatesFromSortedArray {
             nums[i] = integerList.get(i);
         }
 
-        return uniqueArray.size();
+        return uniqueArray.size();*/
+
+        int length = nums.length;
+
+        int i = 1;
+
+        while (i < length) {
+            if (nums[i] == nums[i - 1]) {
+                int tmp = nums[i];
+                replaceElement(nums, i);
+                nums[nums.length - 1] = tmp;
+                length--;
+            } else {
+                i++;
+            }
+        }
+
+        return i;
+    }
+
+    private static void replaceElement(int[] nums, int position){
+        for (int i = position + 1; i < nums.length; i++) {
+            nums[i - 1] = nums[i];
+        }
+    }
+
+    public static void main(String[] args) {
+        int i = removeDuplicates(new int[]{1,1,1});
     }
 }
