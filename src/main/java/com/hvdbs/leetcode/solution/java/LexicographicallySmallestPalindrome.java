@@ -9,6 +9,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
         url = "https://leetcode.com/problems/lexicographically-smallest-palindrome"
 )
 public class LexicographicallySmallestPalindrome {
+    //My Time Complexity: O(n)
+    //My Space complexity: O(n)
     public String makeSmallestPalindrome(String s) {
         char[] tmp = s.toCharArray();
 
