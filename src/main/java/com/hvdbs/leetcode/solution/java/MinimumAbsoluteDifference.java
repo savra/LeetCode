@@ -13,6 +13,8 @@ import java.util.List;
         url = "https://leetcode.com/problems/minimum-absolute-difference"
 )
 public class MinimumAbsoluteDifference {
+    //My Time Complexity: O(N * logN)
+    //My Space complexity: O(N)
     public List<List<Integer>> minimumAbsDifference(int[] arr) {
         Arrays.sort(arr);
 
