@@ -9,6 +9,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
         url = "https://leetcode.com/problems/two-furthest-houses-with-different-colors"
 )
 public class TwoFurthestHousesWithDifferentColors {
+    //My Time Complexity: O(n^2)
+    //My Space complexity: O(1)
     public int maxDistance(int[] colors) {
         int result = 0;
 
