@@ -9,6 +9,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
         url = "https://leetcode.com/problems/minimum-string-length-after-removing-substrings"
 )
 public class MinimumStringLengthAfterRemovingSubstrings {
+    //My Time Complexity: O(n)
+    //My Space complexity: O(n)
     public int minLength(String s) {
         int prevSize = 0;
         int currentSize = s.length();
