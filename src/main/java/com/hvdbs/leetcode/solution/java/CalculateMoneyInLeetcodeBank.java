@@ -9,6 +9,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
         url = "https://leetcode.com/problems/calculate-money-in-leetcode-bank"
 )
 public class CalculateMoneyInLeetcodeBank {
+    //My Time Complexity: O(n)
+    //My Space complexity: O(1)
     public static int totalMoney(int n) {
         int sum = 0;
 
