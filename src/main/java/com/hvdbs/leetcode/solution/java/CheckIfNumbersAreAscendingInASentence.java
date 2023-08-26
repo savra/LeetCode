@@ -1,12 +1,31 @@
 package com.hvdbs.leetcode.solution.java;
 
-public class CheckIfNumbersAreAscendingInASentence {
-    public static boolean areNumbersAscending(String s) {
-        String tmp = s.replaceAll("[^0-9]", "");
+import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-        for (int i = 1; i < tmp.length(); i++) {
-            if (tmp.charAt(i) <= tmp.charAt(i - 1)) {
-                return false;
+@LeetCodeInfo(
+        difficulty = Difficulty.EASY,
+        name = "Check if Numbers Are Ascending in a Sentence",
+        url = "https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence"
+)
+public class CheckIfNumbersAreAscendingInASentence {
+    //My Time Complexity: O(n)
+    //My Space complexity: O(n)
+    public static boolean areNumbersAscending(String s) {
+        int prevNumber = 0;
+        String[] tmp = s.split(" ");
+
+        for (String str: tmp) {
+            try {
+                int currentNumber = Integer.parseInt(str);
+
+                if (currentNumber <= prevNumber) {
+                    return false;
+                } else {
+                    prevNumber = currentNumber;
+                }
+            } catch (NumberFormatException e) {
+                //ignored
             }
         }
 
