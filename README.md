@@ -1,5 +1,8 @@
 # LeetCode
 Solving problems on LeetCode
+
+![Leetcode Stats](https://leetcard.jacoblin.cool/savrukhin?ext=heatmap)
+
 <details>
 <summary>EASY</summary>
 
