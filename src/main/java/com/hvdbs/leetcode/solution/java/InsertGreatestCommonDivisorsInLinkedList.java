@@ -1,5 +1,13 @@
 package com.hvdbs.leetcode.solution.java;
 
+import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
+
+@LeetCodeInfo(
+        difficulty = Difficulty.MEDIUM,
+        name = "Insert Greatest Common Divisors in Linked List",
+        url = "https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list"
+)
 public class InsertGreatestCommonDivisorsInLinkedList {
     public static class ListNode {
         int val;
@@ -26,32 +34,15 @@ public class InsertGreatestCommonDivisorsInLinkedList {
         return gcdByEuclidsAlgorithm(n2, n1 % n2);
     }
 
-    public static ListNode insertGreatestCommonDivisors(ListNode head) {
-        while (head != null) {
-            if (head.next != null) {
-                ListNode newNode = new ListNode(gcdByEuclidsAlgorithm(head.val, head.next.val));
-
-                head.next = newNode;
-                newNode.next = head.next.next;
-                head = head.next.next;
-                continue;
-            }
-
-            head = head.next;
+    public ListNode insertGreatestCommonDivisors(ListNode head) {
+        //My Time Complexity: O(n)
+        //My Space complexity: O(1)
+        for (ListNode cur = head; cur.next != null; cur = cur.next.next) {
+            ListNode newNode = new ListNode(gcdByEuclidsAlgorithm(cur.val, cur.next.val));
+            newNode.next = cur.next;
+            cur.next = newNode;
         }
 
         return head;
-    }
-
-    public static void main(String[] args) {
-        ListNode listNode = new ListNode(18);
-        ListNode listNode2 = new ListNode(6);
-        ListNode listNode3 = new ListNode(10);
-        ListNode listNode4 = new ListNode(3);
-
-        listNode.next = listNode2;
-        listNode2.next = listNode3;
-        listNode3.next = listNode4;
-        insertGreatestCommonDivisors(listNode);
     }
 }
