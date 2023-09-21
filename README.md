@@ -1,8 +1,5 @@
 # LeetCode
 Solving problems on LeetCode
-
-![Leetcode Stats](https://leetcard.jacoblin.cool/savrukhin?ext=heatmap)
-
 <details>
 <summary>EASY</summary>
 
@@ -96,6 +93,7 @@ Solving problems on LeetCode
 |Largest Positive Integer That Exists With Its Negative|https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/LargestPositiveIntegerThatExistsWithItsNegative.java'>Largest Positive Integer That Exists With Its Negative</a>|
 |Leaf-Similar Trees|https://leetcode.com/problems/leaf-similar-trees/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/LeafSimilarTrees.java'>Leaf-Similar Trees</a>|
 |Lexicographically Smallest Palindrome|https://leetcode.com/problems/lexicographically-smallest-palindrome|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/LexicographicallySmallestPalindrome.java'>Lexicographically Smallest Palindrome</a>|
+|Linked List Cycle|https://leetcode.com/problems/linked-list-cycle|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/LinkedListCycle.java'>Linked List Cycle</a>|
 |Longest Common Prefix|https://leetcode.com/problems/longest-common-prefix|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/LongestCommonPrefix.java'>Longest Common Prefix</a>|
 |Longest Subsequence With Limited Sum|https://leetcode.com/problems/longest-subsequence-with-limited-sum/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/LongestSubsequenceWithLimitedSum.java'>Longest Subsequence With Limited Sum</a>|
 |Make Array Zero by Subtracting Equal Amounts|https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MakeArrayZeroBySubtractingEqualAmounts.java'>Make Array Zero by Subtracting Equal Amounts</a>|
