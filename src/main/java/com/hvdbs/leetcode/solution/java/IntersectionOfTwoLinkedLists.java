@@ -12,6 +12,8 @@ import java.util.Set;
         url = "https://leetcode.com/problems/intersection-of-two-linked-lists"
 )
 public class IntersectionOfTwoLinkedLists {
+    //My Time Complexity: O(M+N∗logM)
+    //My Space complexity: O(M)
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         Set<ListNode> res = new HashSet<>();
 
