@@ -1,7 +1,14 @@
 package com.hvdbs.leetcode.solution.java;
 
-import java.util.*;
+import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
+
+@LeetCodeInfo(
+        difficulty = Difficulty.EASY,
+        name = "Reverse Linked List",
+        url = "https://leetcode.com/problems/reverse-linked-list"
+)
 public class ReverseLinkedList {
     public static class ListNode {
         int val;
@@ -21,16 +28,23 @@ public class ReverseLinkedList {
     }
 
     public ListNode reverseList(ListNode head) {
-        Deque<ListNode> stack = new ArrayDeque<>();
-
         if (head == null) {
-
+            return null;
         }
 
-        while (head.next != null) {
-
+        if (head.next == null) {
+            return head;
         }
 
-        return new ListNode();
+        ListNode prev = null;
+
+        for(ListNode cur = head, next = null; cur != null;) {
+            next = cur.next;
+            cur.next = prev;
+            prev = cur;
+            cur = next;
+        }
+
+        return prev;
     }
 }
