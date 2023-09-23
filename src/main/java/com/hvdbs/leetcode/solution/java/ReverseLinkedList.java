@@ -27,6 +27,8 @@ public class ReverseLinkedList {
         }
     }
 
+    //My Time Complexity: O(n)
+    //My Space complexity: O(1)
     public ListNode reverseList(ListNode head) {
         if (head == null) {
             return null;
