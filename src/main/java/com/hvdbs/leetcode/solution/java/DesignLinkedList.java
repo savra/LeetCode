@@ -16,15 +16,13 @@ public class DesignLinkedList {
     }
 
     public int get(int index) {
-        Node currentNode = head;
+        Node n = getNode(index);
 
-        for (int i = 0; currentNode != null; currentNode = currentNode.next, i++) {
-            if (index == i) {
-                return currentNode.getValue();
-            }
+        if (n == null) {
+            return -1;
+        } else {
+            return n.data;
         }
-
-        return -1;
     }
 
     public void addAtHead(int val) {
@@ -36,6 +34,7 @@ public class DesignLinkedList {
             Node tmp = head;
             head = newNode;
             head.next = tmp;
+            tmp.prev = head;
         }
 
         length++;
@@ -47,102 +46,111 @@ public class DesignLinkedList {
         if (head == null) {
             head = newNode;
         } else {
-            Node currentNode = head;
+            Node cur = head;
 
-            while (currentNode.next != null) {
-                currentNode = currentNode.next;
+            while (cur.next != null) {
+                cur = cur.next;
             }
 
-            currentNode.next = newNode;
+            cur.next = newNode;
+            newNode.prev = cur;
         }
 
         length++;
     }
 
     public void addAtIndex(int index, int val) {
-        if (index > length) {
-            return;
-        }
-
         if (index == length) {
             addAtTail(val);
             return;
         }
 
-        Node newNode = new Node(val);
+        Node n = getNode(index);
 
-        if (head == null) {
-            head = newNode;
-        } else {
-            if (index == 0) {
-                addAtHead(val);
-                return;
-            }
-
-            Node currentNode = head, prevNode = null;
-
-            for (int i = 0; currentNode != null; i++, prevNode = currentNode, currentNode = currentNode.next) {
-                if (index == i) {
-                    newNode.next = currentNode;
-                    prevNode.next = newNode;
-
-                    length++;
-                    return;
-                }
-            }
+        if (n == null) {
+            return;
         }
+
+        if (index == 0) {
+            addAtHead(val);
+            return;
+        }
+
+        Node prev = n.prev;
+        Node next = n;
+
+
+        Node newNode = new Node(val);
+        newNode.next = next;
+        newNode.prev = prev;
+
+        prev.next = newNode;
+        next.prev = newNode;
 
         length++;
     }
 
     public void deleteAtIndex(int index) {
-        if (index > length - 1) {
+        Node n = getNode(index);
+
+        if (n == null) {
             return;
         }
 
-        if (index == 0) {
-            if (head.next != null) {
-                head = head.next;
-                length--;
-            } else {
+        if (n == head) {
+            if (head.next == null) {
                 head = null;
-                length = 0;
+            } else {
+                head = head.next;
             }
 
             return;
         }
 
-        Node currentNode = head, prevNode = null;
-
-        for (int i = 0; currentNode != null; i++, prevNode = currentNode, currentNode = currentNode.next) {
-            if (index == i) {
-                prevNode.next = currentNode.next;
-                length--;
-                return;
-            }
+        if (n.next == null) {
+            n.prev.next = null;
+        } else {
+            n.prev.next = n.next;
+            n.next.prev = n.prev;
         }
 
         length--;
     }
 
+
+    private Node getNode(int index) {
+        int i = 0;
+
+        for (Node cur = head; cur != null; cur = cur.next) {
+            if (i == index) {
+                return cur;
+            }
+
+            i++;
+        }
+
+        return null;
+    }
+
     private static class Node {
-        int value;
+        int data;
         Node next;
+        Node prev;
 
-        public Node(int value) {
-            this.value = value;
-        }
-
-        public int getValue() {
-            return value;
+        public Node(int data) {
+            this.data = data;
         }
     }
 
-    public int getLength() {
-        return this.length;
-    }
-
-    public void setLength(int length) {
-        this.length = length;
+    public static void main(String[] args) {
+        DesignLinkedList myLinkedList = new DesignLinkedList();
+        myLinkedList.addAtHead(7);
+        myLinkedList.addAtHead(2);
+        myLinkedList.addAtHead(1);
+        myLinkedList.addAtIndex(3, 0);
+        myLinkedList.deleteAtIndex(2);    // now the linked list is 1->3
+        myLinkedList.addAtHead(6);
+        myLinkedList.addAtTail(4);
+        myLinkedList.get(4);
     }
 }
