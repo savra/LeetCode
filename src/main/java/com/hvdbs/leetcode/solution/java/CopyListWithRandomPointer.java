@@ -23,7 +23,8 @@ public class CopyListWithRandomPointer {
             this.random = null;
         }
     }
-
+    //My Time Complexity: O(n)
+    //My Space complexity: O(n)
     public Node copyRandomList(Node head) {
         if (head == null) {
             return head;
