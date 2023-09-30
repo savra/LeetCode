@@ -12,7 +12,7 @@ import java.util.*;
 )
 public class PointsThatIntersectWithCars {
     //My Time Complexity: O(m * n)
-    //My Space complexity: O(1)
+    //My Space complexity: O(n)
     public int numberOfPoints(List<List<Integer>> nums) {
         Set<Integer> set = new HashSet<>();
 
