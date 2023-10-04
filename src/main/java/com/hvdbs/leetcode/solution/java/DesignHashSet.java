@@ -10,7 +10,7 @@ import java.util.List;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Design HashSet",
-        url = "https://leetcode.com/problems/design-hashset/solutions/1969506/simple-java-implementation-rehashing-load-factor-80-faster/"
+        url = "https://leetcode.com/problems/design-hashset"
 )
 public class DesignHashSet {
     class MyHashSet {
