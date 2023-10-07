@@ -3,8 +3,8 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.HashSet;
+import java.util.Set;
 
 @LeetCodeInfo(difficulty = Difficulty.EASY, name = "Single Number",
         url = "https://leetcode.com/problems/single-number")
@@ -21,7 +21,7 @@ public class SingleNumber {
                 .findFirst()
                 .getAsInt();*/
 
-/* TC: O(N), SC: O(1)
+        /* TC: O(N), SC: O(1)
         int result = 0;
 
         for (int i = 0; i < nums.length; i++) {
@@ -30,8 +30,8 @@ public class SingleNumber {
 
         return result;      */
 
-        //TC: O(N), SC: O(n)
-        if (nums.length == 1) {
+        //TC: O(N), SC: O(N)
+        /*if (nums.length == 1) {
             return nums[0];
         }
 
@@ -45,6 +45,23 @@ public class SingleNumber {
             if (e.getValue() == 1) {
                 return e.getKey();
             }
+        }
+
+        return -1;*/
+
+        //TC: O(N), SC: O(N)
+        Set<Integer> set = new HashSet<>();
+
+        for (int num : nums) {
+            if (set.contains(num)) {
+                set.remove(num);
+            } else {
+                set.add(num);
+            }
+        }
+
+        for (int i : set) {
+            return i;
         }
 
         return -1;
