@@ -9,6 +9,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
         url = "https://leetcode.com/problems/robot-return-to-origin"
 )
 public class RobotReturnToOrigin {
+    //TC: O(N), SC: O(1)
     public boolean judgeCircle(String moves) {
         int[] m = new int[4];
 
