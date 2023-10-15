@@ -12,9 +12,7 @@ public class LengthOfLastWord {
     public int lengthOfLastWord(String s) {
         int i = s.length() - 1;
 
-        while (s.charAt(i) == ' ') {
-            i--;
-        }
+        while (s.charAt(i) == ' ') { i--; }
 
         int j = s.lastIndexOf(' ', i);
 
