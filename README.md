@@ -19,6 +19,7 @@ Solving problems on LeetCode
 |Linked List Cycle II|https://leetcode.com/problems/linked-list-cycle-ii|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/LinkedListCycleII.java'>Linked List Cycle II</a>|
 |Majority Element II|https://leetcode.com/problems/majority-element-ii|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MajorityElementII.java'>Majority Element II</a>|
 |Minimum Size Subarray Sum|https://leetcode.com/problems/minimum-size-subarray-sum|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimumSizeSubarraySum.java'>Minimum Size Subarray Sum</a>|
+|Min Stack|https://leetcode.com/problems/min-stack|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinStack.java'>Min Stack</a>|
 |Multiply Strings|https://leetcode.com/problems/multiply-strings|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MultiplyStrings.java'>Multiply Strings</a>|
 |Number of Islands|https://leetcode.com/problems/number-of-islands|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/NumberOfIslands.java'>Number of Islands</a>|
 |Odd Even Linked List|https://leetcode.com/problems/odd-even-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/OddEvenLinkedList.java'>Odd Even Linked List</a>|
