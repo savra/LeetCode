@@ -7,6 +7,7 @@ Solving problems on LeetCode
 |---|---|---|
 |Add Two Numbers|https://leetcode.com/problems/add-two-numbers|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AddTwoNumbers.java'>Add Two Numbers</a>|
 |Copy List with Random Pointer|https://leetcode.com/problems/copy-list-with-random-pointer|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CopyListWithRandomPointer.java'>Copy List with Random Pointer</a>|
+|Daily Temperatures|https://leetcode.com/problems/daily-temperatures|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DailyTemperatures.java'>Daily Temperatures</a>|
 |Deepest Leaves Sum|https://leetcode.com/problems/deepest-leaves-sum/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeepestLeavesSum.java'>Deepest Leaves Sum</a>|
 |Design Circular Queue|https://leetcode.com/problems/design-circular-queue|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DesignCircularQueue.java'>Design Circular Queue</a>|
 |Design Linked List|https://leetcode.com/problems/design-linked-list/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DesignLinkedList.java'>Design Linked List</a>|
