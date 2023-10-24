@@ -3,9 +3,6 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-import java.util.ArrayDeque;
-import java.util.Queue;
-
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Number of Islands",
@@ -22,7 +19,37 @@ public class NumberOfIslands {
         }
     }
 
+    private static void dfs(int i, int j, char[][] grid) {
+        if (i < 0 || i >= grid.length || j < 0 || j >= grid[i].length || grid[i][j] == '0') {
+            return;
+        }
+
+        grid[i][j] = '0';
+
+        dfs(i - 1, j, grid);
+        dfs(i + 1, j, grid);
+        dfs(i, j - 1, grid);
+        dfs(i, j + 1, grid);
+    }
+
     public static int numIslands(char[][] grid) {
+        // DFS
+        int numOfIslands = 0;
+
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[i].length; j++) {
+                if (grid[i][j] == '1') {
+                    numOfIslands++;
+                    dfs(i, j, grid);
+                }
+            }
+        }
+
+        return numOfIslands;
+
+        /*
+        BFS
+
         int numOfIslands = 0;
         Queue<Node> q = new ArrayDeque<>();
 
@@ -60,11 +87,11 @@ public class NumberOfIslands {
             }
         }
 
-        return numOfIslands;
+        return numOfIslands;*/
     }
 
     public static void main(String[] args) {
-        //numIslands(new char[][]{{'1', '1', '1', '1', '0'}, {'1', '1', '0', '1', '0'}, {'1', '1', '0', '0', '0'}, {'0', '0', '0', '0', '0'}});
-        numIslands(new char[][]{{'1', '1', '0', '0', '0'}, {'1', '1', '0', '0', '0'}, {'0', '0', '1', '0', '0'}, {'0', '0', '0', '1', '1'}});
+        numIslands(new char[][]{{'1', '1', '1', '1', '0'}, {'1', '1', '0', '1', '0'}, {'1', '1', '0', '0', '0'}, {'0', '0', '0', '0', '0'}});
+       // numIslands(new char[][]{{'1', '1', '0', '0', '0'}, {'1', '1', '0', '0', '0'}, {'0', '0', '1', '0', '0'}, {'0', '0', '0', '1', '1'}});
     }
 }
