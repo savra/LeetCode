@@ -24,38 +24,38 @@ public class NumberOfIslands {
 
     public static int numIslands(char[][] grid) {
         int numOfIslands = 0;
+        Queue<Node> q = new ArrayDeque<>();
 
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[i].length; j++) {
                 if (grid[i][j] == '1') {
-                    numOfIslands++;
-
-                    Queue<Node> q = new ArrayDeque<>();
                     q.offer(new Node(i, j));
 
                     while (!q.isEmpty()) {
-                        Node n = q.poll();
+                        Node current = q.poll();
 
-                        if (n.row - 1 >= 0 && grid[n.row - 1][n.col] == '1') {
-                            q.offer(new Node(n.row - 1, n.col));
-                            grid[n.row - 1][n.col] = '0';
+                        if (current.row > 0 && grid[current.row - 1][current.col] == '1') {
+                            q.offer(new Node(current.row - 1, current.col));
+                            grid[current.row - 1][current.col] = '0';
                         }
 
-                        if (n.row + 1 < grid.length && grid[n.row + 1][n.col] == '1') {
-                            q.offer(new Node(n.row + 1, n.col));
-                            grid[n.row + 1][n.col] = '0';
+                        if (current.row < grid.length - 1 && grid[current.row + 1][current.col] == '1') {
+                            q.offer(new Node(current.row + 1, current.col));
+                            grid[current.row + 1][current.col] = '0';
                         }
 
-                        if (n.col - 1 >= 0 && grid[n.row][n.col - 1] == '1') {
-                            q.offer(new Node(n.row, n.col - 1));
-                            grid[n.row][n.col - 1] = '0';
+                        if (current.col > 0 && grid[current.row][current.col - 1] == '1') {
+                            q.offer(new Node(current.row, current.col - 1));
+                            grid[current.row][current.col - 1] = '0';
                         }
 
-                        if (n.col + 1 < grid[n.row].length && grid[n.row][n.col + 1] == '1') {
-                            q.offer(new Node(n.row, n.col + 1));
-                            grid[n.row][n.col + 1] = '0';
+                        if (current.col < grid[current.row].length - 1 && grid[current.row][current.col + 1] == '1') {
+                            q.offer(new Node(current.row, current.col + 1));
+                            grid[current.row][current.col + 1] = '0';
                         }
                     }
+
+                    numOfIslands++;
                 }
             }
         }
@@ -64,6 +64,7 @@ public class NumberOfIslands {
     }
 
     public static void main(String[] args) {
-        numIslands(new char[][]{{'1', '1', '1', '1', '0'}, {'1', '1', '0', '1', '0'}, {'1', '1', '0', '0', '0'}, {'0', '0', '0', '0', '0'}});
+        //numIslands(new char[][]{{'1', '1', '1', '1', '0'}, {'1', '1', '0', '1', '0'}, {'1', '1', '0', '0', '0'}, {'0', '0', '0', '0', '0'}});
+        numIslands(new char[][]{{'1', '1', '0', '0', '0'}, {'1', '1', '0', '0', '0'}, {'0', '0', '1', '0', '0'}, {'0', '0', '0', '1', '1'}});
     }
 }
