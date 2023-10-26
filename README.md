@@ -271,5 +271,6 @@ Solving problems on LeetCode
 |Spiral Matrix|https://leetcode.com/problems/spiral-matrix/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SpiralMatrix.java'>Spiral Matrix</a>|
 |Strictly Palindromic Number|https://leetcode.com/problems/strictly-palindromic-number/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/StrictlyPalindromicNumber.java'>Strictly Palindromic Number</a>|
 |Subrectangle Queries|https://leetcode.com/problems/subrectangle-queries/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SubrectangleQueries.java'>Subrectangle Queries</a>|
+|Swap Nodes in Pairs|https://leetcode.com/problems/swap-nodes-in-pairs|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SwapNodesInPairs.java'>Swap Nodes in Pairs</a>|
 |Two Sum II - Input Array Is Sorted|https://leetcode.com/problems/two-sum-ii-input-array-is-sorted|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TwoSumIIInputArrayIsSorted.java'>Two Sum II - Input Array Is Sorted</a>|
 </details>
