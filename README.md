@@ -1,6 +1,46 @@
 # LeetCode
 Solving problems on LeetCode
 <details>
+<summary>MEDIUM</summary>
+
+|Name|Problem|Solution|
+|---|---|---|
+|Add Two Numbers|https://leetcode.com/problems/add-two-numbers|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AddTwoNumbers.java'>Add Two Numbers</a>|
+|Add Two Numbers II|https://leetcode.com/problems/add-two-numbers-ii/description/?envType=study-plan-v2&envId=programming-skills|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AddTwoNumbersII.java'>Add Two Numbers II</a>|
+|Copy List with Random Pointer|https://leetcode.com/problems/copy-list-with-random-pointer|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CopyListWithRandomPointer.java'>Copy List with Random Pointer</a>|
+|Daily Temperatures|https://leetcode.com/problems/daily-temperatures|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DailyTemperatures.java'>Daily Temperatures</a>|
+|Deepest Leaves Sum|https://leetcode.com/problems/deepest-leaves-sum/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeepestLeavesSum.java'>Deepest Leaves Sum</a>|
+|Design Circular Queue|https://leetcode.com/problems/design-circular-queue|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DesignCircularQueue.java'>Design Circular Queue</a>|
+|Design Linked List|https://leetcode.com/problems/design-linked-list/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DesignLinkedList.java'>Design Linked List</a>|
+|Diagonal Traverse|https://leetcode.com/problems/diagonal-traverse|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DiagonalTraverse.java'>Diagonal Traverse</a>|
+|Evaluate Reverse Polish Notation|https://leetcode.com/problems/evaluate-reverse-polish-notation|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/EvaluateReversePolishNotation.java'>Evaluate Reverse Polish Notation</a>|
+|Find The Original Array of Prefix Xor|https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FindTheOriginalArrayOfPrefixXor.java'>Find The Original Array of Prefix Xor</a>|
+|Flatten a Multilevel Doubly Linked List|https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FlattenAMultilevelDoublyLinkedList.java'>Flatten a Multilevel Doubly Linked List</a>|
+|Group Anagrams|https://leetcode.com/problems/group-anagrams/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/GroupAnagrams.java'>Group Anagrams</a>|
+|Insert Greatest Common Divisors in Linked List|https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/InsertGreatestCommonDivisorsInLinkedList.java'>Insert Greatest Common Divisors in Linked List</a>|
+|Integer Break|https://leetcode.com/problems/integer-break|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/IntegerBreak.java'>Integer Break</a>|
+|Linked List Cycle II|https://leetcode.com/problems/linked-list-cycle-ii|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/LinkedListCycleII.java'>Linked List Cycle II</a>|
+|Majority Element II|https://leetcode.com/problems/majority-element-ii|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MajorityElementII.java'>Majority Element II</a>|
+|Minimum Size Subarray Sum|https://leetcode.com/problems/minimum-size-subarray-sum|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimumSizeSubarraySum.java'>Minimum Size Subarray Sum</a>|
+|Min Stack|https://leetcode.com/problems/min-stack|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinStack.java'>Min Stack</a>|
+|Multiply Strings|https://leetcode.com/problems/multiply-strings|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MultiplyStrings.java'>Multiply Strings</a>|
+|Number of Islands|https://leetcode.com/problems/number-of-islands|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/NumberOfIslands.java'>Number of Islands</a>|
+|Odd Even Linked List|https://leetcode.com/problems/odd-even-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/OddEvenLinkedList.java'>Odd Even Linked List</a>|
+|Partitioning Into Minimum Number Of Deci-Binary Numbers|https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java'>Partitioning Into Minimum Number Of Deci-Binary Numbers</a>|
+|Remove Colored Pieces if Both Neighbors are the Same Color|https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RemoveColoredPiecesIfBothNeighborsAreTheSameColor.java'>Remove Colored Pieces if Both Neighbors are the Same Color</a>|
+|Remove Nth Node From End of List|https://leetcode.com/problems/remove-nth-node-from-end-of-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RemoveNthNodeFromEndOfList.java'>Remove Nth Node From End of List</a>|
+|Reverse Words in a String|https://leetcode.com/problems/reverse-words-in-a-string|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ReverseWordsInAString.java'>Reverse Words in a String</a>|
+|Robot Bounded In Circle|https://leetcode.com/problems/robot-bounded-in-circle|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RobotBoundedInCircle.java'>Robot Bounded In Circle</a>|
+|Rotate Array|https://leetcode.com/problems/rotate-array|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RotateArray.java'>Rotate Array</a>|
+|Rotate List|https://leetcode.com/problems/rotate-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RotateList.java'>Rotate List</a>|
+|Set Matrix Zeroes|https://leetcode.com/problems/set-matrix-zeroes|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SetMatrixZeroes.java'>Set Matrix Zeroes</a>|
+|Spiral Matrix|https://leetcode.com/problems/spiral-matrix/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SpiralMatrix.java'>Spiral Matrix</a>|
+|Strictly Palindromic Number|https://leetcode.com/problems/strictly-palindromic-number/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/StrictlyPalindromicNumber.java'>Strictly Palindromic Number</a>|
+|Subrectangle Queries|https://leetcode.com/problems/subrectangle-queries/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SubrectangleQueries.java'>Subrectangle Queries</a>|
+|Swap Nodes in Pairs|https://leetcode.com/problems/swap-nodes-in-pairs|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SwapNodesInPairs.java'>Swap Nodes in Pairs</a>|
+|Two Sum II - Input Array Is Sorted|https://leetcode.com/problems/two-sum-ii-input-array-is-sorted|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TwoSumIIInputArrayIsSorted.java'>Two Sum II - Input Array Is Sorted</a>|
+</details>
+<details>
 <summary>EASY</summary>
 
 |Name|Problem|Solution|
@@ -50,6 +90,7 @@ Solving problems on LeetCode
 |Count Pairs Of Similar Strings|https://leetcode.com/problems/count-pairs-of-similar-strings|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountPairsOfSimilarStrings.java'>Count Pairs Of Similar Strings</a>|
 |Count Pairs Whose Sum is Less than Target|https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountPairsWhoseSumIsLessThanTarget.java'>Count Pairs Whose Sum is Less than Target</a>|
 |Count Prefixes of a Given String|https://leetcode.com/problems/count-prefixes-of-a-given-string|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountPrefixesOfAGivenString.java'>Count Prefixes of a Given String</a>|
+|Count Square Sum Triples|https://leetcode.com/problems/count-square-sum-triples|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountSquareSumTriples.java'>Count Square Sum Triples</a>|
 |Count Symmetric Integers|https://leetcode.com/problems/count-symmetric-integers|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountSymmetricIntegers.java'>Count Symmetric Integers</a>|
 |Count the Digits That Divide a Number|https://leetcode.com/problems/count-the-digits-that-divide-a-number/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountTheDigitsThatDivideANumber.java'>Count the Digits That Divide a Number</a>|
 |Count the Number of Consistent Strings|https://leetcode.com/problems/count-the-number-of-consistent-strings/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CountTheNumberOfConsistentStrings.java'>Count the Number of Consistent Strings</a>|
@@ -237,44 +278,4 @@ Solving problems on LeetCode
 |Valid Mountain Array|https://leetcode.com/problems/valid-mountain-array/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ValidMountainArray.java'>Valid Mountain Array</a>|
 |Valid Parentheses|https://leetcode.com/problems/valid-parentheses|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ValidParentheses.java'>Valid Parentheses</a>|
 |XOR Operation in an Array|https://leetcode.com/problems/xor-operation-in-an-array/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/XorOperationInAnArray.java'>XOR Operation in an Array</a>|
-</details>
-<details>
-<summary>MEDIUM</summary>
-
-|Name|Problem|Solution|
-|---|---|---|
-|Add Two Numbers|https://leetcode.com/problems/add-two-numbers|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AddTwoNumbers.java'>Add Two Numbers</a>|
-|Add Two Numbers II|https://leetcode.com/problems/add-two-numbers-ii/description/?envType=study-plan-v2&envId=programming-skills|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AddTwoNumbersII.java'>Add Two Numbers II</a>|
-|Copy List with Random Pointer|https://leetcode.com/problems/copy-list-with-random-pointer|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CopyListWithRandomPointer.java'>Copy List with Random Pointer</a>|
-|Daily Temperatures|https://leetcode.com/problems/daily-temperatures|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DailyTemperatures.java'>Daily Temperatures</a>|
-|Deepest Leaves Sum|https://leetcode.com/problems/deepest-leaves-sum/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeepestLeavesSum.java'>Deepest Leaves Sum</a>|
-|Design Circular Queue|https://leetcode.com/problems/design-circular-queue|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DesignCircularQueue.java'>Design Circular Queue</a>|
-|Design Linked List|https://leetcode.com/problems/design-linked-list/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DesignLinkedList.java'>Design Linked List</a>|
-|Diagonal Traverse|https://leetcode.com/problems/diagonal-traverse|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DiagonalTraverse.java'>Diagonal Traverse</a>|
-|Evaluate Reverse Polish Notation|https://leetcode.com/problems/evaluate-reverse-polish-notation|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/EvaluateReversePolishNotation.java'>Evaluate Reverse Polish Notation</a>|
-|Find The Original Array of Prefix Xor|https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FindTheOriginalArrayOfPrefixXor.java'>Find The Original Array of Prefix Xor</a>|
-|Flatten a Multilevel Doubly Linked List|https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/FlattenAMultilevelDoublyLinkedList.java'>Flatten a Multilevel Doubly Linked List</a>|
-|Group Anagrams|https://leetcode.com/problems/group-anagrams/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/GroupAnagrams.java'>Group Anagrams</a>|
-|Insert Greatest Common Divisors in Linked List|https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/InsertGreatestCommonDivisorsInLinkedList.java'>Insert Greatest Common Divisors in Linked List</a>|
-|Integer Break|https://leetcode.com/problems/integer-break|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/IntegerBreak.java'>Integer Break</a>|
-|Linked List Cycle II|https://leetcode.com/problems/linked-list-cycle-ii|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/LinkedListCycleII.java'>Linked List Cycle II</a>|
-|Majority Element II|https://leetcode.com/problems/majority-element-ii|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MajorityElementII.java'>Majority Element II</a>|
-|Minimum Size Subarray Sum|https://leetcode.com/problems/minimum-size-subarray-sum|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimumSizeSubarraySum.java'>Minimum Size Subarray Sum</a>|
-|Min Stack|https://leetcode.com/problems/min-stack|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinStack.java'>Min Stack</a>|
-|Multiply Strings|https://leetcode.com/problems/multiply-strings|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MultiplyStrings.java'>Multiply Strings</a>|
-|Number of Islands|https://leetcode.com/problems/number-of-islands|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/NumberOfIslands.java'>Number of Islands</a>|
-|Odd Even Linked List|https://leetcode.com/problems/odd-even-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/OddEvenLinkedList.java'>Odd Even Linked List</a>|
-|Partitioning Into Minimum Number Of Deci-Binary Numbers|https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java'>Partitioning Into Minimum Number Of Deci-Binary Numbers</a>|
-|Remove Colored Pieces if Both Neighbors are the Same Color|https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RemoveColoredPiecesIfBothNeighborsAreTheSameColor.java'>Remove Colored Pieces if Both Neighbors are the Same Color</a>|
-|Remove Nth Node From End of List|https://leetcode.com/problems/remove-nth-node-from-end-of-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RemoveNthNodeFromEndOfList.java'>Remove Nth Node From End of List</a>|
-|Reverse Words in a String|https://leetcode.com/problems/reverse-words-in-a-string|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ReverseWordsInAString.java'>Reverse Words in a String</a>|
-|Robot Bounded In Circle|https://leetcode.com/problems/robot-bounded-in-circle|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RobotBoundedInCircle.java'>Robot Bounded In Circle</a>|
-|Rotate Array|https://leetcode.com/problems/rotate-array|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RotateArray.java'>Rotate Array</a>|
-|Rotate List|https://leetcode.com/problems/rotate-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RotateList.java'>Rotate List</a>|
-|Set Matrix Zeroes|https://leetcode.com/problems/set-matrix-zeroes|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SetMatrixZeroes.java'>Set Matrix Zeroes</a>|
-|Spiral Matrix|https://leetcode.com/problems/spiral-matrix/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SpiralMatrix.java'>Spiral Matrix</a>|
-|Strictly Palindromic Number|https://leetcode.com/problems/strictly-palindromic-number/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/StrictlyPalindromicNumber.java'>Strictly Palindromic Number</a>|
-|Subrectangle Queries|https://leetcode.com/problems/subrectangle-queries/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SubrectangleQueries.java'>Subrectangle Queries</a>|
-|Swap Nodes in Pairs|https://leetcode.com/problems/swap-nodes-in-pairs|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SwapNodesInPairs.java'>Swap Nodes in Pairs</a>|
-|Two Sum II - Input Array Is Sorted|https://leetcode.com/problems/two-sum-ii-input-array-is-sorted|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TwoSumIIInputArrayIsSorted.java'>Two Sum II - Input Array Is Sorted</a>|
 </details>
