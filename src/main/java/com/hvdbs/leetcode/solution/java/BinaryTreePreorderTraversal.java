@@ -3,7 +3,9 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.List;
 
 @LeetCodeInfo(
@@ -12,8 +14,6 @@ import java.util.List;
         url = "https://leetcode.com/problems/binary-tree-preorder-traversal"
 )
 public class BinaryTreePreorderTraversal {
-    private List<Integer> result = new ArrayList<>();
-
     public class TreeNode {
         int val;
         TreeNode left;
@@ -34,14 +34,43 @@ public class BinaryTreePreorderTraversal {
     }
 
     public List<Integer> preorderTraversal(TreeNode root) {
+        /*Recursive*/
+       /* List<Integer> result = new ArrayList<>();
+        traverse(root, result);
+
+        return result;*/
+
+        /*Iterative*/
+
+        List<Integer> res = new ArrayList<>();
+        Deque<TreeNode> s = new ArrayDeque<>();
+
+        while (!s.isEmpty() || root != null) {
+            if (!s.isEmpty()) {
+                root = s.pollFirst();
+            }
+
+            while (root != null) {
+                res.add(root.val);
+
+                if (root.right != null) {
+                    s.offerFirst(root.right);
+                }
+
+                root = root.left;
+            }
+        }
+
+        return res;
+    }
+
+   /* private void traverse(TreeNode root, List<Integer> result) {
         if (root == null) {
-            return result;
+            return;
         }
 
         result.add(root.val);
-        preorderTraversal(root.left);
-        preorderTraversal(root.right);
-
-        return result;
-    }
+        traverse(root.left, result);
+        traverse(root.right, result);
+    }*/
 }
