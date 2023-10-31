@@ -37,7 +37,6 @@ public class BinaryTreePostorderTraversal {
        List<Integer> result = new ArrayList<>();
 
         traverse(root, result);
-
         return result;*/
 
         /*Iterative*/
