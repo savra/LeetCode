@@ -40,6 +40,7 @@ Solving problems on LeetCode
 |Subrectangle Queries|https://leetcode.com/problems/subrectangle-queries/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SubrectangleQueries.java'>Subrectangle Queries</a>|
 |Swap Nodes in Pairs|https://leetcode.com/problems/swap-nodes-in-pairs|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SwapNodesInPairs.java'>Swap Nodes in Pairs</a>|
 |Two Sum II - Input Array Is Sorted|https://leetcode.com/problems/two-sum-ii-input-array-is-sorted|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TwoSumIIInputArrayIsSorted.java'>Two Sum II - Input Array Is Sorted</a>|
+|Validate Binary Search Tree|https://leetcode.com/problems/validate-binary-search-tree|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ValidateBinarySearchTree.java'>Validate Binary Search Tree</a>|
 </details>
 <details>
 <summary>EASY</summary>
