@@ -7,6 +7,7 @@ Solving problems on LeetCode
 |---|---|---|
 |Add Two Numbers|https://leetcode.com/problems/add-two-numbers|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AddTwoNumbers.java'>Add Two Numbers</a>|
 |Add Two Numbers II|https://leetcode.com/problems/add-two-numbers-ii/description/?envType=study-plan-v2&envId=programming-skills|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AddTwoNumbersII.java'>Add Two Numbers II</a>|
+|Binary Search Tree Iterator|https://leetcode.com/problems/binary-search-tree-iterator|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/BinarySearchTreeIterator.java'>Binary Search Tree Iterator</a>|
 |Binary Tree Level Order Traversal|https://leetcode.com/problems/binary-tree-level-order-traversal|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/BinaryTreeLevelOrderTraversal.java'>Binary Tree Level Order Traversal</a>|
 |Copy List with Random Pointer|https://leetcode.com/problems/copy-list-with-random-pointer|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/CopyListWithRandomPointer.java'>Copy List with Random Pointer</a>|
 |Daily Temperatures|https://leetcode.com/problems/daily-temperatures|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DailyTemperatures.java'>Daily Temperatures</a>|
