@@ -13,7 +13,6 @@ public class MajorityElement {
     //My Space complexity: O(1)
     public int majorityElement(int[] nums) {
         int votes = 0;
-
         int candidate = -1;
 
 
