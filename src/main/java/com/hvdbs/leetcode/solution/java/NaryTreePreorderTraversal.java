@@ -6,14 +6,16 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 import java.util.ArrayList;
 import java.util.List;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "N-ary Tree Preorder Traversal",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "N-ary Tree Preorder Traversal",
         url = "https://leetcode.com/problems/n-ary-tree-preorder-traversal")
 public class NaryTreePreorderTraversal {
     class Node {
         public int val;
         public List<Node> children;
 
-        public Node() {}
+        public Node() {
+        }
 
         public Node(int _val) {
             val = _val;
@@ -24,17 +26,24 @@ public class NaryTreePreorderTraversal {
             children = _children;
         }
     }
-    List<Integer> result = new ArrayList<>();
 
     public List<Integer> preorder(Node root) {
-        if (root != null) {
-            result.add(root.val);
+        List<Integer> res = new ArrayList<>();
 
-            for(Node n : root.children) {
-                preorder(n);
-            }
+        preorderHelper(root, res);
+
+        return res;
+    }
+
+    private void preorderHelper(Node root, List<Integer> result) {
+        if (root == null) {
+            return;
         }
 
-        return result;
+        result.add(root.val);
+
+        for (Node n : root.children) {
+            preorderHelper(n, result);
+        }
     }
 }
