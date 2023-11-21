@@ -26,25 +26,20 @@ public class NaryTreePostorderTraversal {
     };
 
     public List<Integer> postorder(Node root) {
-        List<Integer> result = new ArrayList<>();
+        List<Integer> res = new ArrayList<>();
 
-        if (root == null) {
-            return new ArrayList<>();
-        }
+        postOrderHelper(root, res);
 
-        traverseTree(root, result);
-
-        return result;
+        return res;
     }
 
-    private void traverseTree(Node root, List<Integer> result) {
-        if (root.children == null) {
-            result.add(root.val);
+    private void postOrderHelper(Node root, List<Integer> result) {
+        if (root == null) {
             return;
         }
 
         for (Node n : root.children) {
-            traverseTree(n, result);
+            postOrderHelper(n, result);
         }
 
         result.add(root.val);
