@@ -32,6 +32,7 @@ public class NaryTreeLevelOrderTraversal {
     public List<List<Integer>> levelOrder(Node root) {
         List<List<Integer>> res = new ArrayList<>();
 
+
         if (root == null) {
             return res;
         }
