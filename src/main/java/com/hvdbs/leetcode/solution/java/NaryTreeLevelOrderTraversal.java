@@ -37,6 +37,7 @@ public class NaryTreeLevelOrderTraversal {
         }
 
         Queue<Node> q = new ArrayDeque<>();
+
         q.offer(root);
 
         while (!q.isEmpty()) {
