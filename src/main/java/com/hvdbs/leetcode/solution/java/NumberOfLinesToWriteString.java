@@ -10,6 +10,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 public class NumberOfLinesToWriteString {
     public int[] numberOfLines(int[] widths, String s) {
         int width = 0;
+
         int rowCount = 0;
 
         for (int i = 0; i < s.length(); i++) {
