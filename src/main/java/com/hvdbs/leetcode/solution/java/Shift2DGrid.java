@@ -9,6 +9,7 @@ public class Shift2DGrid {
         result.add(new ArrayList<>());
 
         int m = grid.length;
+
         int n = grid[0].length;
 
         for(int l = 0; l < k; l++) {
