@@ -8,7 +8,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Find the Difference of Two Arrays",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Find the Difference of Two Arrays",
         url = "https://leetcode.com/problems/find-the-difference-of-two-arrays")
 public class FindTheDifferenceOfTwoArrays {
     public List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
