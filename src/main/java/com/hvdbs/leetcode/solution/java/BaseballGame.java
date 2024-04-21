@@ -6,7 +6,9 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 import java.util.ArrayList;
 import java.util.List;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Baseball Game", url = "https://leetcode.com/problems/baseball-game")
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Baseball Game",
+        url = "https://leetcode.com/problems/baseball-game")
 public class BaseballGame {
     public int calPoints(String[] operations) {
         List<Integer> subResult = new ArrayList<>();
