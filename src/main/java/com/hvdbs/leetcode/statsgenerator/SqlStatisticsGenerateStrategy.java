@@ -36,9 +36,9 @@ public class SqlStatisticsGenerateStrategy implements GenerateStrategy {
                                 .filter(header -> header.startsWith("--"))
                                 .ifPresent(header -> {
                                     String[] parts = header.split(";");
-                                    Difficulty difficulty = Difficulty.valueOf(parts[0].substring(parts[0].indexOf("=") + 1));
-                                    String name = parts[1].substring(parts[1].indexOf("=") + 1);
-                                    String problemUrl = parts[2].substring(parts[2].indexOf("=") + 1);
+                                    Difficulty difficulty = Difficulty.valueOf(getValueFromHeader(parts[0]));
+                                    String name = getValueFromHeader(parts[1]);
+                                    String problemUrl = getValueFromHeader(parts[2]);
 
                                     OutputLeetCodeFormat leetCodeFormat = OutputLeetCodeFormat.builder()
                                             .difficulty(difficulty)
@@ -59,5 +59,9 @@ public class SqlStatisticsGenerateStrategy implements GenerateStrategy {
         } catch (IOException ignored) {
         }
 //--difficulty=EASY;name=Actors and Directors Who Cooperated At Least Three Times;url=https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/description/
+    }
+
+    private String getValueFromHeader(String headerPart) {
+        return headerPart.substring(headerPart.indexOf("=") + 1);
     }
 }
