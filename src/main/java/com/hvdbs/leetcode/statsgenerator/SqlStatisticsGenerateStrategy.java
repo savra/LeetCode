@@ -58,7 +58,6 @@ public class SqlStatisticsGenerateStrategy implements GenerateStrategy {
             }
         } catch (IOException ignored) {
         }
-//--difficulty=EASY;name=Actors and Directors Who Cooperated At Least Three Times;url=https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/description/
     }
 
     private String getValueFromHeader(String headerPart) {
