@@ -1,6 +1,5 @@
 package com.hvdbs.leetcode.statsgenerator;
 
-import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 import lombok.RequiredArgsConstructor;
 
 import java.io.*;
@@ -10,7 +9,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.List;
-import java.util.Map;
 
 @RequiredArgsConstructor
 public class StatisticsGenerator {

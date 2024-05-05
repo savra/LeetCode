@@ -83,11 +83,12 @@ public class JavaStatisticsGenerateStrategy implements GenerateStrategy {
                         .append("|")
                         .append("<a href='").append(outputLeetCodeFormat.getSolutionUrl()).append("'>").append(outputLeetCodeFormat.getName()).append("</a>")
                         .append("|")
-                        .append(outputLeetCodeFormat.getTimeComplexity())
+                        .append("$").append(outputLeetCodeFormat.getTimeComplexity()).append("$")
                         .append("|")
-                        .append(outputLeetCodeFormat.getSpaceComplexity());
+                        .append("$").append(outputLeetCodeFormat.getSpaceComplexity()).append("$");
                 bufferedWriter.newLine();
             }
+
             bufferedWriter.append("</details>");
         }
     }
