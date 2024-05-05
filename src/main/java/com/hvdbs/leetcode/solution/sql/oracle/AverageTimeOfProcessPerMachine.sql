@@ -1,3 +1,4 @@
+--difficulty=EASY;name=Average Time of Process per Machine;url=https://leetcode.com/problems/average-time-of-process-per-machine
 select machine_id, round(sum(end_time - start_time) / cnt, 3) as processing_time
 from (select machine_id,
              count(process_id) over (partition by machine_id)           cnt,

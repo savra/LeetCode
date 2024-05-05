@@ -1,5 +1,6 @@
 package com.hvdbs.leetcode.statsgenerator;
 
+import com.hvdbs.leetcode.statsgenerator.enums.SqlDialect;
 import lombok.RequiredArgsConstructor;
 
 import java.io.*;
@@ -14,7 +15,8 @@ import java.util.List;
 public class StatisticsGenerator {
     private final List<GenerateStrategy> generateStrategies = List.of(
             new JavaStatisticsGenerateStrategy(),
-            new SqlStatisticsGenerateStrategy()
+            new SqlStatisticsGenerateStrategy(SqlDialect.ORACLE),
+            new SqlStatisticsGenerateStrategy(SqlDialect.POSTGRES)
     );
 
     public void generate() {

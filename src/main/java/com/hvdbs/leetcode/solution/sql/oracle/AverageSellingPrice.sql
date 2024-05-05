@@ -1,3 +1,4 @@
+--difficulty=EASY;name=Average Selling Price;url=https://leetcode.com/problems/average-selling-price
 select product_id, round(sum(price * prod_unit) / sum(prod_unit), 2) average_price
 from (select iq.*,
              (select sum(units)

@@ -1,7 +1,9 @@
 package com.hvdbs.leetcode.statsgenerator;
 
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
+import com.hvdbs.leetcode.statsgenerator.enums.SqlDialect;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.util.StringUtils;
 
 import java.io.*;
 import java.nio.file.*;
@@ -13,18 +15,25 @@ import static com.hvdbs.leetcode.statsgenerator.StatisticsConstants.GITHUB_REPOS
 
 @Slf4j
 public class SqlStatisticsGenerateStrategy implements GenerateStrategy {
-    private static final Path oraclePackagePath = Path.of(String.join(FileSystems.getDefault().getSeparator(),
-            "src", "main", "java", "com", "hvdbs", "leetcode", "solution", "oracle"));
-    private static final String LANGUAGE = "Oracle";
+    private Path basePackagePath = Path.of(String.join(FileSystems.getDefault().getSeparator(),
+            "src", "main", "java", "com", "hvdbs", "leetcode", "solution", "sql"));
+    private final SqlDialect sqlDialect;
+    private final String solutionUrl;
+
+    public SqlStatisticsGenerateStrategy(SqlDialect sqlDialect) {
+        this.sqlDialect = sqlDialect;
+        this.solutionUrl = GITHUB_REPOSITORY_BASE_URL + "/sql/" + sqlDialect + "/";
+        this.basePackagePath = basePackagePath.resolve(sqlDialect.toString());
+    }
 
     @Override
     public void generate() {
         try (BufferedWriter bufferedWriter = Files.newBufferedWriter(Paths.get("README.md"), StandardOpenOption.APPEND)) {
             bufferedWriter.newLine();
             bufferedWriter.newLine();
-            bufferedWriter.append("## " + LANGUAGE);
+            bufferedWriter.append("## ").append(StringUtils.capitalize(sqlDialect.toString()));
 
-            try (Stream<Path> files = Files.list(oraclePackagePath)) {
+            try (Stream<Path> files = Files.list(basePackagePath)) {
                 Set<String> fileNames = files.filter(file -> !Files.isDirectory(file))
                         .map(Path::getFileName)
                         .map(Path::toString)
@@ -33,7 +42,7 @@ public class SqlStatisticsGenerateStrategy implements GenerateStrategy {
                 Map<Difficulty, List<OutputLeetCodeFormat>> difficultyListMap = new HashMap<>();
 
                 for (String fileName : fileNames) {
-                    try (Stream<String> content = Files.lines(oraclePackagePath.resolve(fileName))) {
+                    try (Stream<String> content = Files.lines(basePackagePath.resolve(fileName))) {
                         content.findFirst()
                                 .filter(header -> header.startsWith("--"))
                                 .ifPresent(header -> {
@@ -46,7 +55,7 @@ public class SqlStatisticsGenerateStrategy implements GenerateStrategy {
                                             .difficulty(difficulty)
                                             .name(name)
                                             .problemUrl(problemUrl)
-                                            .solutionUrl(GITHUB_REPOSITORY_BASE_URL + "/oracle/" + fileName)
+                                            .solutionUrl(solutionUrl + fileName)
                                             .build();
 
                                     difficultyListMap.computeIfAbsent(difficulty, difficultyList -> new ArrayList<>()).add(leetCodeFormat);
@@ -59,9 +68,9 @@ public class SqlStatisticsGenerateStrategy implements GenerateStrategy {
                 fillStatisticsTable(bufferedWriter, difficultyListMap);
             }
         } catch (NotDirectoryException e) {
-            log.error("{} is not a directory!", oraclePackagePath);
+            log.error("{} is not a directory!", basePackagePath);
         } catch (IOException ignored) {
-            log.error("Error opening a directory with the name {}", oraclePackagePath);
+            log.error("Error opening a directory with the name {}", basePackagePath);
         }
     }
 
