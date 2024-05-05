@@ -3,7 +3,8 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "A Number After a Double Reversal",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "A Number After a Double Reversal",
         url = "https://leetcode.com/problems/a-number-after-a-double-reversal")
 public class ANumberAfterADoubleReversal {
     public boolean isSameAfterReversals(int num) {

@@ -6,13 +6,13 @@ Solving problems on LeetCode
 
 |Name|Problem|Solution|Time Complexity|Space complexity
 |---|---|---|---|---|
-|Add Binary|https://leetcode.com/problems/add-binary|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AddBinary.java'>Add Binary</a>|$not specified$|$not specified$
-|Add Two Integers|https://leetcode.com/problems/add-two-integers/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AddTwoIntegers.java'>Add Two Integers</a>|$not specified$|$not specified$
+|Add Binary|https://leetcode.com/problems/add-binary|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AddBinary.java'>Add Binary</a>|$O(n)$|$O(n)$
+|Add Two Integers|https://leetcode.com/problems/add-two-integers/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AddTwoIntegers.java'>Add Two Integers</a>|$O(1)$|$O(1)$
 |Alternating Digit Sum|https://leetcode.com/problems/alternating-digit-sum/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AlternatingDigitSum.java'>Alternating Digit Sum</a>|$not specified$|$not specified$
 |Ant on the Boundary|https://leetcode.com/problems/ant-on-the-boundary|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AntOnTheBoundary.java'>Ant on the Boundary</a>|$not specified$|$not specified$
 |A Number After a Double Reversal|https://leetcode.com/problems/a-number-after-a-double-reversal|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ANumberAfterADoubleReversal.java'>A Number After a Double Reversal</a>|$not specified$|$not specified$
 |Apply Operations to an Array|https://leetcode.com/problems/apply-operations-to-an-array|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ApplyOperationsToAnArray.java'>Apply Operations to an Array</a>|$not specified$|$not specified$
-|Array Partition|https://leetcode.com/problems/array-partition|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ArrayPartition.java'>Array Partition</a>|$not specified$|$not specified$
+|Array Partition|https://leetcode.com/problems/array-partition|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ArrayPartition.java'>Array Partition</a>|$O(N * LogN)$|$O(1)$
 |Available Captures for Rook|https://leetcode.com/problems/available-captures-for-rook/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AvailableCapturesForRook.java'>Available Captures for Rook</a>|$not specified$|$not specified$
 |Average Salary Excluding the Minimum and Maximum Salary|https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AverageSalaryExcludingTheMinimumAndMaximumSalary.java'>Average Salary Excluding the Minimum and Maximum Salary</a>|$not specified$|$not specified$
 |Baseball Game|https://leetcode.com/problems/baseball-game|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/BaseballGame.java'>Baseball Game</a>|$not specified$|$not specified$
@@ -264,7 +264,7 @@ Solving problems on LeetCode
 
 |Name|Problem|Solution|Time Complexity|Space complexity
 |---|---|---|---|---|
-|Add Two Numbers|https://leetcode.com/problems/add-two-numbers|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AddTwoNumbers.java'>Add Two Numbers</a>|$not specified$|$not specified$
+|Add Two Numbers|https://leetcode.com/problems/add-two-numbers|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AddTwoNumbers.java'>Add Two Numbers</a>|$O(n)$|$O(1)$
 |Add Two Numbers II|https://leetcode.com/problems/add-two-numbers-ii/description/?envType=study-plan-v2&envId=programming-skills|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AddTwoNumbersII.java'>Add Two Numbers II</a>|$not specified$|$not specified$
 |Binary Search Tree Iterator|https://leetcode.com/problems/binary-search-tree-iterator|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/BinarySearchTreeIterator.java'>Binary Search Tree Iterator</a>|$not specified$|$not specified$
 |Binary Tree Level Order Traversal|https://leetcode.com/problems/binary-tree-level-order-traversal|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/BinaryTreeLevelOrderTraversal.java'>Binary Tree Level Order Traversal</a>|$not specified$|$not specified$

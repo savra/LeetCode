@@ -8,11 +8,11 @@ import java.util.Arrays;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Array Partition",
-        url = "https://leetcode.com/problems/array-partition"
+        url = "https://leetcode.com/problems/array-partition",
+        timeComplexity = "O(N * LogN)",
+        spaceComplexity = "O(1)"
 )
 public class ArrayPartition {
-    //My Time Complexity: O(N * LogN)
-    //My Space complexity: O(1)
     public int arrayPairSum(int[] nums) {
         int length = nums.length;
         int sum = 0;

@@ -6,7 +6,9 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Add Two Numbers",
-        url = "https://leetcode.com/problems/add-two-numbers"
+        url = "https://leetcode.com/problems/add-two-numbers",
+        timeComplexity = "O(n)",
+        spaceComplexity = "O(1)"
 )
 public class AddTwoNumbers {
     public class ListNode {
@@ -25,8 +27,7 @@ public class AddTwoNumbers {
             this.next = next;
         }
     }
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
+
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode l3 = new ListNode();
 

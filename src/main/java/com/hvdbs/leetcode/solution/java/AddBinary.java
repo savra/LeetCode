@@ -6,11 +6,11 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Add Binary",
-        url = "https://leetcode.com/problems/add-binary"
+        url = "https://leetcode.com/problems/add-binary",
+        timeComplexity = "O(n)",
+        spaceComplexity = "O(n)"
 )
 public class AddBinary {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(n)
     public String addBinary(String a, String b) {
         boolean isMemorized = false;
         StringBuilder result = new StringBuilder();
