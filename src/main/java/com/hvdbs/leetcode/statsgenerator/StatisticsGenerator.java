@@ -35,31 +35,4 @@ public class StatisticsGenerator {
         } catch (IOException ignored) {
         }
     }
-
-    static void fillStatisticsTable(BufferedWriter bufferedWriter, Map<Difficulty, List<OutputLeetCodeFormat>> difficultyListMap) throws IOException {
-        for (Difficulty difficulty : difficultyListMap.keySet()) {
-            bufferedWriter.newLine();
-            bufferedWriter.append("<details>");
-            bufferedWriter.newLine();
-            bufferedWriter.append("<summary>").append(String.valueOf(difficulty)).append("</summary>");
-            bufferedWriter.newLine();
-            bufferedWriter.newLine();
-            bufferedWriter.append("|Name|Problem|Solution|");
-            bufferedWriter.newLine();
-            bufferedWriter.append("|---|---|---|");
-            bufferedWriter.newLine();
-
-            for (OutputLeetCodeFormat outputLeetCodeFormat : difficultyListMap.get(difficulty)) {
-                bufferedWriter.append("|")
-                        .append(outputLeetCodeFormat.getName())
-                        .append("|")
-                        .append(outputLeetCodeFormat.getProblemUrl())
-                        .append("|")
-                        .append("<a href='").append(outputLeetCodeFormat.getSolutionUrl()).append("'>").append(outputLeetCodeFormat.getName()).append("</a>")
-                        .append("|");
-                bufferedWriter.newLine();
-            }
-            bufferedWriter.append("</details>");
-        }
-    }
 }

@@ -11,4 +11,6 @@ public class OutputLeetCodeFormat {
     private String problemUrl;
     private String solutionUrl;
     private Difficulty difficulty;
+    private String timeComplexity;
+    private String spaceComplexity;
 }

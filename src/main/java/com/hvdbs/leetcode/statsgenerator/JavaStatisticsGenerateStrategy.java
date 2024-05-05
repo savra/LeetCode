@@ -1,8 +1,6 @@
 package com.hvdbs.leetcode.statsgenerator;
 
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
-import lombok.Builder;
-import lombok.Data;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -44,6 +42,8 @@ public class JavaStatisticsGenerateStrategy implements GenerateStrategy {
                                             .name(leetCodeInfo.name())
                                             .problemUrl(leetCodeInfo.url())
                                             .solutionUrl(GITHUB_REPOSITORY_BASE_URL + "/java/" + solution.replace("class", "java"))
+                                            .timeComplexity(leetCodeInfo.timeComplexity())
+                                            .spaceComplexity(leetCodeInfo.spaceComplexity())
                                             .build();
                                 }
 
@@ -55,10 +55,40 @@ public class JavaStatisticsGenerateStrategy implements GenerateStrategy {
                         .filter(Objects::nonNull)
                         .collect(Collectors.groupingBy(OutputLeetCodeFormat::getDifficulty));
 
-                StatisticsGenerator.fillStatisticsTable(bufferedWriter, difficultyListMap);
+                fillStatisticsTable(bufferedWriter, difficultyListMap);
             }
 
         } catch (IOException ignored) {
+        }
+    }
+
+    private void fillStatisticsTable(BufferedWriter bufferedWriter, Map<Difficulty, List<OutputLeetCodeFormat>> difficultyListMap) throws IOException {
+        for (Difficulty difficulty : difficultyListMap.keySet()) {
+            bufferedWriter.newLine();
+            bufferedWriter.append("<details>");
+            bufferedWriter.newLine();
+            bufferedWriter.append("<summary>").append(String.valueOf(difficulty)).append("</summary>");
+            bufferedWriter.newLine();
+            bufferedWriter.newLine();
+            bufferedWriter.append("|Name|Problem|Solution|Time Complexity|Space complexity");
+            bufferedWriter.newLine();
+            bufferedWriter.append("|---|---|---|---|---|");
+            bufferedWriter.newLine();
+
+            for (OutputLeetCodeFormat outputLeetCodeFormat : difficultyListMap.get(difficulty)) {
+                bufferedWriter.append("|")
+                        .append(outputLeetCodeFormat.getName())
+                        .append("|")
+                        .append(outputLeetCodeFormat.getProblemUrl())
+                        .append("|")
+                        .append("<a href='").append(outputLeetCodeFormat.getSolutionUrl()).append("'>").append(outputLeetCodeFormat.getName()).append("</a>")
+                        .append("|")
+                        .append(outputLeetCodeFormat.getTimeComplexity())
+                        .append("|")
+                        .append(outputLeetCodeFormat.getSpaceComplexity());
+                bufferedWriter.newLine();
+            }
+            bufferedWriter.append("</details>");
         }
     }
 }

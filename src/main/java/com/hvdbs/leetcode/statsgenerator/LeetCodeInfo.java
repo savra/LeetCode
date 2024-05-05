@@ -15,4 +15,6 @@ public @interface LeetCodeInfo {
     String name();
 
     String url();
+    String timeComplexity() default "not specified";
+    String spaceComplexity() default "not specified";
 }
