@@ -5,7 +5,9 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.stream.Stream;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, url = "https://leetcode.com/problems/counting-bits", name = "Counting Bits")
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        url = "https://leetcode.com/problems/counting-bits",
+        name = "Counting Bits")
 public class CountingBits {
     public static int[] countBits(int n) {
         return Stream.iterate(0, i -> i <= n, i -> i + 1)

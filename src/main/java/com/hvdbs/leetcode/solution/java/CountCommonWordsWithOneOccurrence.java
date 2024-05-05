@@ -8,7 +8,8 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Count Common Words With One Occurrence",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Count Common Words With One Occurrence",
         url = "https://leetcode.com/problems/count-common-words-with-one-occurrence/")
 public class CountCommonWordsWithOneOccurrence {
     public static int countWords(String[] words1, String[] words2) {

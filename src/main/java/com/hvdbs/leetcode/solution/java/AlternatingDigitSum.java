@@ -3,7 +3,8 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Alternating Digit Sum",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Alternating Digit Sum",
         url = "https://leetcode.com/problems/alternating-digit-sum/")
 public class AlternatingDigitSum {
     public int alternateDigitSum(int n) {

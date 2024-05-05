@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Apply Operations to an Array",
-        url = "https://leetcode.com/problems/apply-operations-to-an-array"
-)
+        url = "https://leetcode.com/problems/apply-operations-to-an-array")
 public class ApplyOperationsToAnArray {
     public int[] applyOperations(int[] nums) {
         for (int i = 0; i < nums.length - 1; i++) {

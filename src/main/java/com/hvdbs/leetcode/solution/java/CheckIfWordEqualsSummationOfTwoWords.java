@@ -3,7 +3,8 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Check if Word Equals Summation of Two Words",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Check if Word Equals Summation of Two Words",
         url = "https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/")
 public class CheckIfWordEqualsSummationOfTwoWords {
     private static final int A_CODE = 97;

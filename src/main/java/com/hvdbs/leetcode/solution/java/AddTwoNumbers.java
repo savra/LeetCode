@@ -7,7 +7,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
         difficulty = Difficulty.MEDIUM,
         name = "Add Two Numbers",
         url = "https://leetcode.com/problems/add-two-numbers",
-        timeComplexity = "O(n)",
+        timeComplexity = "O(N)",
         spaceComplexity = "O(1)"
 )
 public class AddTwoNumbers {

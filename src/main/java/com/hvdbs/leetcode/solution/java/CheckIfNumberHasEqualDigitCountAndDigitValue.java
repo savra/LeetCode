@@ -6,7 +6,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 import java.util.HashMap;
 import java.util.Map;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Check if Number Has Equal Digit Count and Digit Value",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Check if Number Has Equal Digit Count and Digit Value",
         url = "https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value")
 public class CheckIfNumberHasEqualDigitCountAndDigitValue {
     public boolean digitCount(String num) {

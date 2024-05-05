@@ -3,7 +3,8 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Count Negative Numbers in a Sorted Matrix",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Count Negative Numbers in a Sorted Matrix",
         url = "https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix")
 public class CountNegativeNumbersInASortedMatrix {
     public int countNegatives(int[][] grid) {

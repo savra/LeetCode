@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Count Odd Numbers in an Interval Range",
-        url = "https://leetcode.com/problems/count-odd-numbers-in-an-interval-range"
-)
+        url = "https://leetcode.com/problems/count-odd-numbers-in-an-interval-range")
 public class CountOddNumbersInAnIntervalRange {
     public int countOdds(int low, int high) {
         int tmp = high - low + 1;

@@ -6,11 +6,11 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Calculate Money in Leetcode Bank",
-        url = "https://leetcode.com/problems/calculate-money-in-leetcode-bank"
+        url = "https://leetcode.com/problems/calculate-money-in-leetcode-bank",
+        spaceComplexity = "O(1)",
+        timeComplexity = "O(N)"
 )
 public class CalculateMoneyInLeetcodeBank {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
     public static int totalMoney(int n) {
         int sum = 0;
 

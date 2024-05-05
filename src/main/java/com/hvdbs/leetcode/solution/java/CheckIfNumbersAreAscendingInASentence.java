@@ -6,11 +6,10 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Check if Numbers Are Ascending in a Sentence",
-        url = "https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence"
-)
+        url = "https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(N)")
 public class CheckIfNumbersAreAscendingInASentence {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(n)
     public static boolean areNumbersAscending(String s) {
         int prevNumber = 0;
         String[] tmp = s.split(" ");

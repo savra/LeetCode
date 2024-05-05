@@ -6,7 +6,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 import java.util.HashMap;
 import java.util.Map;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Check if All Characters Have Equal Number of Occurrences",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Check if All Characters Have Equal Number of Occurrences",
         url = "https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/")
 public class CheckIfAllCharactersHaveEqualNumberOfOccurrences {
     public boolean areOccurrencesEqual(String s) {

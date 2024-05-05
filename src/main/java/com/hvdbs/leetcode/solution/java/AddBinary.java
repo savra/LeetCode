@@ -7,8 +7,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
         difficulty = Difficulty.EASY,
         name = "Add Binary",
         url = "https://leetcode.com/problems/add-binary",
-        timeComplexity = "O(n)",
-        spaceComplexity = "O(n)"
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(N)"
 )
 public class AddBinary {
     public String addBinary(String a, String b) {

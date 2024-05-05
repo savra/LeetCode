@@ -9,10 +9,11 @@ import java.util.Map;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Contains Duplicate II",
-        url = "https://leetcode.com/problems/contains-duplicate-ii"
+        url = "https://leetcode.com/problems/contains-duplicate-ii",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(N)"
 )
 public class ContainsDuplicateII {
-    //TC: O(N), SC: O(N)
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         Map<Integer, Integer> m = new HashMap<>();
 

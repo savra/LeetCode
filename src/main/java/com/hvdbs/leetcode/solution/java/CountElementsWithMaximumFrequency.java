@@ -9,8 +9,7 @@ import java.util.Map;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Count Elements With Maximum Frequency",
-        url = "https://leetcode.com/problems/count-elements-with-maximum-frequency/"
-)
+        url = "https://leetcode.com/problems/count-elements-with-maximum-frequency/")
 public class CountElementsWithMaximumFrequency {
     public int maxFrequencyElements(int[] nums) {
         Map<Integer, Integer> freq = new HashMap<>();

@@ -8,11 +8,11 @@ import java.util.Arrays;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Can Make Arithmetic Progression From Sequence",
-        url = "https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence"
+        url = "https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence",
+        timeComplexity = "O(N * LogN)",
+        spaceComplexity = "O(1)"
 )
 public class CanMakeArithmeticProgressionFromSequence {
-    //My Time Complexity: O(nlogn)
-    //My Space complexity: O(1)
     public boolean canMakeArithmeticProgression(int[] arr) {
         Arrays.sort(arr);
 

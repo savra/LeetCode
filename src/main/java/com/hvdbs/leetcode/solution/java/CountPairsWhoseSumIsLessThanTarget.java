@@ -8,8 +8,9 @@ import java.util.List;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Count Pairs Whose Sum is Less than Target",
-        url = "https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target"
-)
+        url = "https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target",
+        timeComplexity = "O(N^2)",
+        spaceComplexity = "O(1")
 public class CountPairsWhoseSumIsLessThanTarget {
     //My Time Complexity: O(n^2)
     //My Space complexity: O(1)

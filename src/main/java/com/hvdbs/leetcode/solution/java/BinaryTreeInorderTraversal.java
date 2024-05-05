@@ -9,7 +9,10 @@ import java.util.List;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Binary Tree Inorder Traversal",
-        url = "https://leetcode.com/problems/binary-tree-inorder-traversal")
+        url = "https://leetcode.com/problems/binary-tree-inorder-traversal",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(H)"
+)
 public class BinaryTreeInorderTraversal {
     public static class TreeNode {
         int val;
@@ -58,6 +61,7 @@ public class BinaryTreeInorderTraversal {
         return result;
     }
 
+    /* Recursive TC: O(N), SC: O(h) - h - tree height*/
     private static void inOrder(TreeNode root, List<Integer> result) {
         if (root == null) {
             return;

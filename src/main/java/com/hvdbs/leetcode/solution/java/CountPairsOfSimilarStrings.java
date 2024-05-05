@@ -6,7 +6,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 import java.util.HashSet;
 import java.util.Set;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Count Pairs Of Similar Strings",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Count Pairs Of Similar Strings",
         url = "https://leetcode.com/problems/count-pairs-of-similar-strings")
 public class CountPairsOfSimilarStrings {
     public int similarPairs(String[] words) {
