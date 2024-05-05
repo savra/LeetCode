@@ -10,10 +10,8 @@ import java.util.List;
         name = "Count Pairs Whose Sum is Less than Target",
         url = "https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target",
         timeComplexity = "O(N^2)",
-        spaceComplexity = "O(1")
+        spaceComplexity = "O(1)")
 public class CountPairsWhoseSumIsLessThanTarget {
-    //My Time Complexity: O(n^2)
-    //My Space complexity: O(1)
     public int countPairs(List<Integer> nums, int target) {
         int result = 0;
 
