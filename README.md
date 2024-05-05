@@ -1,5 +1,4 @@
-# LeetCode
-Solving problems on LeetCode
+# Solving problems statistics
 ## Java
 <details>
 <summary>EASY</summary>
