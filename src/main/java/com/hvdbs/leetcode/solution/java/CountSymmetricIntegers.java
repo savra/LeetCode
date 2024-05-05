@@ -6,11 +6,10 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Count Symmetric Integers",
-        url = "https://leetcode.com/problems/count-symmetric-integers"
-)
+        url = "https://leetcode.com/problems/count-symmetric-integers",
+        timeComplexity = "O(N * Log_10M)",
+        spaceComplexity = "O(N * Log_10M)")
 public class CountSymmetricIntegers {
-    //My Time Complexity: O(n * Log10M)
-    //My Space complexity: O(n * Log10M)
     public int countSymmetricIntegers(int low, int high) {
         int count = 0;
 
