@@ -7,8 +7,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
         difficulty = Difficulty.EASY,
         name = "Count Symmetric Integers",
         url = "https://leetcode.com/problems/count-symmetric-integers",
-        timeComplexity = "O(N * Log_10M)",
-        spaceComplexity = "O(N * Log_10M)")
+        timeComplexity = "O(N * Log_{10}M)",
+        spaceComplexity = "O(N * Log_{10}M)")
 public class CountSymmetricIntegers {
     public int countSymmetricIntegers(int low, int high) {
         int count = 0;
