@@ -1,4 +1,4 @@
-# Solving problems statistics ⭐
+# Statistics of problem solving ⭐
 ## Java
 <details>
 <summary>EASY</summary>
