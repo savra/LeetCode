@@ -13,13 +13,13 @@ import java.util.List;
 
 @RequiredArgsConstructor
 public class StatisticsGenerator {
-    private final List<GenerateStrategy> generateStrategies = List.of(
+    private static final List<GenerateStrategy> generateStrategies = List.of(
             new JavaStatisticsGenerateStrategy(),
             new SqlStatisticsGenerateStrategy(SqlDialect.ORACLE),
             new SqlStatisticsGenerateStrategy(SqlDialect.POSTGRES)
     );
 
-    public void generate() {
+    public static void generate() {
         try {
             Path pathToReadme = Paths.get("README.md");
             FileChannel.open(pathToReadme, StandardOpenOption.WRITE).truncate(0);
