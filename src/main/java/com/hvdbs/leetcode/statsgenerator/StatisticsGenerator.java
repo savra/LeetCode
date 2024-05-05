@@ -25,7 +25,7 @@ public class StatisticsGenerator {
             FileChannel.open(pathToReadme, StandardOpenOption.WRITE).truncate(0);
 
             try (BufferedWriter bufferedWriter = Files.newBufferedWriter(pathToReadme, StandardOpenOption.APPEND)) {
-                bufferedWriter.append("Solving problems statistics");
+                bufferedWriter.append("# Solving problems statistics");
             }
 
             generateStrategies.forEach(GenerateStrategy::generate);
