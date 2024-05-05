@@ -9,8 +9,7 @@ import java.util.List;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Majority Element II",
-        url = "https://leetcode.com/problems/majority-element-ii"
-)
+        url = "https://leetcode.com/problems/majority-element-ii")
 public class MajorityElementII {
     public List<Integer> majorityElement(int[] nums) {
         List<Integer> result = new ArrayList<>();

@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Monotonic Array",
-        url = "https://leetcode.com/problems/monotonic-array"
-)
+        url = "https://leetcode.com/problems/monotonic-array")
 public class MonotonicArray {
     public boolean isMonotonic(int[] nums) {
         if (nums.length <= 2) {

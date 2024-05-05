@@ -10,8 +10,7 @@ import java.util.List;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Design HashMap",
-        url = "https://leetcode.com/problems/design-hashmap"
-)
+        url = "https://leetcode.com/problems/design-hashmap")
 public class DesignHashMap {
     static class MyHashMap {
         private static final int SIZE = 16;

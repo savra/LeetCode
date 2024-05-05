@@ -3,7 +3,8 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Maximum Sum With Exactly K Elements",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Maximum Sum With Exactly K Elements",
         url = "https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/")
 public class MaximumSumWithExactlyKElements {
     public int maximizeSum(int[] nums, int k) {

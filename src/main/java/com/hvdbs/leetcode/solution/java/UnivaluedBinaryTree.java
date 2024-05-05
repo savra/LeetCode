@@ -4,7 +4,8 @@ import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Univalued Binary Tree",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Univalued Binary Tree",
         url = "https://leetcode.com/problems/univalued-binary-tree/")
 public class UnivaluedBinaryTree {
     public static class TreeNode {

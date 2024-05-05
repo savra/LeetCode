@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Minimum Size Subarray Sum",
-        url = "https://leetcode.com/problems/minimum-size-subarray-sum"
-)
+        url = "https://leetcode.com/problems/minimum-size-subarray-sum")
 public class MinimumSizeSubarraySum {
     public int minSubArrayLen(int target, int[] nums) {
         int minLength = Integer.MAX_VALUE;

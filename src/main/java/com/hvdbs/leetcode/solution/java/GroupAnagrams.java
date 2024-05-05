@@ -8,10 +8,10 @@ import java.util.*;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Group Anagrams",
-        url = "https://leetcode.com/problems/group-anagrams/"
-)
+        url = "https://leetcode.com/problems/group-anagrams/",
+        timeComplexity = "O(N * MLogM)",
+        spaceComplexity = "O(N)")
 public class GroupAnagrams {
-    //TC: O(N * MLogM), SC: O(N)
     public List<List<String>> groupAnagrams(String[] s) {
         Map<String, List<String>> m = new HashMap<>();
 

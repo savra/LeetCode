@@ -7,7 +7,8 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Unique Number of Occurrences",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Unique Number of Occurrences",
         url = "https://leetcode.com/problems/unique-number-of-occurrences/")
 public class UniqueNumberOfOccurrences {
     public boolean uniqueOccurrences(int[] arr) {

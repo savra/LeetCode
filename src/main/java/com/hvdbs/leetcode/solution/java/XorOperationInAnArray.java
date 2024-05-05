@@ -3,7 +3,8 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "XOR Operation in an Array",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "XOR Operation in an Array",
         url = "https://leetcode.com/problems/xor-operation-in-an-array/description/")
 public class XorOperationInAnArray {
     public int xorOperation(int n, int start) {

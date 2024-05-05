@@ -6,7 +6,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 import java.util.ArrayList;
 import java.util.List;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "N-ary Tree Postorder Traversal",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "N-ary Tree Postorder Traversal",
         url = "https://leetcode.com/problems/n-ary-tree-postorder-traversal/description/")
 public class NaryTreePostorderTraversal {
     static class Node {

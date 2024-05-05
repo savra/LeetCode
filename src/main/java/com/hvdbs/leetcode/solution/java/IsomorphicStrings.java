@@ -9,10 +9,10 @@ import java.util.Map;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Isomorphic Strings",
-        url = "https://leetcode.com/problems/isomorphic-strings"
-)
+        url = "https://leetcode.com/problems/isomorphic-strings",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(N)")
 public class IsomorphicStrings {
-    //TC: O(N), SC: O(N)
     public boolean isIsomorphic(String s, String t) {
         Map<Character, Character> m = new HashMap<>();
 

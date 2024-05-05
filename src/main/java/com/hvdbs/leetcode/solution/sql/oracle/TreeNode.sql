@@ -1,3 +1,4 @@
+--difficulty=MEDIUM;name=Tree Node;url=https://leetcode.com/problems/tree-node
 SELECT id,
        CASE
            WHEN p_id IS NULL THEN 'Root'

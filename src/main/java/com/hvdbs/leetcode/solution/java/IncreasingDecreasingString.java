@@ -12,12 +12,10 @@ public class IncreasingDecreasingString {
         sb.append(chars[0]);
 
         int i = 1;
-        int k = 1;
 
         while(i < chars.length) {
             if (chars[i] > sb.charAt(sb.length() - 1)) {
                 sb.append(chars[i]);
-                k++;
             }
 
             i++;

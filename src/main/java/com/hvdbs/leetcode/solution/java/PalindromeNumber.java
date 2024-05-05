@@ -3,7 +3,9 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Palindrome Number", url = "https://leetcode.com/problems/palindrome-number/")
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Palindrome Number",
+        url = "https://leetcode.com/problems/palindrome-number/")
 public class PalindromeNumber {
     public boolean isPalindrome(int x) {
         if (x >= -9 && x < 0) {

@@ -6,10 +6,10 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Robot Return to Origin",
-        url = "https://leetcode.com/problems/robot-return-to-origin"
-)
+        url = "https://leetcode.com/problems/robot-return-to-origin",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class RobotReturnToOrigin {
-    //TC: O(N), SC: O(1)
     public boolean judgeCircle(String moves) {
         int[] m = new int[4];
 

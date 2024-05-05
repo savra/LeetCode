@@ -8,7 +8,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Unique Morse Code Words",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Unique Morse Code Words",
         url = "https://leetcode.com/problems/unique-morse-code-words/")
 public class UniqueMorseCodeWords {
     private static final Map<String, String> alphabet = new HashMap<>();

@@ -8,7 +8,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@LeetCodeInfo(difficulty = Difficulty.MEDIUM, name = "Deepest Leaves Sum",
+@LeetCodeInfo(difficulty = Difficulty.MEDIUM,
+        name = "Deepest Leaves Sum",
         url = "https://leetcode.com/problems/deepest-leaves-sum/")
 public class DeepestLeavesSum {
     public static class TreeNode {

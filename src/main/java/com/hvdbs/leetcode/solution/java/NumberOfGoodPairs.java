@@ -5,7 +5,9 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 @LeetCodeInfo(difficulty = Difficulty.EASY,
         name = "Number of Good Pairs",
-        url = "https://leetcode.com/problems/number-of-good-pairs/")
+        url = "https://leetcode.com/problems/number-of-good-pairs/",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(N)")
 public class NumberOfGoodPairs {
     /*Time complexity: O(n^2), Space complexity: O(1)*/
     /*public int numIdenticalPairs(int[] nums) {

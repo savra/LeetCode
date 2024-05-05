@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Repeated Substring Pattern",
-        url = "https://leetcode.com/problems/repeated-substring-pattern"
-)
+        url = "https://leetcode.com/problems/repeated-substring-pattern")
 public class RepeatedSubstringPattern {
     public boolean repeatedSubstringPattern(String s) {
         if (s.length() == 1) {

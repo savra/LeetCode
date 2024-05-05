@@ -3,11 +3,12 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Squares of a Sorted Array",
-        url = "https://leetcode.com/problems/squares-of-a-sorted-array/")
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Squares of a Sorted Array",
+        url = "https://leetcode.com/problems/squares-of-a-sorted-array/",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(N)")
 public class SquaresOfASortedArray {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(n)
     public int[] sortedSquares(int[] nums) {
         int resIndx = nums.length - 1;
         int[] result = new int[nums.length];

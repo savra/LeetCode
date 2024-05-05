@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Linked List Cycle",
-        url = "https://leetcode.com/problems/linked-list-cycle"
-)
+        url = "https://leetcode.com/problems/linked-list-cycle")
 public class LinkedListCycle {
     public boolean hasCycle(ListNode head) {
         if (head == null || head.next == null) {

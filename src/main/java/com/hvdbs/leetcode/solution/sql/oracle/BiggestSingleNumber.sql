@@ -1,3 +1,4 @@
+--difficulty=EASY;name=Biggest Single Number;url=https://leetcode.com/problems/biggest-single-number
 SELECT num
 FROM ((SELECT num, COUNT(*) cnt
        FROM MyNumbers

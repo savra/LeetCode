@@ -5,7 +5,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.Arrays;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Maximum Number of Pairs in Array",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Maximum Number of Pairs in Array",
         url = "https://leetcode.com/problems/maximum-number-of-pairs-in-array/")
 public class MaximumNumberOfPairsInArray {
     public int[] numberOfPairs(int[] nums) {

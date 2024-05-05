@@ -6,8 +6,9 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Insert Greatest Common Divisors in Linked List",
-        url = "https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list"
-)
+        url = "https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class InsertGreatestCommonDivisorsInLinkedList {
     public static class ListNode {
         int val;
@@ -35,8 +36,6 @@ public class InsertGreatestCommonDivisorsInLinkedList {
     }
 
     public ListNode insertGreatestCommonDivisors(ListNode head) {
-        //My Time Complexity: O(n)
-        //My Space complexity: O(1)
         for (ListNode cur = head; cur.next != null; cur = cur.next.next) {
             ListNode newNode = new ListNode(gcdByEuclidsAlgorithm(cur.val, cur.next.val));
             newNode.next = cur.next;

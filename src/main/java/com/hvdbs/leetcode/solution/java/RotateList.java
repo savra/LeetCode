@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Rotate List",
-        url = "https://leetcode.com/problems/rotate-list"
-)
+        url = "https://leetcode.com/problems/rotate-list")
 public class RotateList {
     public static class ListNode {
         int val;

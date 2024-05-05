@@ -8,11 +8,10 @@ import java.util.*;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Points That Intersect With Cars",
-        url = "https://leetcode.com/problems/points-that-intersect-with-cars"
-)
+        url = "https://leetcode.com/problems/points-that-intersect-with-cars",
+        timeComplexity = "O(N * M)",
+        spaceComplexity = "O(N)")
 public class PointsThatIntersectWithCars {
-    //My Time Complexity: O(m * n)
-    //My Space complexity: O(n)
     public int numberOfPoints(List<List<Integer>> nums) {
         Set<Integer> set = new HashSet<>();
 

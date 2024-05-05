@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Plus One",
-        url = "https://leetcode.com/problems/plus-one"
-)
+        url = "https://leetcode.com/problems/plus-one")
 public class PlusOne {
     public int[] plusOne(int[] digits) {
         int memory = 0;

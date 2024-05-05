@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Robot Bounded In Circle",
-        url = "https://leetcode.com/problems/robot-bounded-in-circle"
-)
+        url = "https://leetcode.com/problems/robot-bounded-in-circle")
 public class RobotBoundedInCircle {
     private static class Robot {
         int x;

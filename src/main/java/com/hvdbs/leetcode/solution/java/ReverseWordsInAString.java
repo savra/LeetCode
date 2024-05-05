@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Reverse Words in a String",
-        url = "https://leetcode.com/problems/reverse-words-in-a-string"
-)
+        url = "https://leetcode.com/problems/reverse-words-in-a-string")
 public class ReverseWordsInAString {
     public String reverseWords(String s) {
         StringBuilder result = new StringBuilder();

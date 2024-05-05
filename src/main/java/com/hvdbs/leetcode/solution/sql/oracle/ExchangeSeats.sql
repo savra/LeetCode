@@ -1,3 +1,4 @@
+--difficulty=MEDIUM;name=Exchange Seats;url=https://leetcode.com/problems/exchange-seats
 select rownum as id, student
 from (select seat.id,
              seat.student,

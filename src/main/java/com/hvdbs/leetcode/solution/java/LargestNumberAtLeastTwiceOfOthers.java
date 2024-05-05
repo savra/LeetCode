@@ -8,8 +8,7 @@ import java.util.Arrays;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Largest Number At Least Twice of Others",
-        url = "https://leetcode.com/problems/largest-number-at-least-twice-of-others/"
-)
+        url = "https://leetcode.com/problems/largest-number-at-least-twice-of-others/")
 public class LargestNumberAtLeastTwiceOfOthers {
     public int dominantIndex(int[] nums) {
         int max = Arrays.stream(nums).max().getAsInt();

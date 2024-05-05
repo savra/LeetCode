@@ -7,7 +7,9 @@ import java.util.AbstractMap;
 import java.util.HashMap;
 import java.util.Map;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Design Parking System", url = "https://leetcode.com/problems/design-parking-system/")
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Design Parking System",
+        url = "https://leetcode.com/problems/design-parking-system/")
 public class ParkingSystem {
     private final Map<CarType, AbstractMap.SimpleEntry<Integer, Integer>> parking = new HashMap<>();
 

@@ -6,11 +6,10 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Replace Elements with Greatest Element on Right Side",
-        url = "https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side"
-)
+        url = "https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side",
+        timeComplexity = "O(N^2)",
+        spaceComplexity = "O(1)")
 public class ReplaceElementsWithGreatestElementOnRightSide {
-    //My Time Complexity: O(n^2)
-    //My Space complexity: O(1)
     public int[] replaceElements(int[] arr) {
         if ( arr.length == 1) {
             arr[0] = -1;

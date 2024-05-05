@@ -8,11 +8,10 @@ import java.util.Arrays;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Minimize String Length",
-        url = "https://leetcode.com/problems/minimize-string-length"
-)
+        url = "https://leetcode.com/problems/minimize-string-length",
+        timeComplexity = "O(N * LogN)",
+        spaceComplexity = "O(N)")
 public class MinimizeStringLength {
-    //My Time Complexity: O(N LogN)
-    //My Space complexity: O(n)
     public int minimizedStringLength(String s) {
         int j = 0;
         int resultCount = 1;

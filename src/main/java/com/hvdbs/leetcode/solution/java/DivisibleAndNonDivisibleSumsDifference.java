@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Divisible and Non-divisible Sums Difference",
-        url = "https://leetcode.com/problems/divisible-and-non-divisible-sums-difference"
-)
+        url = "https://leetcode.com/problems/divisible-and-non-divisible-sums-difference")
 public class DivisibleAndNonDivisibleSumsDifference {
     public int differenceOfSums(int n, int m) {
         int num1 = 0, num2 = 0;

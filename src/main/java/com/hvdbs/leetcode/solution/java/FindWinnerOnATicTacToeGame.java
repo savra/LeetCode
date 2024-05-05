@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Find Winner on a Tic Tac Toe Game",
-        url = "https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game"
-)
+        url = "https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game")
 public class FindWinnerOnATicTacToeGame {
     public String tictactoe(int[][] moves) {
         char[][] result = new char[3][3];

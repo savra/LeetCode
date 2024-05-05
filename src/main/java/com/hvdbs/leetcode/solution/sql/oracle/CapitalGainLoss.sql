@@ -1,3 +1,4 @@
+--difficulty=MEDIUM;name=Capital Gain/Loss;url=https://leetcode.com/problems/capital-gainloss
 SELECT
     stock_name as "stock_name",
     SUM(price) as "capital_gain_loss"

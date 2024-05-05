@@ -8,7 +8,8 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Count the Number of Vowel Strings in Range",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Count the Number of Vowel Strings in Range",
         url = "https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/")
 public class CountTheNumberOfVowelStringsInRange {
     public int vowelStrings(String[] words, int left, int right) {

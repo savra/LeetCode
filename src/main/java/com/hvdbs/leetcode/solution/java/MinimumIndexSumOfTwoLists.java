@@ -11,10 +11,10 @@ import java.util.Map;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Minimum Index Sum of Two Lists",
-        url = "https://leetcode.com/problems/minimum-index-sum-of-two-lists"
-)
+        url = "https://leetcode.com/problems/minimum-index-sum-of-two-lists",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(N + M)")
 public class MinimumIndexSumOfTwoLists {
-    //TC: O(N), SC: O(N + M)
     public String[] findRestaurant(String[] list1, String[] list2) {
         Map<String, Integer> m1 = new HashMap<>();
         Map<String, Integer> m2 = new HashMap<>();

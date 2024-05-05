@@ -9,8 +9,7 @@ import java.util.Deque;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Evaluate Reverse Polish Notation",
-        url = "https://leetcode.com/problems/evaluate-reverse-polish-notation"
-)
+        url = "https://leetcode.com/problems/evaluate-reverse-polish-notation")
 public class EvaluateReversePolishNotation {
     public int evalRPN(String[] t) {
         Deque<String> s = new ArrayDeque<>();

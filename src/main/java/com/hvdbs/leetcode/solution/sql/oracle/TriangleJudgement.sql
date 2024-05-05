@@ -1,3 +1,4 @@
+--difficulty=EASY;name=Triangle Judgement;url=https://leetcode.com/problems/triangle-judgement
 select x,
        y,
        z,

@@ -6,8 +6,9 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Remove Linked List Elements",
-        url = "https://leetcode.com/problems/remove-linked-list-elements"
-)
+        url = "https://leetcode.com/problems/remove-linked-list-elements",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class RemoveLinkedListElements {
     public class ListNode {
         int val;
@@ -26,8 +27,6 @@ public class RemoveLinkedListElements {
         }
     }
 
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
     public ListNode removeElements(ListNode head, int val) {
         if (head == null) {
             return null;

@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Goat Latin",
-        url = "https://leetcode.com/problems/goat-latin"
-)
+        url = "https://leetcode.com/problems/goat-latin")
 public class GoatLatin {
     public String toGoatLatin(String sentence) {
         String[] words = sentence.split(" ");

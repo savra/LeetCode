@@ -7,7 +7,8 @@ import java.util.Arrays;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Intersection of Two Arrays",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Intersection of Two Arrays",
         url = "https://leetcode.com/problems/intersection-of-two-arrays/")
 public class IntersectionOfTwoArrays {
     public int[] intersection(int[] nums1, int[] nums2) {;

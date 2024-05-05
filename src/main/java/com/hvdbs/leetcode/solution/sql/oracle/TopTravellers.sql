@@ -1,3 +1,4 @@
+--difficulty=EASY;name=Top Travellers;url=https://leetcode.com/problems/top-travellers
 select max(name) as name, sum(nvl(distance, 0)) as travelled_distance
 from users u
          left join rides r on (r.user_id = u.id)

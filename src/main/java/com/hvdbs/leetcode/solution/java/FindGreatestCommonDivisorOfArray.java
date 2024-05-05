@@ -5,7 +5,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.Arrays;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Find Greatest Common Divisor of Array",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Find Greatest Common Divisor of Array",
         url = "https://leetcode.com/problems/find-greatest-common-divisor-of-array/")
 public class FindGreatestCommonDivisorOfArray {
     public static int findGCD(int[] nums) {

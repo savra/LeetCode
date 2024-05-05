@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Flatten a Multilevel Doubly Linked List",
-        url = "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list"
-)
+        url = "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list")
 public class FlattenAMultilevelDoublyLinkedList {
     static class Node {
         public int val;

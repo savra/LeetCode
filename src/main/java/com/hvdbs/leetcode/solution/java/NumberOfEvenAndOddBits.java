@@ -3,7 +3,8 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Number of Even and Odd Bits",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Number of Even and Odd Bits",
         url = "https://leetcode.com/problems/number-of-even-and-odd-bits")
 public class NumberOfEvenAndOddBits {
     public int[] evenOddBit(int n) {

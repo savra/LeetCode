@@ -6,7 +6,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 import java.util.ArrayList;
 import java.util.List;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Self Dividing Numbers",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Self Dividing Numbers",
         url = "https://leetcode.com/problems/self-dividing-numbers/")
 public class SelfDividingNumbers {
     public List<Integer> selfDividingNumbers(int left, int right) {

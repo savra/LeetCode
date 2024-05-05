@@ -5,7 +5,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.Arrays;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Height Checker",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Height Checker",
         url = "https://leetcode.com/problems/height-checker")
 public class HeightChecker {
     public int heightChecker(int[] heights) {

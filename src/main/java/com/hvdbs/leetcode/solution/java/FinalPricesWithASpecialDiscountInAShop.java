@@ -3,7 +3,8 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Final Prices With a Special Discount in a Shop",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Final Prices With a Special Discount in a Shop",
         url = "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/")
 public class FinalPricesWithASpecialDiscountInAShop {
     public int[] finalPrices(int[] prices) {

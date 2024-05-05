@@ -9,11 +9,10 @@ import java.util.List;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Pascal's Triangle II",
-        url = "https://leetcode.com/problems/pascals-triangle-ii/"
-)
+        url = "https://leetcode.com/problems/pascals-triangle-ii/",
+        timeComplexity = "O(N^2)",
+        spaceComplexity = "O(N)")
 public class PascalsTriangleII {
-    //My Time Complexity: O(n2)
-    //My Space complexity: O(n)
     public List<Integer> getRow(int rowIndex) {
         List<Integer> base = new ArrayList<>();
         List<Integer> res = new ArrayList<>();

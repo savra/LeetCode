@@ -3,7 +3,8 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Island Perimeter",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Island Perimeter",
         url = "https://leetcode.com/problems/island-perimeter/")
 public class IslandPerimeter {
     public int islandPerimeter(int[][] grid) {

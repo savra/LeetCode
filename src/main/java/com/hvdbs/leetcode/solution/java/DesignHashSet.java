@@ -10,8 +10,7 @@ import java.util.List;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Design HashSet",
-        url = "https://leetcode.com/problems/design-hashset"
-)
+        url = "https://leetcode.com/problems/design-hashset")
 public class DesignHashSet {
     class MyHashSet {
         private static final int SIZE = 16;

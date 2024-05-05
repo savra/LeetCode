@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Design Circular Queue",
-        url = "https://leetcode.com/problems/design-circular-queue"
-)
+        url = "https://leetcode.com/problems/design-circular-queue")
 public class DesignCircularQueue {
     class MyCircularQueue {
         int[] arr;

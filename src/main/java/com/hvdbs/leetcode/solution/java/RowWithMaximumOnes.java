@@ -3,10 +3,12 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Row With Maximum Ones",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Row With Maximum Ones",
         url = "https://leetcode.com/problems/row-with-maximum-ones/")
 public class RowWithMaximumOnes {
     public int[] rowAndMaximumOnes(int[][] mat) {
@@ -35,7 +37,7 @@ public class RowWithMaximumOnes {
 
         Map.Entry<Integer, Integer> e = res.entrySet().stream()
                 .filter(entry -> entry.getValue() == finalMaxOnes)
-                .min((a, b) -> Integer.compare(a.getKey(), b.getKey()))
+                .min(Comparator.comparingInt(Map.Entry::getKey))
                 .get();
 
         return new int[]{e.getKey(), e.getValue()};

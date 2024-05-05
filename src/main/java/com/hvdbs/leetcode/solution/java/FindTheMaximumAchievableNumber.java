@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Find the Maximum Achievable Number",
-        url = "https://leetcode.com/problems/find-the-maximum-achievable-number"
-)
+        url = "https://leetcode.com/problems/find-the-maximum-achievable-number")
 public class FindTheMaximumAchievableNumber {
     //My Time Complexity: O(1)
     //My Space complexity: O(1)

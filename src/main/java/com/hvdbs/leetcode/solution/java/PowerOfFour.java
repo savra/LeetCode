@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Power of Four",
-        url = "https://leetcode.com/problems/power-of-four"
-)
+        url = "https://leetcode.com/problems/power-of-four")
 public class PowerOfFour {
     public boolean isPowerOfFour(int n) {
        /* long x = 0;

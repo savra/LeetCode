@@ -3,7 +3,8 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Reverse Prefix of Word",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Reverse Prefix of Word",
         url = "https://leetcode.com/problems/reverse-prefix-of-word/description/")
 public class ReversePrefixOfWord {
     public String reversePrefix(String word, char ch) {

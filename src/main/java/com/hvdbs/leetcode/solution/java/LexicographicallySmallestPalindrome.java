@@ -6,11 +6,10 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Lexicographically Smallest Palindrome",
-        url = "https://leetcode.com/problems/lexicographically-smallest-palindrome"
-)
+        url = "https://leetcode.com/problems/lexicographically-smallest-palindrome",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(N)")
 public class LexicographicallySmallestPalindrome {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(n)
     public String makeSmallestPalindrome(String s) {
         char[] tmp = s.toCharArray();
 

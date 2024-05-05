@@ -1,3 +1,4 @@
+--difficulty=EASY;name=Queries Quality and Percentage;url=https://leetcode.com/problems/queries-quality-and-percentage
 SELECT query_name,
        round(summ / cnt, 2) AS                          quality,
        round(1 / (SELECT count(*) FROM Queries WHERE rating <= 3) * 100, 2) poor_query_percentage

@@ -3,7 +3,8 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "DI String Match",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "DI String Match",
         url = "https://leetcode.com/problems/di-string-match/")
 public class DiStringMatch {
     public int[] diStringMatch(String s) {

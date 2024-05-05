@@ -9,9 +9,10 @@ import java.util.Set;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Find Missing and Repeated Values",
-        url = "https://leetcode.com/problems/find-missing-and-repeated-values")
+        url = "https://leetcode.com/problems/find-missing-and-repeated-values",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(N")
 public class FindMissingAndRepeatedValues {
-    //TC: O(N), SC: O(N)
     public int[] findMissingAndRepeatedValues(int[][] grid) {
         int[] ans = new int[2];
 

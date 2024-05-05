@@ -6,11 +6,10 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Minimum Value to Get Positive Step by Step Sum",
-        url = "https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/"
-)
+        url = "https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/",
+        timeComplexity = "O(1)",
+        spaceComplexity = "O(1)")
 public class MinimumValueToGetPositiveStepByStepSum {
-    //My Time Complexity: O(1)
-    //My Space complexity: O(1)
     public int minStartValue(int[] nums) {
         int s = 0;
         int m = 0;

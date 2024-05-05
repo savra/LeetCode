@@ -5,7 +5,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.Arrays;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Largest Positive Integer That Exists With Its Negative",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Largest Positive Integer That Exists With Its Negative",
         url = "https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/")
 public class LargestPositiveIntegerThatExistsWithItsNegative {
     public static int findMaxK(int[] nums) {

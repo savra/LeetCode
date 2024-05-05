@@ -8,8 +8,9 @@ import java.math.BigInteger;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Sign of the Product of an Array",
-        url = "https://leetcode.com/problems/sign-of-the-product-of-an-array"
-)
+        url = "https://leetcode.com/problems/sign-of-the-product-of-an-array",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class SignOfTheProductOfAnArray {
     public int arraySign(int[] nums) {
         //TC: O(N), SC: O(1)

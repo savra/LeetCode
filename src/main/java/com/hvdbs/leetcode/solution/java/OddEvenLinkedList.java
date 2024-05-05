@@ -6,8 +6,9 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Odd Even Linked List",
-        url = "https://leetcode.com/problems/odd-even-linked-list"
-)
+        url = "https://leetcode.com/problems/odd-even-linked-list",
+        spaceComplexity = "O(1)",
+        timeComplexity = "O(N)")
 public class OddEvenLinkedList {
     public static class ListNode {
         int val;
@@ -26,8 +27,6 @@ public class OddEvenLinkedList {
         }
     }
 
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
     public ListNode oddEvenList(ListNode head) {
         if (head == null || head.next == null) {
             return head;

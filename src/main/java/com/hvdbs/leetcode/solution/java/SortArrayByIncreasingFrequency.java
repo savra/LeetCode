@@ -9,7 +9,8 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Sort Array by Increasing Frequency",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Sort Array by Increasing Frequency",
         url = "https://leetcode.com/problems/sort-array-by-increasing-frequency")
 public class SortArrayByIncreasingFrequency {
     public int[] frequencySort(int[] nums) {

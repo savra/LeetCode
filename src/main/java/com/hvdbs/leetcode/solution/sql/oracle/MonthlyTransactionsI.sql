@@ -1,3 +1,4 @@
+--difficulty=MEDIUM;name=Monthly Transactions I;url=https://leetcode.com/problems/monthly-transactions-i
 SELECT month,
        country,
        max(trans_count)                                         AS trans_count,

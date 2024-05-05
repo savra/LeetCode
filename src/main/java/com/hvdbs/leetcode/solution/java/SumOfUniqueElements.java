@@ -3,7 +3,8 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Sum of Unique Elements",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Sum of Unique Elements",
         url = "https://leetcode.com/problems/sum-of-unique-elements/")
 public class SumOfUniqueElements {
     public int sumOfUnique(int[] nums) {

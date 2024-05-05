@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Rotate Array",
-        url = "https://leetcode.com/problems/rotate-array"
-)
+        url = "https://leetcode.com/problems/rotate-array")
 public class RotateArray {
     public void rotate(int[] nums, int k) {
         k %= nums.length;

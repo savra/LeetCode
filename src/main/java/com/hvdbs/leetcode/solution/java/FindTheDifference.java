@@ -6,8 +6,9 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Find the Difference",
-        url = "https://leetcode.com/problems/find-the-difference"
-)
+        url = "https://leetcode.com/problems/find-the-difference",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class FindTheDifference {
     public char findTheDifference(String s, String t) {
         //TC: O(N + M), SC: O(N + M)

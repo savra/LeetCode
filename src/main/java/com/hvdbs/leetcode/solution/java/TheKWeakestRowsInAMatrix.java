@@ -5,7 +5,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.*;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "The K Weakest Rows in a Matrix",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "The K Weakest Rows in a Matrix",
         url = "https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix")
 public class TheKWeakestRowsInAMatrix {
     public int[] kWeakestRows(int[][] mat, int k) {

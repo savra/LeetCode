@@ -6,11 +6,10 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Majority Element",
-        url = "https://leetcode.com/problems/majority-element"
-)
+        url = "https://leetcode.com/problems/majority-element",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class MajorityElement {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
     public int majorityElement(int[] nums) {
         int votes = 0;
         int candidate = -1;

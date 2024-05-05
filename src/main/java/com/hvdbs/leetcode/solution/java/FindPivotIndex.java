@@ -6,10 +6,10 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Find Pivot Index",
-        url = "https://leetcode.com/problems/find-pivot-index")
+        url = "https://leetcode.com/problems/find-pivot-index",
+        spaceComplexity = "O(1)",
+        timeComplexity = "O(N^2)")
 public class FindPivotIndex {
-    //My Time Complexity: O(n^2)
-    //My Space complexity: O(1)
     public int pivotIndex(int[] nums) {
         int leftSum = 0;
         int rightSum = 0;

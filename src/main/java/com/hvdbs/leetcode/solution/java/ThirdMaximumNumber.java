@@ -6,12 +6,10 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Third Maximum Number",
-        url = "https://leetcode.com/problems/third-maximum-number"
-)
+        url = "https://leetcode.com/problems/third-maximum-number",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class ThirdMaximumNumber {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
-
     public int thirdMax(int[] nums) {
         long max1 = Long.MIN_VALUE;
         long max2 = Long.MIN_VALUE;

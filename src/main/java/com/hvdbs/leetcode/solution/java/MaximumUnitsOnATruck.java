@@ -5,7 +5,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.Arrays;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Maximum Units on a Truck",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Maximum Units on a Truck",
         url = "https://leetcode.com/problems/maximum-units-on-a-truck")
 public class MaximumUnitsOnATruck {
     public int maximumUnits(int[][] boxTypes, int truckSize) {

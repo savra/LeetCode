@@ -6,8 +6,9 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Remove Nth Node From End of List",
-        url = "https://leetcode.com/problems/remove-nth-node-from-end-of-list"
-)
+        url = "https://leetcode.com/problems/remove-nth-node-from-end-of-list",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class RemoveNthNodeFromEndOfList {
     public class ListNode {
         int val;
@@ -26,8 +27,6 @@ public class RemoveNthNodeFromEndOfList {
         }
     }
 
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
     public ListNode removeNthFromEnd(ListNode head, int n) {
         int i = 0;
 

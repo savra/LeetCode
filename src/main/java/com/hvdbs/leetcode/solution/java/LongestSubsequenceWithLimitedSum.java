@@ -5,7 +5,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.Arrays;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Longest Subsequence With Limited Sum",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Longest Subsequence With Limited Sum",
         url = "https://leetcode.com/problems/longest-subsequence-with-limited-sum/")
 public class LongestSubsequenceWithLimitedSum {
     public int[] answerQueries(int[] nums, int[] queries) {

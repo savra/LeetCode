@@ -1,3 +1,4 @@
+--difficulty=EASY;name=Students and Examinations;url=https://leetcode.com/problems/students-and-examinations
 select s.STUDENT_ID, s.student_name, sub.subject_name, count(e.student_id) as attended_exams
 from Students s
          cross join Subjects sub

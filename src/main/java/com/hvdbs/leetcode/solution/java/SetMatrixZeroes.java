@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Set Matrix Zeroes",
-        url = "https://leetcode.com/problems/set-matrix-zeroes"
-)
+        url = "https://leetcode.com/problems/set-matrix-zeroes")
 public class SetMatrixZeroes {
     public void setZeroes(int[][] m) {
         boolean firstColumnsZero = false;

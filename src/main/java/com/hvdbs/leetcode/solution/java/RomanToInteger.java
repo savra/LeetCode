@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Roman to Integer",
-        url = "https://leetcode.com/problems/roman-to-integer"
-)
+        url = "https://leetcode.com/problems/roman-to-integer")
 public class RomanToInteger {
     public int romanToInt(String s) {
         int result = 0;

@@ -1,3 +1,4 @@
+--difficulty=EASY;name=Rearrange Products Table;url=https://leetcode.com/problems/rearrange-products-table
 select *
 from (
          SELECT product_id,

@@ -6,11 +6,10 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Find Nearest Point That Has the Same X or Y Coordinate",
-        url = "https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate"
-)
+        url = "https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class FindNearestPointThatHasTheSameXOrYCoordinate {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
     public static int nearestValidPoint(int x, int y, int[][] points) {
         int smallestManhattan = Integer.MAX_VALUE;
         int smallestManhattanIndex = -1;

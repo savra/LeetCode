@@ -1,3 +1,4 @@
+--difficulty=EASY;name=Big Countries;url=https://leetcode.com/problems/big-countries
 SELECT name, population, area
 FROM World
 WHERE area >= 3000000

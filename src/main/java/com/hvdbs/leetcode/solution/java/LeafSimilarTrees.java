@@ -7,7 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Leaf-Similar Trees", url = "https://leetcode.com/problems/leaf-similar-trees/description/")
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Leaf-Similar Trees",
+        url = "https://leetcode.com/problems/leaf-similar-trees/description/")
 public class LeafSimilarTrees {
 
     public static class TreeNode {

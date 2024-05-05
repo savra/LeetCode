@@ -5,7 +5,9 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.Arrays;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Richest Customer Wealth", url = "https://leetcode.com/problems/richest-customer-wealth/")
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Richest Customer Wealth",
+        url = "https://leetcode.com/problems/richest-customer-wealth/")
 public class RichestCustomerWealth {
     public static int maximumWealth(int[][] accounts) {
         int[] wealths = new int[accounts.length];

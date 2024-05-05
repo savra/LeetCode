@@ -8,7 +8,9 @@ import java.util.Map;
 
 @LeetCodeInfo(difficulty = Difficulty.EASY,
         name = "Two Sum",
-        url = "https://leetcode.com/problems/two-sum/")
+        url = "https://leetcode.com/problems/two-sum/",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         //TC: O(N), SC: O(1)

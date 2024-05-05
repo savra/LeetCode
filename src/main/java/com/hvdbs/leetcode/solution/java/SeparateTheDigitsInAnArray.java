@@ -6,7 +6,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 import java.util.ArrayList;
 import java.util.List;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Separate the Digits in an Array",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Separate the Digits in an Array",
         url = "https://leetcode.com/problems/separate-the-digits-in-an-array/description/")
 public class SeparateTheDigitsInAnArray {
     public int[] separateDigits(int[] nums) {

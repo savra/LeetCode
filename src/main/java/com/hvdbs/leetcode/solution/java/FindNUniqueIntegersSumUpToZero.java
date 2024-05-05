@@ -5,7 +5,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.stream.IntStream;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Find N Unique Integers Sum up to Zero",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Find N Unique Integers Sum up to Zero",
         url = "https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/")
 public class FindNUniqueIntegersSumUpToZero {
     public int[] sumZero(int n) {

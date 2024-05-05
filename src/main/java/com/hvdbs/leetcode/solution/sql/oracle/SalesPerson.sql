@@ -1,3 +1,4 @@
+--difficulty=EASY;name=Sales Person;url=https://leetcode.com/problems/sales-person
 SELECT sp.name
 FROM SalesPerson sp
 WHERE NOT EXISTS

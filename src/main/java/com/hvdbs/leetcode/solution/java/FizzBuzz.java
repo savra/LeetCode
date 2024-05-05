@@ -6,7 +6,9 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 import java.util.ArrayList;
 import java.util.List;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Fizz Buzz", url = "https://leetcode.com/problems/fizz-buzz")
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Fizz Buzz",
+        url = "https://leetcode.com/problems/fizz-buzz")
 public class FizzBuzz {
     public List<String> fizzBuzz(int n) {
         List<String> result = new ArrayList<>();

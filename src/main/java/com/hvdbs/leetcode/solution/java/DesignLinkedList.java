@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Design Linked List",
-        url = "https://leetcode.com/problems/design-linked-list/"
-)
+        url = "https://leetcode.com/problems/design-linked-list/")
 public class DesignLinkedList {
     Node head;
     int length = 0;

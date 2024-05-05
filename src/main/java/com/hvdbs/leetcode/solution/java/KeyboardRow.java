@@ -6,7 +6,9 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 import java.util.*;
 import java.util.stream.Collectors;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Keyboard Row", url = "https://leetcode.com/problems/keyboard-row/")
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Keyboard Row",
+        url = "https://leetcode.com/problems/keyboard-row/")
 public class KeyboardRow {
     private static final Set<Character> FIRST_ROW = "qwertyuiop".chars().mapToObj(chr -> (char) chr).collect(Collectors.toSet());
     private static final Set<Character> SECOND_ROW = "asdfghjkl".chars().mapToObj(chr -> (char) chr).collect(Collectors.toSet());

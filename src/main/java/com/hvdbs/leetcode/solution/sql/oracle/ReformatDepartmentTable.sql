@@ -1,3 +1,4 @@
+--difficulty=EASY;name=Reformat Department Table;url=https://leetcode.com/problems/reformat-department-table
 SELECT id,
        sum(CASE month WHEN 'Jan' THEN revenue END) AS Jan_Revenue,
        sum(CASE month WHEN 'Feb' THEN revenue END) AS Feb_Revenue,

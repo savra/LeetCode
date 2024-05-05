@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Number Complement",
-        url = "https://leetcode.com/problems/number-complement"
-)
+        url = "https://leetcode.com/problems/number-complement")
 public class NumberComplement {
     public static int findComplement(int num) {
         long pow2 = 1;

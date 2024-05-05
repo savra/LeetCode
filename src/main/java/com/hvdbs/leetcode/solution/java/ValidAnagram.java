@@ -8,11 +8,10 @@ import java.util.Arrays;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Valid Anagram",
-        url = "https://leetcode.com/problems/valid-anagram"
-)
+        url = "https://leetcode.com/problems/valid-anagram",
+        timeComplexity = "O(N * LogN)",
+        spaceComplexity = "O(N + M)")
 public class ValidAnagram {
-    //TC: O(N * LogN), SC: O(N + M)
-
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
             return false;

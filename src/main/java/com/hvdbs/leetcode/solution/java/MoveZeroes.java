@@ -3,13 +3,12 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(
-        difficulty = Difficulty.EASY,
+@LeetCodeInfo(difficulty = Difficulty.EASY,
         name = "Move Zeroes",
-        url = "https://leetcode.com/problems/move-zeroes/description/")
+        url = "https://leetcode.com/problems/move-zeroes/description/",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class MoveZeroes {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
     public void moveZeroes(int[] nums) {
         if (nums == null || nums.length <= 1) {
             return;

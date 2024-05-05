@@ -3,7 +3,8 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Smallest Index With Equal Value",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Smallest Index With Equal Value",
         url = "https://leetcode.com/problems/smallest-index-with-equal-value/")
 public class SmallestIndexWithEqualValue {
     public int smallestEqual(int[] nums) {

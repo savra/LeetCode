@@ -1,3 +1,4 @@
+--difficulty=MEDIUM;name=Market Analysis I;url=https://leetcode.com/problems/market-analysis-i
 SELECT u.user_id                                    AS buyer_id,
        to_char(u.join_date, 'yyyy-mm-dd')           AS join_date,
        (SELECT count(*)

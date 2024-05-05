@@ -6,11 +6,10 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Two Furthest Houses With Different Colors",
-        url = "https://leetcode.com/problems/two-furthest-houses-with-different-colors"
-)
+        url = "https://leetcode.com/problems/two-furthest-houses-with-different-colors",
+        timeComplexity = "O(N^2)",
+        spaceComplexity = "O(1)")
 public class TwoFurthestHousesWithDifferentColors {
-    //My Time Complexity: O(n^2)
-    //My Space complexity: O(1)
     public int maxDistance(int[] colors) {
         int result = 0;
 

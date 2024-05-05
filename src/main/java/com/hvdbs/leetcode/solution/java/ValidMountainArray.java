@@ -5,10 +5,10 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 @LeetCodeInfo(difficulty = Difficulty.EASY,
         name = "Valid Mountain Array",
-        url = "https://leetcode.com/problems/valid-mountain-array/")
+        url = "https://leetcode.com/problems/valid-mountain-array/",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class ValidMountainArray {
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
     public boolean validMountainArray(int[] arr) {
         if (arr == null || arr.length < 3) {
             return false;

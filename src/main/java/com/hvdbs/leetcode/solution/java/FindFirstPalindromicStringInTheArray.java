@@ -3,7 +3,8 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Find First Palindromic String in the Array",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Find First Palindromic String in the Array",
         url = "https://leetcode.com/problems/find-first-palindromic-string-in-the-array/")
 public class FindFirstPalindromicStringInTheArray {
     public String firstPalindrome(String[] words) {

@@ -5,7 +5,9 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.Arrays;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Remove Element", url = "https://leetcode.com/problems/remove-element/")
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Remove Element",
+        url = "https://leetcode.com/problems/remove-element/")
 public class RemoveElement {
     public int removeElement(int[] nums, int val) {
         int result = 0;

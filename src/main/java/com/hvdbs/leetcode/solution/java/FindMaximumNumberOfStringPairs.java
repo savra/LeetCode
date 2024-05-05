@@ -6,11 +6,10 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Find Maximum Number of String Pairs",
-        url = "https://leetcode.com/problems/find-maximum-number-of-string-pairs"
-)
+        url = "https://leetcode.com/problems/find-maximum-number-of-string-pairs",
+        timeComplexity = "O(N^2)",
+        spaceComplexity = "O(1)")
 public class FindMaximumNumberOfStringPairs {
-    //My Time Complexity: O(n^2)
-    //My Space complexity: O(1)
     public int maximumNumberOfStringPairs(String[] words) {
         int pairCount = 0;
 

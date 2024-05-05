@@ -3,7 +3,8 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Maximum Depth of Binary Tree",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Maximum Depth of Binary Tree",
         url = "https://leetcode.com/problems/maximum-depth-of-binary-tree/")
 public class MaximumDepthOfBinaryTree {
     private int resLeft;

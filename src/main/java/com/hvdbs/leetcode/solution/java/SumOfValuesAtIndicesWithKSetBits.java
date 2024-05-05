@@ -9,9 +9,8 @@ import java.util.List;
         difficulty = Difficulty.EASY,
         name = "Sum of Values at Indices With K Set Bits",
         url = "https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/",
-        timeComplexity = "O(n)",
-        spaceComplexity = "O(1)"
-)
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class SumOfValuesAtIndicesWithKSetBits {
     public int sumIndicesWithKSetBits(List<Integer> nums, int k) {
         int sum = 0;

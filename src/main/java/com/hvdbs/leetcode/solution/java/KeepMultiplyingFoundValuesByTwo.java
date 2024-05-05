@@ -7,7 +7,8 @@ import java.util.Arrays;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Keep Multiplying Found Values by Two",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Keep Multiplying Found Values by Two",
         url = "https://leetcode.com/problems/keep-multiplying-found-values-by-two/")
 public class KeepMultiplyingFoundValuesByTwo {
     public int findFinalValue(int[] nums, int original) {

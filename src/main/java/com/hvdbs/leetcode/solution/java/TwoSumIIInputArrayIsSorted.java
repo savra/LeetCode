@@ -6,8 +6,9 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Two Sum II - Input Array Is Sorted",
-        url = "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted"
-)
+        url = "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted",
+        timeComplexity = "O(N^2)",
+        spaceComplexity = "O(1)")
 public class TwoSumIIInputArrayIsSorted {
     //My Time Complexity: O(n^2)
     //My Space complexity: O(1)

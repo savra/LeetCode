@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Merge Two Sorted Lists",
-        url = "https://leetcode.com/problems/merge-two-sorted-lists"
-)
+        url = "https://leetcode.com/problems/merge-two-sorted-lists")
 public class MergeTwoSortedLists {
     public class ListNode {
         int val;

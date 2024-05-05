@@ -3,7 +3,8 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Find the Array Concatenation Value",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Find the Array Concatenation Value",
         url = "https://leetcode.com/problems/find-the-array-concatenation-value/")
 public class FindTheArrayConcatenationValue {
     public long findTheArrayConcVal(int[] nums) {

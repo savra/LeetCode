@@ -9,7 +9,9 @@ import java.util.Set;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Happy Number",
-        url = "https://leetcode.com/problems/happy-number")
+        url = "https://leetcode.com/problems/happy-number",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class HappyNumber {
     public boolean isHappy(int n) {
         /*//TC: O(N), SC: O(1)

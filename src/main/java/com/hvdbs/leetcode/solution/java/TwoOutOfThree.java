@@ -6,7 +6,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 import java.util.*;
 import java.util.stream.Collectors;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Two Out of Three",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Two Out of Three",
         url = "https://leetcode.com/problems/two-out-of-three")
 public class TwoOutOfThree {
     public List<Integer> twoOutOfThree(int[] nums1, int[] nums2, int[] nums3) {

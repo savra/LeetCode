@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Longest Common Prefix",
-        url = "https://leetcode.com/problems/longest-common-prefix"
-)
+        url = "https://leetcode.com/problems/longest-common-prefix")
 public class LongestCommonPrefix {
     public static String longestCommonPrefix(String[] strs) {
         if (strs.length == 1) {

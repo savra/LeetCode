@@ -9,8 +9,7 @@ import java.util.Deque;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Daily Temperatures",
-        url = "https://leetcode.com/problems/daily-temperatures"
-)
+        url = "https://leetcode.com/problems/daily-temperatures")
 public class DailyTemperatures {
     public int[] dailyTemperatures(int[] t) {
         int n = t.length;

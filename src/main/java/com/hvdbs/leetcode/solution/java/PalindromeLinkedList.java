@@ -6,8 +6,9 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Palindrome Linked List",
-        url = "https://leetcode.com/problems/palindrome-linked-list"
-)
+        url = "https://leetcode.com/problems/palindrome-linked-list",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class PalindromeLinkedList {
     public static class ListNode {
         int val;

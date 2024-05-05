@@ -9,8 +9,7 @@ import java.util.List;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Spiral Matrix",
-        url = "https://leetcode.com/problems/spiral-matrix/"
-)
+        url = "https://leetcode.com/problems/spiral-matrix/")
 public class SpiralMatrix {
     public List<Integer> spiralOrder(int[][] matrix) {
         int rowStart = 0, rowEnd = matrix.length - 1;

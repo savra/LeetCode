@@ -9,11 +9,10 @@ import java.util.Set;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Intersection of Two Linked Lists",
-        url = "https://leetcode.com/problems/intersection-of-two-linked-lists"
-)
+        url = "https://leetcode.com/problems/intersection-of-two-linked-lists",
+        timeComplexity = "O(M + N * LogM)",
+        spaceComplexity = "O(M)")
 public class IntersectionOfTwoLinkedLists {
-    //My Time Complexity: O(M+N∗logM)
-    //My Space complexity: O(M)
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         Set<ListNode> res = new HashSet<>();
 

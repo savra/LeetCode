@@ -7,7 +7,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Find Target Indices After Sorting Array",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Find Target Indices After Sorting Array",
         url = "https://leetcode.com/problems/find-target-indices-after-sorting-array/")
 public class FindTargetIndicesAfterSortingArray {
     public List<Integer> targetIndices(int[] nums, int target) {

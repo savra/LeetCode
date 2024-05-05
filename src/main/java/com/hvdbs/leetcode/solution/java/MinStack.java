@@ -9,8 +9,7 @@ import java.util.List;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Min Stack",
-        url = "https://leetcode.com/problems/min-stack"
-)
+        url = "https://leetcode.com/problems/min-stack")
 public class MinStack {
     private static class Node {
         int value;

@@ -11,8 +11,7 @@ import java.util.Map;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Intersection of Two Arrays II",
-        url = "https://leetcode.com/problems/intersection-of-two-arrays-ii"
-)
+        url = "https://leetcode.com/problems/intersection-of-two-arrays-ii")
 public class IntersectionOfTwoArraysII {
     public int[] intersect(int[] nums1, int[] nums2) {
         Map<Integer, Integer> m = new HashMap<>();

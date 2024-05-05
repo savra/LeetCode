@@ -6,11 +6,10 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Faulty Keyboard",
-        url = "https://leetcode.com/problems/faulty-keyboard"
-)
+        url = "https://leetcode.com/problems/faulty-keyboard",
+        timeComplexity = "O(N^2)",
+        spaceComplexity = "O(N)")
 public class FaultyKeyboard {
-    //My Time Complexity: O(n^2)
-    //My Space complexity: O(n)
     public static String finalString(String s) {
         StringBuilder sb = new StringBuilder();
 

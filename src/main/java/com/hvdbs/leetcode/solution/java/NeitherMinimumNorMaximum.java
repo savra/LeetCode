@@ -6,12 +6,10 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Neither Minimum nor Maximum",
-        url = "https://leetcode.com/problems/neither-minimum-nor-maximum"
-)
+        url = "https://leetcode.com/problems/neither-minimum-nor-maximum",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(1)")
 public class NeitherMinimumNorMaximum {
-
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
     public int findNonMinOrMax(int[] nums) {
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;

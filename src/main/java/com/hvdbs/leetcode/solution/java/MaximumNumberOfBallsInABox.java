@@ -7,7 +7,8 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Maximum Number of Balls in a Box",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Maximum Number of Balls in a Box",
         url = "https://leetcode.com/problems/maximum-number-of-balls-in-a-box")
 public class MaximumNumberOfBallsInABox {
     public int countBalls(int lowLimit, int highLimit) {

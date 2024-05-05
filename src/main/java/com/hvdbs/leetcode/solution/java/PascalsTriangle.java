@@ -6,7 +6,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 import java.util.ArrayList;
 import java.util.List;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Pascal's Triangle",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Pascal's Triangle",
         url = "https://leetcode.com/problems/pascals-triangle/")
 public class PascalsTriangle {
     public List<List<Integer>> generate(int numRows) {

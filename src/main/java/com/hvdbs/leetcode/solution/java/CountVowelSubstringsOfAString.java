@@ -9,8 +9,7 @@ import java.util.Set;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Count Vowel Substrings of a String",
-        url = "https://leetcode.com/problems/count-vowel-substrings-of-a-string/description/"
-)
+        url = "https://leetcode.com/problems/count-vowel-substrings-of-a-string/description/")
 public class CountVowelSubstringsOfAString {
     public int countVowelSubstrings(String word) {
         Set<Character> chars = new HashSet<>();

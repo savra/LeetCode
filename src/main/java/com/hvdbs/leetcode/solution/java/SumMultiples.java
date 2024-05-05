@@ -3,7 +3,8 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Sum Multiples",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Sum Multiples",
         url = "https://leetcode.com/problems/sum-multiples/")
 public class SumMultiples {
     public int sumOfMultiples(int n) {

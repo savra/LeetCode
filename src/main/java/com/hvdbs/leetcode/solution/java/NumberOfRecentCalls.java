@@ -6,7 +6,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 import java.util.ArrayList;
 import java.util.List;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Number of Recent Calls",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Number of Recent Calls",
         url = "https://leetcode.com/problems/number-of-recent-calls")
 public class NumberOfRecentCalls {
     private final List<Integer> pings = new ArrayList<>();

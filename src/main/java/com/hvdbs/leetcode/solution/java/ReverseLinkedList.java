@@ -4,11 +4,11 @@ import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 
-@LeetCodeInfo(
-        difficulty = Difficulty.EASY,
+@LeetCodeInfo(difficulty = Difficulty.EASY,
         name = "Reverse Linked List",
-        url = "https://leetcode.com/problems/reverse-linked-list"
-)
+        url = "https://leetcode.com/problems/reverse-linked-list",
+        spaceComplexity = "O(1)",
+        timeComplexity = "O(N)")
 public class ReverseLinkedList {
     public static class ListNode {
         int val;
@@ -40,7 +40,7 @@ public class ReverseLinkedList {
 
         ListNode prev = null;
 
-        for(ListNode cur = head, next = null; cur != null;) {
+        for (ListNode cur = head, next = null; cur != null; ) {
             next = cur.next;
             cur.next = prev;
             prev = cur;

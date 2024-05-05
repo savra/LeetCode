@@ -10,11 +10,10 @@ import java.util.List;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Minimum Absolute Difference",
-        url = "https://leetcode.com/problems/minimum-absolute-difference"
-)
+        url = "https://leetcode.com/problems/minimum-absolute-difference",
+        timeComplexity = "O(N * LogN)",
+        spaceComplexity = "O(N)")
 public class MinimumAbsoluteDifference {
-    //My Time Complexity: O(N * logN)
-    //My Space complexity: O(N)
     public List<List<Integer>> minimumAbsDifference(int[] arr) {
         Arrays.sort(arr);
 

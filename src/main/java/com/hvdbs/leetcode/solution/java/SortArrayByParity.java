@@ -6,7 +6,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 import java.util.ArrayList;
 import java.util.List;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Sort Array By Parity",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Sort Array By Parity",
         url = "https://leetcode.com/problems/sort-array-by-parity/")
 public class SortArrayByParity {
     public int[] sortArrayByParity(int[] nums) {

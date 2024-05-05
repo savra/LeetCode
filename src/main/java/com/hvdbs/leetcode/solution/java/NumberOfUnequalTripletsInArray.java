@@ -3,7 +3,8 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Number of Unequal Triplets in Array",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Number of Unequal Triplets in Array",
         url = "https://leetcode.com/problems/number-of-unequal-triplets-in-array")
 public class NumberOfUnequalTripletsInArray {
     public int unequalTriplets(int[] nums) {

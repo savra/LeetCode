@@ -6,7 +6,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 import java.util.HashMap;
 import java.util.Map;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "N-Repeated Element in Size 2N Array",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "N-Repeated Element in Size 2N Array",
         url = "https://leetcode.com/problems/n-repeated-element-in-size-2n-array/")
 public class NRepeatedElementInSize2NArray {
     public int repeatedNTimes(int[] nums) {

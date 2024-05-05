@@ -8,8 +8,7 @@ import java.util.*;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Diagonal Traverse",
-        url = "https://leetcode.com/problems/diagonal-traverse"
-)
+        url = "https://leetcode.com/problems/diagonal-traverse")
 public class DiagonalTraverse {
     public int[] findDiagonalOrder(int[][] mat) {
         if (mat == null || mat.length == 0) {

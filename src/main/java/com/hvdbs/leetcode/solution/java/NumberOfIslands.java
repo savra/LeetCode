@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Number of Islands",
-        url = "https://leetcode.com/problems/number-of-islands"
-)
+        url = "https://leetcode.com/problems/number-of-islands")
 public class NumberOfIslands {
     static class Node {
         int row;

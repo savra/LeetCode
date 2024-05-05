@@ -9,8 +9,7 @@ import java.util.Map;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "First Unique Character in a String",
-        url = "https://leetcode.com/problems/first-unique-character-in-a-string"
-)
+        url = "https://leetcode.com/problems/first-unique-character-in-a-string")
 public class FirstUniqueCharacterInAString {
     //TC: O(N), SC: O(N)
     public int firstUniqChar(String s) {

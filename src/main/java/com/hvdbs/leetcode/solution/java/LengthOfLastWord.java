@@ -6,8 +6,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 @LeetCodeInfo(
         difficulty = Difficulty.EASY,
         name = "Length of Last Word",
-        url = "https://leetcode.com/problems/length-of-last-word"
-)
+        url = "https://leetcode.com/problems/length-of-last-word")
 public class LengthOfLastWord {
     public int lengthOfLastWord(String s) {
         int i = s.length() - 1;

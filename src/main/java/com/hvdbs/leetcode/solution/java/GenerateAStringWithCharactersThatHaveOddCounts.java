@@ -6,7 +6,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Generate a String With Characters That Have Odd Counts",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Generate a String With Characters That Have Odd Counts",
         url = "https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/description/")
 public class GenerateAStringWithCharactersThatHaveOddCounts {
     public String generateTheString(int n) {

@@ -1,3 +1,4 @@
+--difficulty=EASY;name=Rising Temperature;url=https://leetcode.com/problems/rising-temperature
 SELECT id
 FROM (SELECT id,
              temperature,

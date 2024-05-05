@@ -6,7 +6,8 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 import java.util.ArrayList;
 import java.util.List;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Design an Ordered Stream",
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Design an Ordered Stream",
         url = "https://leetcode.com/problems/design-an-ordered-stream/description/")
 public class DesignAnOrderedStream {
     private int ptr;

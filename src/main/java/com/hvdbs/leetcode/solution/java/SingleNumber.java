@@ -6,8 +6,11 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 import java.util.HashSet;
 import java.util.Set;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY, name = "Single Number",
-        url = "https://leetcode.com/problems/single-number")
+@LeetCodeInfo(difficulty = Difficulty.EASY,
+        name = "Single Number",
+        url = "https://leetcode.com/problems/single-number",
+        timeComplexity = "O(N)",
+        spaceComplexity = "O(N)")
 public class SingleNumber {
     public static int singleNumber(int[] nums) {
         /* TC: O(N), SC: O(N)

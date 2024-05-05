@@ -3,8 +3,7 @@ package com.hvdbs.leetcode.solution.java;
 import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(
-        difficulty = Difficulty.EASY,
+@LeetCodeInfo(difficulty = Difficulty.EASY,
         name = "Maximum Strong Pair XOR I",
         url = "https://leetcode.com/problems/maximum-strong-pair-xor-i")
 public class MaximumStrongPairXORI {
