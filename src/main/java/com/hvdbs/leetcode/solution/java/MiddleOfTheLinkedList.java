@@ -1,7 +1,7 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.CodeInfo;
-import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
+import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 @CodeInfo(name = "Middle of the Linked List",
         difficulty = Difficulty.EASY,
