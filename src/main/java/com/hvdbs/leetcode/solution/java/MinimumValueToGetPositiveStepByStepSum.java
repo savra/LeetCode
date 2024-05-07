@@ -1,9 +1,9 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(
+@CodeInfo(
         difficulty = Difficulty.EASY,
         name = "Minimum Value to Get Positive Step by Step Sum",
         url = "https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/",

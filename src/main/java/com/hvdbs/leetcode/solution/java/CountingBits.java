@@ -1,11 +1,11 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.stream.Stream;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY,
+@CodeInfo(difficulty = Difficulty.EASY,
         url = "https://leetcode.com/problems/counting-bits",
         name = "Counting Bits")
 public class CountingBits {

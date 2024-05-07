@@ -1,12 +1,12 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.Arrays;
 import java.util.Comparator;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY,
+@CodeInfo(difficulty = Difficulty.EASY,
         name = "Sort Integers by The Number of 1 Bits",
         url = "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/")
 public class SortIntegersByTheNumberOf1Bits {

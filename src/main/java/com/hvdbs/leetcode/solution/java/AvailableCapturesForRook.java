@@ -1,9 +1,9 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY,
+@CodeInfo(difficulty = Difficulty.EASY,
         name = "Available Captures for Rook",
         url = "https://leetcode.com/problems/available-captures-for-rook/")
 public class AvailableCapturesForRook {

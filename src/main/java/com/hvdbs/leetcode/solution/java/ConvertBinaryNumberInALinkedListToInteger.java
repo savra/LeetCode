@@ -1,9 +1,9 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY,
+@CodeInfo(difficulty = Difficulty.EASY,
         name = "Convert Binary Number in a Linked List to Integer",
         url = "https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/")
 public class ConvertBinaryNumberInALinkedListToInteger {

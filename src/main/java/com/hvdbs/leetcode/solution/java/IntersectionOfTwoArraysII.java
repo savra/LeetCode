@@ -1,6 +1,6 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@LeetCodeInfo(
+@CodeInfo(
         difficulty = Difficulty.EASY,
         name = "Intersection of Two Arrays II",
         url = "https://leetcode.com/problems/intersection-of-two-arrays-ii")

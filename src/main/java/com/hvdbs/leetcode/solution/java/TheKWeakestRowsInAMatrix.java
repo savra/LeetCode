@@ -1,11 +1,11 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.*;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY,
+@CodeInfo(difficulty = Difficulty.EASY,
         name = "The K Weakest Rows in a Matrix",
         url = "https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix")
 public class TheKWeakestRowsInAMatrix {

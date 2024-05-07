@@ -1,11 +1,11 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.Arrays;
 
-@LeetCodeInfo(
+@CodeInfo(
         difficulty = Difficulty.EASY,
         name = "Valid Anagram",
         url = "https://leetcode.com/problems/valid-anagram",

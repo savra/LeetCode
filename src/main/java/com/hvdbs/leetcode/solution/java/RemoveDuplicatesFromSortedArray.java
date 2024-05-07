@@ -1,13 +1,9 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
-
-@LeetCodeInfo(
+@CodeInfo(
         difficulty = Difficulty.EASY,
         name = "Remove Duplicates from Sorted Array",
         url = "https://leetcode.com/problems/remove-duplicates-from-sorted-array/")

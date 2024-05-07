@@ -9,7 +9,7 @@ import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(value = ElementType.TYPE)
-public @interface LeetCodeInfo {
+public @interface CodeInfo {
     Difficulty difficulty();
 
     String name();

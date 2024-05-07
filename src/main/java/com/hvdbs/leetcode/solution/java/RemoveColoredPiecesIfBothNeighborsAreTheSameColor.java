@@ -1,9 +1,9 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(
+@CodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Remove Colored Pieces if Both Neighbors are the Same Color",
         url = "https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/")

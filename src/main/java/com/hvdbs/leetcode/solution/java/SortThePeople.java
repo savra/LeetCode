@@ -1,13 +1,13 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.AbstractMap;
 import java.util.Comparator;
 import java.util.stream.IntStream;
 
-@LeetCodeInfo(
+@CodeInfo(
         difficulty = Difficulty.EASY,
         name = "Sort the People",
         url = "https://leetcode.com/problems/sort-the-people/")

@@ -1,12 +1,12 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.HashMap;
 import java.util.Map;
 
-@LeetCodeInfo(
+@CodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Copy List with Random Pointer",
         url = "https://leetcode.com/problems/copy-list-with-random-pointer",

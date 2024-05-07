@@ -34,16 +34,16 @@ public class JavaStatisticsGenerateStrategy implements GenerateStrategy {
                             String className = PACKAGE_NAME + "." + solution.substring(0, solution.lastIndexOf('.'));
 
                             try {
-                                LeetCodeInfo leetCodeInfo = Class.forName(className).getAnnotation(LeetCodeInfo.class);
+                                CodeInfo codeInfo = Class.forName(className).getAnnotation(CodeInfo.class);
 
-                                if (leetCodeInfo != null) {
+                                if (codeInfo != null) {
                                     return OutputLeetCodeFormat.builder()
-                                            .difficulty(leetCodeInfo.difficulty())
-                                            .name(leetCodeInfo.name())
-                                            .problemUrl(leetCodeInfo.url())
+                                            .difficulty(codeInfo.difficulty())
+                                            .name(codeInfo.name())
+                                            .problemUrl(codeInfo.url())
                                             .solutionUrl(GITHUB_REPOSITORY_BASE_URL + "/java/" + solution.replace("class", "java"))
-                                            .timeComplexity(leetCodeInfo.timeComplexity())
-                                            .spaceComplexity(leetCodeInfo.spaceComplexity())
+                                            .timeComplexity(codeInfo.timeComplexity())
+                                            .spaceComplexity(codeInfo.spaceComplexity())
                                             .build();
                                 }
 

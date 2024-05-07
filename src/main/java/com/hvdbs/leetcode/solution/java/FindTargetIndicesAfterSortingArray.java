@@ -1,13 +1,13 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY,
+@CodeInfo(difficulty = Difficulty.EASY,
         name = "Find Target Indices After Sorting Array",
         url = "https://leetcode.com/problems/find-target-indices-after-sorting-array/")
 public class FindTargetIndicesAfterSortingArray {

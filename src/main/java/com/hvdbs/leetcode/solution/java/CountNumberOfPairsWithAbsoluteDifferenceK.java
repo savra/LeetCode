@@ -1,9 +1,9 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY,
+@CodeInfo(difficulty = Difficulty.EASY,
         name = "Count Number of Pairs With Absolute Difference K",
         url = "https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/description/")
 public class CountNumberOfPairsWithAbsoluteDifferenceK {

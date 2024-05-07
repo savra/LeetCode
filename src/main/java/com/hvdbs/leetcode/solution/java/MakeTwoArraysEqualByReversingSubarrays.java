@@ -1,11 +1,11 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.Arrays;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY,
+@CodeInfo(difficulty = Difficulty.EASY,
         name = "Make Two Arrays Equal by Reversing Subarrays",
         url = "https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/")
 public class MakeTwoArraysEqualByReversingSubarrays {

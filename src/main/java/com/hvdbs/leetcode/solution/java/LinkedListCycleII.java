@@ -1,10 +1,10 @@
 package com.hvdbs.leetcode.solution.java;
 
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(
+@CodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Linked List Cycle II",
         url = "https://leetcode.com/problems/linked-list-cycle-ii")

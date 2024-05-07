@@ -1,9 +1,9 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(name = "Middle of the Linked List",
+@CodeInfo(name = "Middle of the Linked List",
         difficulty = Difficulty.EASY,
         url = "https://leetcode.com/problems/middle-of-the-linked-list/description/")
 public class MiddleOfTheLinkedList {

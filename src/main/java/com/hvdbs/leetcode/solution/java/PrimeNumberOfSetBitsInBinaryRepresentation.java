@@ -1,9 +1,9 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY,
+@CodeInfo(difficulty = Difficulty.EASY,
         name = "Prime Number of Set Bits in Binary Representation",
         url = "https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/")
 public class PrimeNumberOfSetBitsInBinaryRepresentation {

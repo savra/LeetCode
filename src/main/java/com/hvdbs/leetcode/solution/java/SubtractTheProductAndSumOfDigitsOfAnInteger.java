@@ -1,9 +1,9 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY,
+@CodeInfo(difficulty = Difficulty.EASY,
         name = "Subtract the Product and Sum of Digits of an Integer",
         url = "https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/description/")
 public class SubtractTheProductAndSumOfDigitsOfAnInteger {

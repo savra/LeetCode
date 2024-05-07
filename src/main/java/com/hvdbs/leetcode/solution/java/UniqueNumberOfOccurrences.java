@@ -1,13 +1,13 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY,
+@CodeInfo(difficulty = Difficulty.EASY,
         name = "Unique Number of Occurrences",
         url = "https://leetcode.com/problems/unique-number-of-occurrences/")
 public class UniqueNumberOfOccurrences {

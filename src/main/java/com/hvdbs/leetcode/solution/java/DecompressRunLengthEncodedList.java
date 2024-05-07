@@ -1,13 +1,13 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY,
+@CodeInfo(difficulty = Difficulty.EASY,
         name = "Decompress Run-Length Encoded List",
         url = "https://leetcode.com/problems/decompress-run-length-encoded-list/")
 public class DecompressRunLengthEncodedList {

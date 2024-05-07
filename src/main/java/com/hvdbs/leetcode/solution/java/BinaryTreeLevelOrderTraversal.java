@@ -1,6 +1,6 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.ArrayDeque;
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
 
-@LeetCodeInfo(
+@CodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Binary Tree Level Order Traversal",
         url = "https://leetcode.com/problems/binary-tree-level-order-traversal")

@@ -1,13 +1,13 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.Arrays;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY,
+@CodeInfo(difficulty = Difficulty.EASY,
         name = "Keep Multiplying Found Values by Two",
         url = "https://leetcode.com/problems/keep-multiplying-found-values-by-two/")
 public class KeepMultiplyingFoundValuesByTwo {

@@ -1,11 +1,11 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.Arrays;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY,
+@CodeInfo(difficulty = Difficulty.EASY,
         name = "Number Of Rectangles That Can Form The Largest Square",
         url = "https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/")
 public class NumberOfRectanglesThatCanFormTheLargestSquare {

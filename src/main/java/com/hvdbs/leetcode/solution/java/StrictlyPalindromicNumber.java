@@ -1,9 +1,9 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
-@LeetCodeInfo(difficulty = Difficulty.MEDIUM,
+@CodeInfo(difficulty = Difficulty.MEDIUM,
         name = "Strictly Palindromic Number",
         url = "https://leetcode.com/problems/strictly-palindromic-number/description/")
 public class StrictlyPalindromicNumber {

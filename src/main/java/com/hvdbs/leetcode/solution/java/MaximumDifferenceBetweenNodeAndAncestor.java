@@ -1,13 +1,5 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
-import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
-import com.sun.source.tree.Tree;
-
-import java.util.AbstractMap;
-import java.util.ArrayList;
-import java.util.List;
-
 public class MaximumDifferenceBetweenNodeAndAncestor {
     public static class TreeNode {
         int val;

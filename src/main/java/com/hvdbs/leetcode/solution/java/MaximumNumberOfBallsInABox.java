@@ -1,13 +1,13 @@
 package com.hvdbs.leetcode.solution.java;
 
-import com.hvdbs.leetcode.statsgenerator.LeetCodeInfo;
+import com.hvdbs.leetcode.statsgenerator.CodeInfo;
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
 
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
-@LeetCodeInfo(difficulty = Difficulty.EASY,
+@CodeInfo(difficulty = Difficulty.EASY,
         name = "Maximum Number of Balls in a Box",
         url = "https://leetcode.com/problems/maximum-number-of-balls-in-a-box")
 public class MaximumNumberOfBallsInABox {
