@@ -1,6 +1,7 @@
 package com.hvdbs.leetcode.statsgenerator;
 
 import com.hvdbs.leetcode.statsgenerator.enums.Difficulty;
+import org.springframework.util.StringUtils;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -14,12 +15,12 @@ import java.util.stream.Collectors;
 import static com.hvdbs.leetcode.statsgenerator.StatisticsConstants.GITHUB_REPOSITORY_BASE_URL;
 
 public class JavaStatisticsGenerateStrategy implements GenerateStrategy {
-    private static final String PACKAGE_NAME = "com.hvdbs.leetcode.solution.java";
-    private static final String LANGUAGE = "Java";
+    private static final String LANGUAGE = "java";
+    private static final String SOLUTION_PACKAGE_NAME = "com.hvdbs.leetcode.solution" + "." + LANGUAGE;
 
     @Override
     public void generate() {
-        try (InputStream inputStream = ClassLoader.getSystemClassLoader().getResourceAsStream(PACKAGE_NAME.replace('.', '/'))) {
+        try (InputStream inputStream = ClassLoader.getSystemClassLoader().getResourceAsStream(SOLUTION_PACKAGE_NAME.replace('.', '/'))) {
             if (inputStream == null) {
                 return;
             }
@@ -27,11 +28,11 @@ public class JavaStatisticsGenerateStrategy implements GenerateStrategy {
             try (BufferedWriter bufferedWriter = Files.newBufferedWriter(Paths.get("README.md"), StandardOpenOption.APPEND);
                  BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream))) {
                 bufferedWriter.newLine();
-                bufferedWriter.append("## " + LANGUAGE);
+                bufferedWriter.append("## ").append(StringUtils.capitalize(LANGUAGE));
 
                 Map<Difficulty, List<OutputLeetCodeFormat>> difficultyListMap = bufferedReader.lines()
                         .map(solution -> {
-                            String className = PACKAGE_NAME + "." + solution.substring(0, solution.lastIndexOf('.'));
+                            String className = SOLUTION_PACKAGE_NAME + "." + solution.substring(0, solution.lastIndexOf('.'));
 
                             try {
                                 CodeInfo codeInfo = Class.forName(className).getAnnotation(CodeInfo.class);

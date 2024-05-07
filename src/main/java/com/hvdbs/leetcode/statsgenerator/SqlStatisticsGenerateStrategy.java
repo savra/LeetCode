@@ -15,6 +15,7 @@ import static com.hvdbs.leetcode.statsgenerator.StatisticsConstants.GITHUB_REPOS
 
 @Slf4j
 public class SqlStatisticsGenerateStrategy implements GenerateStrategy {
+    private static final String SOLUTION_PACKAGE_NAME = "com.hvdbs.leetcode.solution";
     private Path basePackagePath = Path.of(String.join(FileSystems.getDefault().getSeparator(),
             "src", "main", "java", "com", "hvdbs", "leetcode", "solution", "sql"));
     private final SqlDialect sqlDialect;
