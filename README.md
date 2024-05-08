@@ -2,6 +2,23 @@
 
 ## Oracle
 <details>
+<summary>MEDIUM</summary>
+
+|Name|Problem|Solution|
+|---|---|---|
+|Capital Gain/Loss|https://leetcode.com/problems/capital-gainloss|<a href='null/SQL/oracle/CapitalGainLoss.sql'>Capital Gain/Loss</a>|
+|Confirmation Rate|https://leetcode.com/problems/confirmation-rate|<a href='null/SQL/oracle/ConfirmationRate.sql'>Confirmation Rate</a>|
+|Tree Node|https://leetcode.com/problems/tree-node|<a href='null/SQL/oracle/TreeNode.sql'>Tree Node</a>|
+|Rank Scores|https://leetcode.com/problems/rank-scores|<a href='null/SQL/oracle/RankScores.sql'>Rank Scores</a>|
+|Last Person to Fit in the Bus|https://leetcode.com/problems/last-person-to-fit-in-the-bus|<a href='null/SQL/oracle/LastPersonToFitInTheBus.sql'>Last Person to Fit in the Bus</a>|
+|Investments in 2016|https://leetcode.com/problems/investments-in-2016|<a href='null/SQL/oracle/InvestmentsIn2016.sql'>Investments in 2016</a>|
+|Managers with at Least 5 Direct Reports|https://leetcode.com/problems/managers-with-at-least-5-direct-reports|<a href='null/SQL/oracle/ManagersWithAtLeast5DirectReports.sql'>Managers with at Least 5 Direct Reports</a>|
+|Monthly Transactions I|https://leetcode.com/problems/monthly-transactions-i|<a href='null/SQL/oracle/MonthlyTransactionsI.sql'>Monthly Transactions I</a>|
+|Exchange Seats|https://leetcode.com/problems/exchange-seats|<a href='null/SQL/oracle/ExchangeSeats.sql'>Exchange Seats</a>|
+|Market Analysis I|https://leetcode.com/problems/market-analysis-i|<a href='null/SQL/oracle/MarketAnalysisI.sql'>Market Analysis I</a>|
+|Customers Who Bought All Products|https://leetcode.com/problems/customers-who-bought-all-products|<a href='null/SQL/oracle/CustomersWhoBoughtAllProducts.sql'>Customers Who Bought All Products</a>|
+</details>
+<details>
 <summary>EASY</summary>
 
 |Name|Problem|Solution|
@@ -54,23 +71,6 @@
 |Employees With Missing Information|https://leetcode.com/problems/employees-with-missing-information|<a href='null/SQL/oracle/EmployeesWithMissingInformation.sql'>Employees With Missing Information</a>|
 |Sales Analysis III|https://leetcode.com/problems/sales-analysis-iii|<a href='null/SQL/oracle/SalesAnalysisIII.sql'>Sales Analysis III</a>|
 |Top Travellers|https://leetcode.com/problems/top-travellers|<a href='null/SQL/oracle/TopTravellers.sql'>Top Travellers</a>|
-</details>
-<details>
-<summary>MEDIUM</summary>
-
-|Name|Problem|Solution|
-|---|---|---|
-|Capital Gain/Loss|https://leetcode.com/problems/capital-gainloss|<a href='null/SQL/oracle/CapitalGainLoss.sql'>Capital Gain/Loss</a>|
-|Confirmation Rate|https://leetcode.com/problems/confirmation-rate|<a href='null/SQL/oracle/ConfirmationRate.sql'>Confirmation Rate</a>|
-|Tree Node|https://leetcode.com/problems/tree-node|<a href='null/SQL/oracle/TreeNode.sql'>Tree Node</a>|
-|Rank Scores|https://leetcode.com/problems/rank-scores|<a href='null/SQL/oracle/RankScores.sql'>Rank Scores</a>|
-|Last Person to Fit in the Bus|https://leetcode.com/problems/last-person-to-fit-in-the-bus|<a href='null/SQL/oracle/LastPersonToFitInTheBus.sql'>Last Person to Fit in the Bus</a>|
-|Investments in 2016|https://leetcode.com/problems/investments-in-2016|<a href='null/SQL/oracle/InvestmentsIn2016.sql'>Investments in 2016</a>|
-|Managers with at Least 5 Direct Reports|https://leetcode.com/problems/managers-with-at-least-5-direct-reports|<a href='null/SQL/oracle/ManagersWithAtLeast5DirectReports.sql'>Managers with at Least 5 Direct Reports</a>|
-|Monthly Transactions I|https://leetcode.com/problems/monthly-transactions-i|<a href='null/SQL/oracle/MonthlyTransactionsI.sql'>Monthly Transactions I</a>|
-|Exchange Seats|https://leetcode.com/problems/exchange-seats|<a href='null/SQL/oracle/ExchangeSeats.sql'>Exchange Seats</a>|
-|Market Analysis I|https://leetcode.com/problems/market-analysis-i|<a href='null/SQL/oracle/MarketAnalysisI.sql'>Market Analysis I</a>|
-|Customers Who Bought All Products|https://leetcode.com/problems/customers-who-bought-all-products|<a href='null/SQL/oracle/CustomersWhoBoughtAllProducts.sql'>Customers Who Bought All Products</a>|
 </details>
 
 ## Postgres
