@@ -39,7 +39,6 @@ public class FindTheIntegerAddedToArrayI {
                     result = -diff;
                 }
             }
-
         }
 
         return result;
