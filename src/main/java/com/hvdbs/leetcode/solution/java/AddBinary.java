@@ -1,14 +1,15 @@
 package com.hvdbs.leetcode.solution.java;
 
 import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Complexity;
 import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 @CodeInfo(
         difficulty = Difficulty.EASY,
         name = "Add Binary",
         url = "https://leetcode.com/problems/add-binary",
-        timeComplexity = "O(N)",
-        spaceComplexity = "O(N)"
+        timeComplexity = Complexity.ConstantComplexity.LINEAR,
+        spaceComplexity = Complexity.ConstantComplexity.LINEAR
 )
 public class AddBinary {
     public String addBinary(String a, String b) {
