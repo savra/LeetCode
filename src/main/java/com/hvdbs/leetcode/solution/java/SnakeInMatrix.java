@@ -23,8 +23,7 @@ public class SnakeInMatrix {
                     j++;
                     break;
                 case "DOWN":
-                    i++;
-                    break;
+                    i++; break;
                 case "LEFT":
                     j--;
                     break;
