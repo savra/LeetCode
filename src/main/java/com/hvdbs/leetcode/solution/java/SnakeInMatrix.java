@@ -20,8 +20,7 @@ public class SnakeInMatrix {
         for (String command : commands) {
             switch (command) {
                 case "RIGHT":
-                    j++;
-                    break;
+                    j++; break;
                 case "DOWN":
                     i++; break;
                 case "LEFT":
