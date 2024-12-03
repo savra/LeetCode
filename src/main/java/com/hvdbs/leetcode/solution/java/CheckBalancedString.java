@@ -9,7 +9,8 @@ import com.hvdbs.savra.statsgenerator.enums.Difficulty;
         name = "Check Balanced String",
         url = "https://leetcode.com/problems/check-balanced-string/description/",
         spaceComplexity = Complexity.ConstantComplexity.LINEAR,
-        timeComplexity = Complexity.ConstantComplexity.CONSTANT)
+        timeComplexity = Complexity.ConstantComplexity.CONSTANT
+)
 public class CheckBalancedString {
     public boolean isBalanced(String num) {
         int evenSum = 0;
