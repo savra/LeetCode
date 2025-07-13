@@ -1,54 +1,41 @@
 package com.hvdbs.leetcode.solution.java;
 
 import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Complexity;
 import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 @CodeInfo(
         difficulty = Difficulty.EASY,
         name = "Remove Duplicates from Sorted Array",
-        url = "https://leetcode.com/problems/remove-duplicates-from-sorted-array/")
+        url = "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+        timeComplexity = Complexity.ConstantComplexity.LINEAR,
+        spaceComplexity = Complexity.ConstantComplexity.CONSTANT)
 public class RemoveDuplicatesFromSortedArray {
     public static int removeDuplicates(int[] nums) {
-        /* NOT IN-PLACE
-        Set<Integer> uniqueArray = new TreeSet<Integer>();
-
-        for (int i = 0; i < nums.length; i++) {
-            uniqueArray.add(nums[i]);
+        if (nums.length == 1) {
+            return 1;
         }
 
-        List<Integer> integerList = uniqueArray.stream().toList();
+        int prev = 0, cur = 1;
 
-        for (int i = 0; i < integerList.size(); i++) {
-            nums[i] = integerList.get(i);
-        }
-
-        return uniqueArray.size();*/
-
-        int length = nums.length;
-
-        int i = 1;
-
-        while (i < length) {
-            if (nums[i] == nums[i - 1]) {
-                int tmp = nums[i];
-                replaceElement(nums, i);
-                nums[nums.length - 1] = tmp;
-                length--;
-            } else {
-                i++;
+        while (cur < nums.length) {
+            while (cur < nums.length && nums[prev] == nums[cur]) {
+                cur++;
             }
+
+            prev++;
+
+            if (cur == nums.length) {
+                break;
+            }
+
+            nums[prev] = nums[cur];
         }
 
-        return i;
-    }
-
-    private static void replaceElement(int[] nums, int position){
-        for (int i = position + 1; i < nums.length; i++) {
-            nums[i - 1] = nums[i];
-        }
+        return prev;
     }
 
     public static void main(String[] args) {
-        int i = removeDuplicates(new int[]{1,1,1});
+        int i = removeDuplicates(new int[]{1, 1, 1});
     }
 }
