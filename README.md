@@ -295,7 +295,7 @@
 |Reverse Degree of a String|https://leetcode.com/problems/reverse-degree-of-a-string|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ReverseDegreeOfAString.java'>Reverse Degree of a String</a>|$O(N)$|$O(1)$
 |Reverse Linked List|https://leetcode.com/problems/reverse-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ReverseLinkedList.java'>Reverse Linked List</a>|$O(N)$|$O(1)$
 |Reverse Prefix of Word|https://leetcode.com/problems/reverse-prefix-of-word/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ReversePrefixOfWord.java'>Reverse Prefix of Word</a>|$not specified$|$not specified$
-|Reverse String|https://leetcode.com/problems/reverse-string|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ReverseString.java'>Reverse String</a>|$not specified$|$not specified$
+|Reverse String|https://leetcode.com/problems/reverse-string|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ReverseString.java'>Reverse String</a>|$O(N)$|$O(1)$
 |Reverse Vowels of a String|https://leetcode.com/problems/reverse-vowels-of-a-string/description|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ReverseVowelsOfAString.java'>Reverse Vowels of a String</a>|$not specified$|$not specified$
 |Reverse Words in a String III|https://leetcode.com/problems/reverse-words-in-a-string-iii/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ReverseWordsInAStringIII.java'>Reverse Words in a String III</a>|$not specified$|$not specified$
 |Richest Customer Wealth|https://leetcode.com/problems/richest-customer-wealth/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RichestCustomerWealth.java'>Richest Customer Wealth</a>|$not specified$|$not specified$
@@ -356,6 +356,13 @@
 |Valid Parentheses|https://leetcode.com/problems/valid-parentheses|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ValidParentheses.java'>Valid Parentheses</a>|$not specified$|$not specified$
 |Widest Vertical Area Between Two Points Containing No Points|https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/WidestVerticalAreaBetweenTwoPointsContainingNoPoints.java'>Widest Vertical Area Between Two Points Containing No Points</a>|$O(N * LogN)$|$LogN$
 |XOR Operation in an Array|https://leetcode.com/problems/xor-operation-in-an-array/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/XorOperationInAnArray.java'>XOR Operation in an Array</a>|$not specified$|$not specified$
+</details>
+<details>
+<summary>BASIC</summary>
+
+|Name|Problem|Solution|Time Complexity|Space complexity
+|---|---|---|---|---|
+|Delete Node in a Linked List||<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
 </details>
 
 ## Oracle

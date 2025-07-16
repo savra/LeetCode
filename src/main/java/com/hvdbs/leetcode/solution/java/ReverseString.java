@@ -1,11 +1,16 @@
 package com.hvdbs.leetcode.solution.java;
 
 import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Complexity;
 import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-@CodeInfo(difficulty = Difficulty.EASY,
+@CodeInfo(
+        difficulty = Difficulty.EASY,
         name = "Reverse String",
-        url = "https://leetcode.com/problems/reverse-string")
+        url = "https://leetcode.com/problems/reverse-string",
+        timeComplexity = Complexity.ConstantComplexity.LINEAR,
+        spaceComplexity = Complexity.ConstantComplexity.CONSTANT
+)
 public class ReverseString {
     public void reverseString(char[] s) {
         reverse(0, s.length - 1, s);
