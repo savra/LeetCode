@@ -45,6 +45,13 @@
 |Validate Binary Search Tree|https://leetcode.com/problems/validate-binary-search-tree|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ValidateBinarySearchTree.java'>Validate Binary Search Tree</a>|$not specified$|$not specified$
 </details>
 <details>
+<summary>BASIC</summary>
+
+|Name|Problem|Solution|Time Complexity|Space complexity
+|---|---|---|---|---|
+|Delete Node in a Linked List|https://leetcode.com/problems/delete-node-in-a-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
+</details>
+<details>
 <summary>EASY</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -238,6 +245,7 @@
 |Minimize String Length|https://leetcode.com/problems/minimize-string-length|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimizeStringLength.java'>Minimize String Length</a>|$O(N * LogN)$|$O(N)$
 |Minimum Absolute Difference|https://leetcode.com/problems/minimum-absolute-difference|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimumAbsoluteDifference.java'>Minimum Absolute Difference</a>|$O(N * LogN)$|$O(N)$
 |Minimum Average of Smallest and Largest Elements|https://leetcode.com/problems/minimum-average-of-smallest-and-largest-elements|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimumAverageOfSmallestAndLargestElements.java'>Minimum Average of Smallest and Largest Elements</a>|$O(N * LogN)$|$O(N / 2)$
+|Minimum Cost to Reach Every Position|https://leetcode.com/problems/minimum-cost-to-reach-every-position|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimumCostToReachEveryPosition.java'>Minimum Cost to Reach Every Position</a>|$O(N)$|$O(N)$
 |Minimum Depth of Binary Tree|https://leetcode.com/problems/minimum-depth-of-binary-tree|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimumDepthOfBinaryTree.java'>Minimum Depth of Binary Tree</a>|$O(N)$|$O(N)$
 |Minimum Element After Replacement With Digit Sum|https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimumElementAfterReplacementWithDigitSum.java'>Minimum Element After Replacement With Digit Sum</a>|$O(N * M)$|$O(1)$
 |Minimum Index Sum of Two Lists|https://leetcode.com/problems/minimum-index-sum-of-two-lists|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimumIndexSumOfTwoLists.java'>Minimum Index Sum of Two Lists</a>|$O(N)$|$O(N + M)$
@@ -356,13 +364,6 @@
 |Valid Parentheses|https://leetcode.com/problems/valid-parentheses|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ValidParentheses.java'>Valid Parentheses</a>|$not specified$|$not specified$
 |Widest Vertical Area Between Two Points Containing No Points|https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/WidestVerticalAreaBetweenTwoPointsContainingNoPoints.java'>Widest Vertical Area Between Two Points Containing No Points</a>|$O(N * LogN)$|$LogN$
 |XOR Operation in an Array|https://leetcode.com/problems/xor-operation-in-an-array/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/XorOperationInAnArray.java'>XOR Operation in an Array</a>|$not specified$|$not specified$
-</details>
-<details>
-<summary>BASIC</summary>
-
-|Name|Problem|Solution|Time Complexity|Space complexity
-|---|---|---|---|---|
-|Delete Node in a Linked List||<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
 </details>
 
 ## Oracle
