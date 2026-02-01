@@ -1,13 +1,6 @@
 # Statistics of problem solving ⭐
 ## JAVA
 <details>
-<summary>BASIC</summary>
-
-|Name|Problem|Solution|Time Complexity|Space complexity
-|---|---|---|---|---|
-|Delete Node in a Linked List|https://leetcode.com/problems/delete-node-in-a-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
-</details>
-<details>
 <summary>EASY</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -23,6 +16,7 @@
 |Average Salary Excluding the Minimum and Maximum Salary|https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/AverageSalaryExcludingTheMinimumAndMaximumSalary.java'>Average Salary Excluding the Minimum and Maximum Salary</a>|$not specified$|$not specified$
 |Backspace String Compare|https://leetcode.com/problems/backspace-string-compare|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/BackspaceStringCompare.java'>Backspace String Compare</a>|$O(N)$|$O(N)$
 |Baseball Game|https://leetcode.com/problems/baseball-game|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/BaseballGame.java'>Baseball Game</a>|$not specified$|$not specified$
+|Best Time to Buy and Sell Stock|https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/BestTimeToBuyAndSellStock.java'>Best Time to Buy and Sell Stock</a>|$O(N)$|$O(1)$
 |Best Time to Buy and Sell Stock II|https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/BestTimeToBuyAndSellStockII.java'>Best Time to Buy and Sell Stock II</a>|$O(N)$|$O(1)$
 |Binary Search|https://leetcode.com/problems/binary-search|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/BinarySearch.java'>Binary Search</a>|$not specified$|$not specified$
 |Binary Tree Inorder Traversal|https://leetcode.com/problems/binary-tree-inorder-traversal|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/BinaryTreeInorderTraversal.java'>Binary Tree Inorder Traversal</a>|$O(N)$|$O(H)$
@@ -322,6 +316,13 @@
 |Valid Parentheses|https://leetcode.com/problems/valid-parentheses|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ValidParentheses.java'>Valid Parentheses</a>|$not specified$|$not specified$
 |Widest Vertical Area Between Two Points Containing No Points|https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/WidestVerticalAreaBetweenTwoPointsContainingNoPoints.java'>Widest Vertical Area Between Two Points Containing No Points</a>|$O(N * LogN)$|$LogN$
 |XOR Operation in an Array|https://leetcode.com/problems/xor-operation-in-an-array/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/XorOperationInAnArray.java'>XOR Operation in an Array</a>|$not specified$|$not specified$
+</details>
+<details>
+<summary>BASIC</summary>
+
+|Name|Problem|Solution|Time Complexity|Space complexity
+|---|---|---|---|---|
+|Delete Node in a Linked List|https://leetcode.com/problems/delete-node-in-a-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
 </details>
 <details>
 <summary>MEDIUM</summary>
