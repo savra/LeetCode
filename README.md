@@ -1,6 +1,13 @@
 # Statistics of problem solving ⭐
 ## JAVA
 <details>
+<summary>BASIC</summary>
+
+|Name|Problem|Solution|Time Complexity|Space complexity
+|---|---|---|---|---|
+|Delete Node in a Linked List|https://leetcode.com/problems/delete-node-in-a-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
+</details>
+<details>
 <summary>EASY</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -45,7 +52,7 @@
 |Clear Digits|https://leetcode.com/problems/clear-digits|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ClearDigits.java'>Clear Digits</a>|$O(N)$|$O(N)$
 |Concatenation of Array|https://leetcode.com/problems/concatenation-of-array/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ConcatenationOfArray.java'>Concatenation of Array</a>|$not specified$|$not specified$
 |Construct the Minimum Bitwise Array I|https://leetcode.com/problems/construct-the-minimum-bitwise-array-i|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ConstructTheMinimumBitwiseArrayI.java'>Construct the Minimum Bitwise Array I</a>|$O(N * M)$|$O(N)$
-|Contains Duplicate|https://leetcode.com/problems/contains-duplicate|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ContainsDuplicate.java'>Contains Duplicate</a>|$not specified$|$not specified$
+|Contains Duplicate|https://leetcode.com/problems/contains-duplicate|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ContainsDuplicate.java'>Contains Duplicate</a>|$O(N)$|$O(N)$
 |Contains Duplicate II|https://leetcode.com/problems/contains-duplicate-ii|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ContainsDuplicateII.java'>Contains Duplicate II</a>|$O(N)$|$O(N)$
 |Convert Binary Number in a Linked List to Integer|https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ConvertBinaryNumberInALinkedListToInteger.java'>Convert Binary Number in a Linked List to Integer</a>|$not specified$|$not specified$
 |Convert Date to Binary|https://leetcode.com/problems/convert-date-to-binary/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ConvertDateToBinary.java'>Convert Date to Binary</a>|$O(N)$|$O(N)$
@@ -318,13 +325,6 @@
 |XOR Operation in an Array|https://leetcode.com/problems/xor-operation-in-an-array/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/XorOperationInAnArray.java'>XOR Operation in an Array</a>|$not specified$|$not specified$
 </details>
 <details>
-<summary>BASIC</summary>
-
-|Name|Problem|Solution|Time Complexity|Space complexity
-|---|---|---|---|---|
-|Delete Node in a Linked List|https://leetcode.com/problems/delete-node-in-a-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
-</details>
-<details>
 <summary>MEDIUM</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -354,6 +354,7 @@
 |Number of Islands|https://leetcode.com/problems/number-of-islands|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/NumberOfIslands.java'>Number of Islands</a>|$not specified$|$not specified$
 |Odd Even Linked List|https://leetcode.com/problems/odd-even-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/OddEvenLinkedList.java'>Odd Even Linked List</a>|$O(N)$|$O(1)$
 |Partitioning Into Minimum Number Of Deci-Binary Numbers|https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java'>Partitioning Into Minimum Number Of Deci-Binary Numbers</a>|$not specified$|$not specified$
+|Product of Array Except Self|https://leetcode.com/problems/product-of-array-except-self/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ProductOfArrayExceptSelf.java'>Product of Array Except Self</a>|$O(N)$|$O(N)$
 |Remove Colored Pieces if Both Neighbors are the Same Color|https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RemoveColoredPiecesIfBothNeighborsAreTheSameColor.java'>Remove Colored Pieces if Both Neighbors are the Same Color</a>|$not specified$|$not specified$
 |Remove Nth Node From End of List|https://leetcode.com/problems/remove-nth-node-from-end-of-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/RemoveNthNodeFromEndOfList.java'>Remove Nth Node From End of List</a>|$O(N)$|$O(1)$
 |Reverse Words in a String|https://leetcode.com/problems/reverse-words-in-a-string|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ReverseWordsInAString.java'>Reverse Words in a String</a>|$not specified$|$not specified$
