@@ -20,6 +20,7 @@ public class ProductOfArrayExceptSelf {
 
         for (int i = 0; i < nums.length; i++) {
             answer[i] = prefixProduct;
+
             prefixProduct *= nums[i];
         }
 
