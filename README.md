@@ -1,13 +1,6 @@
 # Statistics of problem solving ⭐
 ## JAVA
 <details>
-<summary>BASIC</summary>
-
-|Name|Problem|Solution|Time Complexity|Space complexity
-|---|---|---|---|---|
-|Delete Node in a Linked List|https://leetcode.com/problems/delete-node-in-a-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
-</details>
-<details>
 <summary>EASY</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -325,6 +318,13 @@
 |XOR Operation in an Array|https://leetcode.com/problems/xor-operation-in-an-array/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/XorOperationInAnArray.java'>XOR Operation in an Array</a>|$not specified$|$not specified$
 </details>
 <details>
+<summary>BASIC</summary>
+
+|Name|Problem|Solution|Time Complexity|Space complexity
+|---|---|---|---|---|
+|Delete Node in a Linked List|https://leetcode.com/problems/delete-node-in-a-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
+</details>
+<details>
 <summary>MEDIUM</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -347,6 +347,7 @@
 |Integer Break|https://leetcode.com/problems/integer-break|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/IntegerBreak.java'>Integer Break</a>|$not specified$|$not specified$
 |Linked List Cycle II|https://leetcode.com/problems/linked-list-cycle-ii|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/LinkedListCycleII.java'>Linked List Cycle II</a>|$not specified$|$not specified$
 |Majority Element II|https://leetcode.com/problems/majority-element-ii|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MajorityElementII.java'>Majority Element II</a>|$not specified$|$not specified$
+|Maximum Subarray|https://leetcode.com/problems/maximum-subarray/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MaximumSubarray.java'>Maximum Subarray</a>|$O(N)$|$O(1)$
 |Minimum Size Subarray Sum|https://leetcode.com/problems/minimum-size-subarray-sum|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimumSizeSubarraySum.java'>Minimum Size Subarray Sum</a>|$not specified$|$not specified$
 |Min Stack|https://leetcode.com/problems/min-stack|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinStack.java'>Min Stack</a>|$not specified$|$not specified$
 |Multiply Strings|https://leetcode.com/problems/multiply-strings|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MultiplyStrings.java'>Multiply Strings</a>|$not specified$|$not specified$
