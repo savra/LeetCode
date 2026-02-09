@@ -19,6 +19,7 @@ public class MaximumSubarray {
         for (int i = 1; i < nums.length; i++) {
             currentSum = Math.max(nums[i], currentSum + nums[i]);
             globalSum = Math.max(currentSum, globalSum);
+
         }
 
         return globalSum;
