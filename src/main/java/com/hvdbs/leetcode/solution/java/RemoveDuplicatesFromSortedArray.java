@@ -11,31 +11,16 @@ import com.hvdbs.savra.statsgenerator.enums.Difficulty;
         timeComplexity = Complexity.ConstantComplexity.LINEAR,
         spaceComplexity = Complexity.ConstantComplexity.CONSTANT)
 public class RemoveDuplicatesFromSortedArray {
-    public static int removeDuplicates(int[] nums) {
-        if (nums.length == 1) {
-            return 1;
+    public int removeDuplicates(int[] nums) {
+        int slow = 0;
+
+        for (int fast = 1; fast < nums.length; fast++) {
+            if (nums[slow] != nums[fast]) {
+                slow++;
+                nums[slow] = nums[fast];
+            }
         }
 
-        int prev = 0, cur = 1;
-
-        while (cur < nums.length) {
-            while (cur < nums.length && nums[prev] == nums[cur]) {
-                cur++;
-            }
-
-            prev++;
-
-            if (cur == nums.length) {
-                break;
-            }
-
-            nums[prev] = nums[cur];
-        }
-
-        return prev;
-    }
-
-    public static void main(String[] args) {
-        int i = removeDuplicates(new int[]{1, 1, 1});
+        return slow + 1;
     }
 }

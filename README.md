@@ -48,6 +48,13 @@
 |Validate Binary Search Tree|https://leetcode.com/problems/validate-binary-search-tree|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ValidateBinarySearchTree.java'>Validate Binary Search Tree</a>|$not specified$|$not specified$
 </details>
 <details>
+<summary>BASIC</summary>
+
+|Name|Problem|Solution|Time Complexity|Space complexity
+|---|---|---|---|---|
+|Delete Node in a Linked List|https://leetcode.com/problems/delete-node-in-a-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
+</details>
+<details>
 <summary>EASY</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -365,13 +372,6 @@
 |Valid Parentheses|https://leetcode.com/problems/valid-parentheses|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ValidParentheses.java'>Valid Parentheses</a>|$not specified$|$not specified$
 |Widest Vertical Area Between Two Points Containing No Points|https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/WidestVerticalAreaBetweenTwoPointsContainingNoPoints.java'>Widest Vertical Area Between Two Points Containing No Points</a>|$O(N * LogN)$|$LogN$
 |XOR Operation in an Array|https://leetcode.com/problems/xor-operation-in-an-array/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/XorOperationInAnArray.java'>XOR Operation in an Array</a>|$not specified$|$not specified$
-</details>
-<details>
-<summary>BASIC</summary>
-
-|Name|Problem|Solution|Time Complexity|Space complexity
-|---|---|---|---|---|
-|Delete Node in a Linked List|https://leetcode.com/problems/delete-node-in-a-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
 </details>
 
 ## Oracle
