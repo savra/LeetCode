@@ -1,52 +1,34 @@
 package com.hvdbs.leetcode.solution.java;
 
 import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Complexity;
 import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 @CodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Minimum Size Subarray Sum",
-        url = "https://leetcode.com/problems/minimum-size-subarray-sum")
+        url = "https://leetcode.com/problems/minimum-size-subarray-sum",
+        spaceComplexity = Complexity.ConstantComplexity.CONSTANT,
+        timeComplexity = Complexity.ConstantComplexity.LINEAR
+)
 public class MinimumSizeSubarraySum {
     public int minSubArrayLen(int target, int[] nums) {
-        int minLength = Integer.MAX_VALUE;
+        int l = 0;
 
-        if (nums.length == 1) {
-            if (target <= nums[0]) {
-                return 1;
-            } else {
-                return 0;
+        int minLength = 0x7fffffff;
+        int sum = 0;
+
+        for (int r = 0; r < nums.length; r++) {
+            sum += nums[r];
+
+            while (sum >= target) {
+                minLength = Math.min(r - l + 1, minLength);
+
+                sum -= nums[l];
+                l++;
             }
         }
 
-        int curSum = nums[0];
-
-        if (curSum >= target) {
-            return 1;
-        }
-
-        boolean addTailSum = true;
-
-        for (int i = 0, j = 1; j <= nums.length - 1;) {
-            if (addTailSum) {
-                curSum += nums[j];
-            }
-
-            if (curSum < target) {
-                j++;
-                addTailSum = true;
-            } else {
-                if (j - i + 1 <= minLength) {
-                    minLength = j - i + 1;
-                }
-
-                curSum -= nums[i];
-                addTailSum = false;
-
-                i++;
-            }
-        }
-
-        return minLength == Integer.MAX_VALUE ? 0 : minLength;
+        return minLength == 0x7fffffff ? 0 : minLength;
     }
 }
