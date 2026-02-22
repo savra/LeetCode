@@ -13,7 +13,8 @@ import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 )
 public class MaxConsecutiveOnesIII {
     public int longestOnes(int[] nums, int k) {
-        int zeroCount = 0, l = 0;
+        int zeroCount = 0;
+        int l = 0;
         int answer = 0;
 
         for (int r = 0; r < nums.length; r++) {
