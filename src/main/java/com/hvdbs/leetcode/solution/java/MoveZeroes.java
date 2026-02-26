@@ -1,29 +1,30 @@
 package com.hvdbs.leetcode.solution.java;
 
 import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Complexity;
 import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 @CodeInfo(difficulty = Difficulty.EASY,
         name = "Move Zeroes",
         url = "https://leetcode.com/problems/move-zeroes/description/",
-        timeComplexity = "O(N)",
-        spaceComplexity = "O(1)")
+        timeComplexity = Complexity.ConstantComplexity.LINEAR,
+        spaceComplexity = Complexity.ConstantComplexity.CONSTANT)
 public class MoveZeroes {
     public void moveZeroes(int[] nums) {
-        if (nums == null || nums.length <= 1) {
-            return;
-        }
+        int n = nums.length;
+        int i = 0, insertPosition = 0;
 
-        int writePointer = 0;
-
-        for (int readPointer = 0; readPointer < nums.length; readPointer++) {
-            if (nums[readPointer] != 0) {
-                nums[writePointer++] = nums[readPointer];
+        while (i < n) {
+            if (nums[i] != 0) {
+                int tmp = nums[i];
+                nums[i] = nums[insertPosition];
+                nums[insertPosition] = tmp;
+                insertPosition++;
             }
+
+            i++;
         }
 
-        for (int i = writePointer; i < nums.length; i++) {
-            nums[i] = 0;
-        }
+        return;
     }
 }
