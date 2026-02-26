@@ -24,7 +24,5 @@ public class MoveZeroes {
 
             i++;
         }
-
-        return;
     }
 }
