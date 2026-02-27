@@ -9,7 +9,7 @@ import com.hvdbs.savra.statsgenerator.enums.Difficulty;
         name = "Sort Colors",
         url = "https://leetcode.com/problems/sort-colors/description/",
         spaceComplexity = Complexity.ConstantComplexity.CONSTANT,
-        timeComplexity = Complexity.ConstantComplexity.LINEAR /*На самом деле 2n*/
+        timeComplexity = Complexity.ConstantComplexity.LINEAR /*На самом деле 2n */
 )
 public class SortColors {
     public void sortColors(int[] nums) {
