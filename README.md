@@ -1,13 +1,6 @@
 # Statistics of problem solving ⭐
 ## JAVA
 <details>
-<summary>BASIC</summary>
-
-|Name|Problem|Solution|Time Complexity|Space complexity
-|---|---|---|---|---|
-|Delete Node in a Linked List|https://leetcode.com/problems/delete-node-in-a-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
-</details>
-<details>
 <summary>MEDIUM</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -56,6 +49,13 @@
 |Swap Nodes in Pairs|https://leetcode.com/problems/swap-nodes-in-pairs|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SwapNodesInPairs.java'>Swap Nodes in Pairs</a>|$not specified$|$not specified$
 |Two Sum II - Input Array Is Sorted|https://leetcode.com/problems/two-sum-ii-input-array-is-sorted|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TwoSumIIInputArrayIsSorted.java'>Two Sum II - Input Array Is Sorted</a>|$O(N * LogN)$|$O(1)$
 |Validate Binary Search Tree|https://leetcode.com/problems/validate-binary-search-tree|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ValidateBinarySearchTree.java'>Validate Binary Search Tree</a>|$not specified$|$not specified$
+</details>
+<details>
+<summary>BASIC</summary>
+
+|Name|Problem|Solution|Time Complexity|Space complexity
+|---|---|---|---|---|
+|Delete Node in a Linked List|https://leetcode.com/problems/delete-node-in-a-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
 </details>
 <details>
 <summary>EASY</summary>
@@ -206,7 +206,7 @@
 |Implement Queue using Stacks|https://leetcode.com/problems/implement-queue-using-stacks/description|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ImplementQueueUsingStacks.java'>Implement Queue using Stacks</a>|$O(N)$|$O(N)$
 |Implement Stack using Queues|https://leetcode.com/problems/implement-stack-using-queues/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ImplementStackUsingQueues.java'>Implement Stack using Queues</a>|$O(N)$|$O(N)$
 |Increasing Order Search Tree|https://leetcode.com/problems/increasing-order-search-tree|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/IncreasingOrderSearchTree.java'>Increasing Order Search Tree</a>|$O(N)$|$LogN$
-|Intersection of Two Arrays|https://leetcode.com/problems/intersection-of-two-arrays/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/IntersectionOfTwoArrays.java'>Intersection of Two Arrays</a>|$not specified$|$not specified$
+|Intersection of Two Arrays|https://leetcode.com/problems/intersection-of-two-arrays/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/IntersectionOfTwoArrays.java'>Intersection of Two Arrays</a>|$O(N)$|$O(N)$
 |Intersection of Two Arrays II|https://leetcode.com/problems/intersection-of-two-arrays-ii|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/IntersectionOfTwoArraysII.java'>Intersection of Two Arrays II</a>|$not specified$|$not specified$
 |Intersection of Two Linked Lists|https://leetcode.com/problems/intersection-of-two-linked-lists|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/IntersectionOfTwoLinkedLists.java'>Intersection of Two Linked Lists</a>|$O(M + N * LogM)$|$O(M)$
 |Island Perimeter|https://leetcode.com/problems/island-perimeter/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/IslandPerimeter.java'>Island Perimeter</a>|$not specified$|$not specified$
