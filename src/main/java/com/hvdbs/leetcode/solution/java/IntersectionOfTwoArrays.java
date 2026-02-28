@@ -5,6 +5,7 @@ import com.hvdbs.savra.statsgenerator.enums.Complexity;
 import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -15,10 +16,20 @@ import java.util.stream.Collectors;
         spaceComplexity = Complexity.ConstantComplexity.LINEAR
 )
 public class IntersectionOfTwoArrays {
-    public int[] intersection(int[] nums1, int[] nums2) {;
-        Set<Integer> first = Arrays.stream(nums1).boxed().collect(Collectors.toSet());
-        first.retainAll(Arrays.stream(nums2).boxed().collect(Collectors.toSet()));
+    public int[] intersection(int[] nums1, int[] nums2) {
+        Set<Integer> set1 = new HashSet<>();
+        Set<Integer> res = new HashSet<>();
 
-        return first.stream().mapToInt(Integer::intValue).toArray();
+        for (int j : nums1) {
+            set1.add(j);
+        }
+
+        for (int j : nums2) {
+            if (set1.contains(j)) {
+                res.add(j);
+            }
+        }
+
+        return res.stream().mapToInt(Integer::intValue).toArray();
     }
 }
