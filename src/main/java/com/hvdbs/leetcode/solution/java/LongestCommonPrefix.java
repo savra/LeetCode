@@ -1,42 +1,41 @@
 package com.hvdbs.leetcode.solution.java;
 
 import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Complexity;
 import com.hvdbs.savra.statsgenerator.enums.Difficulty;
+
+import java.util.Arrays;
 
 @CodeInfo(
         difficulty = Difficulty.EASY,
         name = "Longest Common Prefix",
-        url = "https://leetcode.com/problems/longest-common-prefix")
+        url = "https://leetcode.com/problems/longest-common-prefix",
+        spaceComplexity = Complexity.ConstantComplexity.CONSTANT,
+        timeComplexity = Complexity.ConstantComplexity.LINEARITHMIC)
 public class LongestCommonPrefix {
-    public static String longestCommonPrefix(String[] strs) {
+    public String longestCommonPrefix(String[] strs) {
         if (strs.length == 1) {
             return strs[0];
         }
 
-        int longestCount = 0, j = 0;
+        Arrays.sort(strs);
 
-        boolean wasIncrement = false;
+        String target = strs[0];
+        String lastStr = strs[strs.length - 1];
 
-        while (j < strs[0].length()) {
-            for (int i = 1; i < strs.length; i++) {
-                wasIncrement = false;
+        int i = 0, j = 0;
+        int maxPrefix = 0;
 
-                if (j < strs[i].length()) {
-                    wasIncrement = true;
-                    if (strs[i].charAt(j) != strs[i - 1].charAt(j)) {
-                        return strs[0].substring(0, longestCount);
-                    }
-                } else {
-                    break;
-                }
+        while (i < target.length() && j < lastStr.length()) {
+            if (target.charAt(i) != lastStr.charAt(j)) {
+                break;
+            } else {
+                maxPrefix++;
             }
+            i++;
             j++;
-
-            if (wasIncrement) {
-                longestCount++;
-            }
         }
 
-        return strs[0].substring(0, longestCount);
+        return target.substring(0, maxPrefix);
     }
 }
