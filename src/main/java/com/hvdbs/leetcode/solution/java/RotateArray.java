@@ -1,6 +1,7 @@
 package com.hvdbs.leetcode.solution.java;
 
 import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Complexity;
 import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.util.ArrayDeque;
@@ -9,25 +10,33 @@ import java.util.Queue;
 @CodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Rotate Array",
-        url = "https://leetcode.com/problems/rotate-array")
+        url = "https://leetcode.com/problems/rotate-array",
+        timeComplexity = Complexity.ConstantComplexity.LINEAR,
+        spaceComplexity = Complexity.ConstantComplexity.CONSTANT
+)
 public class RotateArray {
     public void rotate(int[] nums, int k) {
-        k %= nums.length;
-        reverse(nums, 0, nums.length - 1);
+        int n = nums.length;
+        k = k % n;
+
+        reverse(nums, 0, n - 1);
         reverse(nums, 0, k - 1);
-        reverse(nums, k, nums.length - 1);
+        reverse(nums, k, n - 1);
     }
 
-    public void reverse(int[] nums, int start, int end) {
-        while (start < end) {
-            int temp = nums[start];
-            nums[start] = nums[end];
-            nums[end] = temp;
-            start++;
-            end--;
+
+    private void reverse(int[] nums, int i, int j) {
+        while (i < j) {
+            int tmp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = tmp;
+
+            i++;
+            j--;
         }
     }
 
+    //TC O(n) SC O(N)
     public static void rotate2(int[] nums, int k) {
         Queue<Integer> q = new ArrayDeque<>();
 
@@ -48,6 +57,6 @@ public class RotateArray {
     }
 
     public static void main(String[] args) {
-        rotate2(new int[]{1,2,3,4,5,6,7}, 3);
+        rotate2(new int[]{1, 2, 3, 4, 5, 6, 7}, 3);
     }
 }
