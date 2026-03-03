@@ -38,4 +38,31 @@ public class LongestCommonPrefix {
 
         return target.substring(0, maxPrefix);
     }
+
+    //TC O(N * M) SC O(1)
+    public String longestCommonPrefix2(String[] strs) {
+        String target = strs[0];
+
+        if (strs.length == 1) {
+            return target;
+        }
+
+        int maxPrefix = 0x7fffffff;
+
+        for(int i = 1; i < strs.length; i++) {
+            int j = 0;
+            int curPrefix = 0;
+
+            while (j < strs[i].length()
+                    && j < target.length()
+                    && strs[i].charAt(j) == target.charAt(j)) {
+                curPrefix++;
+                j++;
+            }
+
+            maxPrefix = Math.min(maxPrefix, curPrefix);
+        }
+
+        return target.substring(0, maxPrefix);
+    }
 }
