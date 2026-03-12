@@ -39,7 +39,7 @@ public class LongestCommonPrefix {
         return target.substring(0, maxPrefix);
     }
 
-    // TC O(N * M) SC O(1 )
+    // TC O(N * M) SC O(1)
     public String longestCommonPrefix2(String[] strs) {
         String target = strs[0];
 
