@@ -12,8 +12,8 @@ import java.util.stream.Collectors;
 @CodeInfo(difficulty = Difficulty.EASY,
         name = "Intersection of Two Arrays",
         url = "https://leetcode.com/problems/intersection-of-two-arrays/",
-        timeComplexity = Complexity.ConstantComplexity.LINEAR, // На самом деле O(N+M)
-        spaceComplexity = Complexity.ConstantComplexity.LINEAR
+        timeComplexity = Complexity.ConstantComplexity.LINEAR,
+        spaceComplexity = Complexity.ConstantComplexity.LINEAR // На самом деле O(N+M)
 )
 public class IntersectionOfTwoArrays {
     public int[] intersection(int[] nums1, int[] nums2) {
