@@ -1,6 +1,7 @@
 package com.hvdbs.leetcode.solution.java;
 
 import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Complexity;
 import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.util.HashMap;
@@ -9,9 +10,11 @@ import java.util.Map;
 @CodeInfo(
         difficulty = Difficulty.EASY,
         name = "First Unique Character in a String",
-        url = "https://leetcode.com/problems/first-unique-character-in-a-string")
+        url = "https://leetcode.com/problems/first-unique-character-in-a-string",
+        timeComplexity = Complexity.ConstantComplexity.LINEAR,
+        spaceComplexity = Complexity.ConstantComplexity.LINEAR
+)
 public class FirstUniqueCharacterInAString {
-    //TC: O(N), SC: O(N)
     public int firstUniqChar(String s) {
         Map<Character, Integer> m = new HashMap<>();
 
