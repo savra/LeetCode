@@ -320,6 +320,13 @@
 |XOR Operation in an Array|https://leetcode.com/problems/xor-operation-in-an-array/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/XorOperationInAnArray.java'>XOR Operation in an Array</a>|$not specified$|$not specified$
 </details>
 <details>
+<summary>BASIC</summary>
+
+|Name|Problem|Solution|Time Complexity|Space complexity
+|---|---|---|---|---|
+|Delete Node in a Linked List|https://leetcode.com/problems/delete-node-in-a-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
+</details>
+<details>
 <summary>MEDIUM</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -342,6 +349,7 @@
 |Insert Greatest Common Divisors in Linked List|https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/InsertGreatestCommonDivisorsInLinkedList.java'>Insert Greatest Common Divisors in Linked List</a>|$O(N)$|$O(1)$
 |Integer Break|https://leetcode.com/problems/integer-break|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/IntegerBreak.java'>Integer Break</a>|$not specified$|$not specified$
 |Linked List Cycle II|https://leetcode.com/problems/linked-list-cycle-ii|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/LinkedListCycleII.java'>Linked List Cycle II</a>|$not specified$|$not specified$
+|Longest Consecutive Sequence|https://leetcode.com/problems/longest-consecutive-sequence|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/LongestConsecutiveSequence.java'>Longest Consecutive Sequence</a>|$O(N)$|$O(N)$
 |Longest Substring Without Repeating Characters|https://leetcode.com/problems/longest-substring-without-repeating-characters|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/LongestSubstringWithoutRepeatingCharacters.java'>Longest Substring Without Repeating Characters</a>|$O(N)$|$O(N)$
 |Majority Element II|https://leetcode.com/problems/majority-element-ii|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MajorityElementII.java'>Majority Element II</a>|$not specified$|$not specified$
 |Max Consecutive Ones III|https://leetcode.com/problems/max-consecutive-ones-iii/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MaxConsecutiveOnesIII.java'>Max Consecutive Ones III</a>|$O(N)$|$O(1)$
@@ -369,13 +377,6 @@
 |Two Sum II - Input Array Is Sorted|https://leetcode.com/problems/two-sum-ii-input-array-is-sorted|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TwoSumIIInputArrayIsSorted.java'>Two Sum II - Input Array Is Sorted</a>|$O(N * LogN)$|$O(1)$
 |Validate Binary Search Tree|https://leetcode.com/problems/validate-binary-search-tree|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ValidateBinarySearchTree.java'>Validate Binary Search Tree</a>|$not specified$|$not specified$
 |Valid Sudoku|https://leetcode.com/problems/valid-sudoku|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ValidSudoku.java'>Valid Sudoku</a>|$O(1)$|$O(1)$
-</details>
-<details>
-<summary>BASIC</summary>
-
-|Name|Problem|Solution|Time Complexity|Space complexity
-|---|---|---|---|---|
-|Delete Node in a Linked List|https://leetcode.com/problems/delete-node-in-a-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
 </details>
 
 ## Oracle
