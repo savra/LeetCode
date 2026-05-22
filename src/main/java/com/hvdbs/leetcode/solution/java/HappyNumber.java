@@ -1,6 +1,7 @@
 package com.hvdbs.leetcode.solution.java;
 
 import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Complexity;
 import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 import java.util.HashSet;
@@ -10,8 +11,8 @@ import java.util.Set;
         difficulty = Difficulty.EASY,
         name = "Happy Number",
         url = "https://leetcode.com/problems/happy-number",
-        timeComplexity = "O(N)",
-        spaceComplexity = "O(1)")
+        timeComplexity = Complexity.ConstantComplexity.LINEAR,
+        spaceComplexity = Complexity.ConstantComplexity.LINEAR)
 public class HappyNumber {
     public boolean isHappy(int n) {
         /*//TC: O(N), SC: O(1)
