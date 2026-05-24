@@ -1,13 +1,6 @@
 # Statistics of problem solving ⭐
 ## JAVA
 <details>
-<summary>HARD</summary>
-
-|Name|Problem|Solution|Time Complexity|Space complexity
-|---|---|---|---|---|
-|Minimum Window Substring|https://leetcode.com/problems/minimum-window-substring/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimumWindowSubstring.java'>Minimum Window Substring</a>|$O(N * M)$|$O(N)$
-</details>
-<details>
 <summary>EASY</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -333,6 +326,13 @@
 |Name|Problem|Solution|Time Complexity|Space complexity
 |---|---|---|---|---|
 |Delete Node in a Linked List|https://leetcode.com/problems/delete-node-in-a-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
+</details>
+<details>
+<summary>HARD</summary>
+
+|Name|Problem|Solution|Time Complexity|Space complexity
+|---|---|---|---|---|
+|Minimum Window Substring|https://leetcode.com/problems/minimum-window-substring/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimumWindowSubstring.java'>Minimum Window Substring</a>|$O(N * M)$|$O(N)$
 </details>
 <details>
 <summary>MEDIUM</summary>
