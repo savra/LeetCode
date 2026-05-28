@@ -1,13 +1,6 @@
 # Statistics of problem solving ⭐
 ## JAVA
 <details>
-<summary>HARD</summary>
-
-|Name|Problem|Solution|Time Complexity|Space complexity
-|---|---|---|---|---|
-|Minimum Window Substring|https://leetcode.com/problems/minimum-window-substring/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimumWindowSubstring.java'>Minimum Window Substring</a>|$O(N * M)$|$O(N)$
-</details>
-<details>
 <summary>MEDIUM</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -53,11 +46,19 @@
 |Sort Colors|https://leetcode.com/problems/sort-colors/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SortColors.java'>Sort Colors</a>|$O(N)$|$O(1)$
 |Spiral Matrix|https://leetcode.com/problems/spiral-matrix/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SpiralMatrix.java'>Spiral Matrix</a>|$not specified$|$not specified$
 |Strictly Palindromic Number|https://leetcode.com/problems/strictly-palindromic-number/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/StrictlyPalindromicNumber.java'>Strictly Palindromic Number</a>|$not specified$|$not specified$
+|Subarray Sum Equals K|https://leetcode.com/problems/subarray-sum-equals-k|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SubarraySumEqualsK.java'>Subarray Sum Equals K</a>|$O(N)$|$O(N)$
 |Subrectangle Queries|https://leetcode.com/problems/subrectangle-queries/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SubrectangleQueries.java'>Subrectangle Queries</a>|$not specified$|$not specified$
 |Swap Nodes in Pairs|https://leetcode.com/problems/swap-nodes-in-pairs|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/SwapNodesInPairs.java'>Swap Nodes in Pairs</a>|$not specified$|$not specified$
 |Two Sum II - Input Array Is Sorted|https://leetcode.com/problems/two-sum-ii-input-array-is-sorted|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TwoSumIIInputArrayIsSorted.java'>Two Sum II - Input Array Is Sorted</a>|$O(N * LogN)$|$O(1)$
 |Validate Binary Search Tree|https://leetcode.com/problems/validate-binary-search-tree|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ValidateBinarySearchTree.java'>Validate Binary Search Tree</a>|$not specified$|$not specified$
 |Valid Sudoku|https://leetcode.com/problems/valid-sudoku|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ValidSudoku.java'>Valid Sudoku</a>|$O(1)$|$O(1)$
+</details>
+<details>
+<summary>BASIC</summary>
+
+|Name|Problem|Solution|Time Complexity|Space complexity
+|---|---|---|---|---|
+|Delete Node in a Linked List|https://leetcode.com/problems/delete-node-in-a-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
 </details>
 <details>
 <summary>EASY</summary>
@@ -380,11 +381,11 @@
 |XOR Operation in an Array|https://leetcode.com/problems/xor-operation-in-an-array/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/XorOperationInAnArray.java'>XOR Operation in an Array</a>|$not specified$|$not specified$
 </details>
 <details>
-<summary>BASIC</summary>
+<summary>HARD</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
 |---|---|---|---|---|
-|Delete Node in a Linked List|https://leetcode.com/problems/delete-node-in-a-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
+|Minimum Window Substring|https://leetcode.com/problems/minimum-window-substring/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimumWindowSubstring.java'>Minimum Window Substring</a>|$O(N * M)$|$O(N)$
 </details>
 
 ## Oracle
