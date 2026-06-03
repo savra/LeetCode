@@ -1,6 +1,13 @@
 # Statistics of problem solving ⭐
 ## JAVA
 <details>
+<summary>HARD</summary>
+
+|Name|Problem|Solution|Time Complexity|Space complexity
+|---|---|---|---|---|
+|Minimum Window Substring|https://leetcode.com/problems/minimum-window-substring/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimumWindowSubstring.java'>Minimum Window Substring</a>|$O(N * M)$|$O(N)$
+</details>
+<details>
 <summary>MEDIUM</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -53,6 +60,13 @@
 |Two Sum II - Input Array Is Sorted|https://leetcode.com/problems/two-sum-ii-input-array-is-sorted|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TwoSumIIInputArrayIsSorted.java'>Two Sum II - Input Array Is Sorted</a>|$O(N * LogN)$|$O(1)$
 |Validate Binary Search Tree|https://leetcode.com/problems/validate-binary-search-tree|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ValidateBinarySearchTree.java'>Validate Binary Search Tree</a>|$not specified$|$not specified$
 |Valid Sudoku|https://leetcode.com/problems/valid-sudoku|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ValidSudoku.java'>Valid Sudoku</a>|$O(1)$|$O(1)$
+</details>
+<details>
+<summary>BASIC</summary>
+
+|Name|Problem|Solution|Time Complexity|Space complexity
+|---|---|---|---|---|
+|Delete Node in a Linked List|https://leetcode.com/problems/delete-node-in-a-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
 </details>
 <details>
 <summary>EASY</summary>
@@ -246,7 +260,7 @@
 |Merge Strings Alternately|https://leetcode.com/problems/merge-strings-alternately|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MergeStringsAlternately.java'>Merge Strings Alternately</a>|$not specified$|$not specified$
 |Merge Two 2D Arrays by Summing Values|https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MergeTwo2DArraysBySummingValues.java'>Merge Two 2D Arrays by Summing Values</a>|$not specified$|$not specified$
 |Merge Two Binary Trees|https://leetcode.com/problems/merge-two-binary-trees|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MergeTwoBinaryTrees.java'>Merge Two Binary Trees</a>|$O(N)$|$O(N)$
-|Merge Two Sorted Lists|https://leetcode.com/problems/merge-two-sorted-lists|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MergeTwoSortedLists.java'>Merge Two Sorted Lists</a>|$not specified$|$not specified$
+|Merge Two Sorted Lists|https://leetcode.com/problems/merge-two-sorted-lists|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MergeTwoSortedLists.java'>Merge Two Sorted Lists</a>|$O(N * M)$|$O(N * M)$
 |Middle of the Linked List|https://leetcode.com/problems/middle-of-the-linked-list/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MiddleOfTheLinkedList.java'>Middle of the Linked List</a>|$not specified$|$not specified$
 |Minimize String Length|https://leetcode.com/problems/minimize-string-length|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimizeStringLength.java'>Minimize String Length</a>|$O(N * LogN)$|$O(N)$
 |Minimum Absolute Difference|https://leetcode.com/problems/minimum-absolute-difference|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimumAbsoluteDifference.java'>Minimum Absolute Difference</a>|$O(N * LogN)$|$O(N)$
@@ -373,20 +387,6 @@
 |Valid Parentheses|https://leetcode.com/problems/valid-parentheses|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ValidParentheses.java'>Valid Parentheses</a>|$not specified$|$not specified$
 |Widest Vertical Area Between Two Points Containing No Points|https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/WidestVerticalAreaBetweenTwoPointsContainingNoPoints.java'>Widest Vertical Area Between Two Points Containing No Points</a>|$O(N * LogN)$|$LogN$
 |XOR Operation in an Array|https://leetcode.com/problems/xor-operation-in-an-array/description/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/XorOperationInAnArray.java'>XOR Operation in an Array</a>|$not specified$|$not specified$
-</details>
-<details>
-<summary>HARD</summary>
-
-|Name|Problem|Solution|Time Complexity|Space complexity
-|---|---|---|---|---|
-|Minimum Window Substring|https://leetcode.com/problems/minimum-window-substring/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimumWindowSubstring.java'>Minimum Window Substring</a>|$O(N * M)$|$O(N)$
-</details>
-<details>
-<summary>BASIC</summary>
-
-|Name|Problem|Solution|Time Complexity|Space complexity
-|---|---|---|---|---|
-|Delete Node in a Linked List|https://leetcode.com/problems/delete-node-in-a-linked-list|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/DeleteNodeInALinkedList.java'>Delete Node in a Linked List</a>|$O(1)$|$O(1)$
 </details>
 
 ## Oracle
