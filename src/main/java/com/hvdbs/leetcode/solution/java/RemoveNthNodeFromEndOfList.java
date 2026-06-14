@@ -1,16 +1,17 @@
 package com.hvdbs.leetcode.solution.java;
 
 import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Complexity;
 import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 @CodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Remove Nth Node From End of List",
         url = "https://leetcode.com/problems/remove-nth-node-from-end-of-list",
-        timeComplexity = "O(N)",
-        spaceComplexity = "O(1)")
+        timeComplexity = Complexity.ConstantComplexity.LINEAR,
+        spaceComplexity = Complexity.ConstantComplexity.CONSTANT)
 public class RemoveNthNodeFromEndOfList {
-    public class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
 
@@ -28,36 +29,23 @@ public class RemoveNthNodeFromEndOfList {
     }
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        int i = 0;
+        ListNode dummy = new ListNode(0, head);
 
-        for (ListNode cur = head; cur != null; cur = cur.next) {
-            i++;
+        ListNode l = dummy;
+        ListNode r = dummy;
+
+        while (n > 0) {
+            r = r.next;
+            n--;
         }
 
-        ListNode cur = head;
-        ListNode prev = head;
-
-        for (int j = 0; j < i; j++) {
-            if (i - n == j) {
-                if (cur == head) {
-                    if (cur.next == null) {
-                        return null;
-                    } else {
-                        head = cur.next;
-                    }
-                } else {
-                    if (cur.next == null) {
-                        prev.next = null;
-                    } else {
-                        prev.next = cur.next;
-                    }
-                }
-            }
-
-            prev = cur;
-            cur = cur.next;
+        while (r.next != null) {
+            r = r.next;
+            l = l.next;
         }
 
-        return head;
+        l.next = l.next.next;
+
+        return dummy.next;
     }
 }
