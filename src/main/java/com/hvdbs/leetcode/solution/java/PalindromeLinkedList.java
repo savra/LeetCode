@@ -1,14 +1,15 @@
 package com.hvdbs.leetcode.solution.java;
 
 import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Complexity;
 import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 @CodeInfo(
         difficulty = Difficulty.EASY,
         name = "Palindrome Linked List",
         url = "https://leetcode.com/problems/palindrome-linked-list",
-        timeComplexity = "O(N)",
-        spaceComplexity = "O(1)")
+        timeComplexity = Complexity.ConstantComplexity.LINEAR,
+        spaceComplexity = Complexity.ConstantComplexity.CONSTANT)
 public class PalindromeLinkedList {
     public static class ListNode {
         int val;
@@ -26,40 +27,38 @@ public class PalindromeLinkedList {
             this.next = next;
         }
     }
-    //My Time Complexity: O(n)
-    //My Space complexity: O(1)
+
     public boolean isPalindrome(ListNode head) {
+        if (head.next == null) {
+            return true;
+        }
+
         ListNode slow = head;
         ListNode fast = head;
-        ListNode prev;
-        ListNode next;
 
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
 
-        prev = slow;
-        slow = slow.next;
-        prev.next = null;
+        ListNode startSecondHalf = fast == null ? slow : slow.next;
 
-        while (slow != null) {
-            next = slow.next;
-            slow.next = prev;
-            prev = slow;
-            slow = next;
+        ListNode reversed = null;
+
+        while (startSecondHalf != null) {
+            ListNode tmp = startSecondHalf.next;
+            startSecondHalf.next = reversed;
+            reversed = startSecondHalf;
+            startSecondHalf = tmp;
         }
 
-        fast = head;
-        slow = prev;
-
-        while (slow != null) {
-            if (fast.val != slow.val) {
+        while (reversed != null) {
+            if (head.val != reversed.val) {
                 return false;
             }
 
-            fast = fast.next;
-            slow = slow.next;
+            head = head.next;
+            reversed = reversed.next;
         }
 
         return true;
