@@ -1,32 +1,61 @@
 package com.hvdbs.leetcode.solution.java;
 
 import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Complexity;
 import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
-import java.util.HashSet;
-import java.util.Set;
 
 @CodeInfo(
         difficulty = Difficulty.EASY,
         name = "Intersection of Two Linked Lists",
         url = "https://leetcode.com/problems/intersection-of-two-linked-lists",
-        timeComplexity = "O(M + N * LogM)",
-        spaceComplexity = "O(M)")
+        timeComplexity = Complexity.ConstantComplexity.BILINEAR, // O (N + M)
+        spaceComplexity = Complexity.ConstantComplexity.CONSTANT)
 public class IntersectionOfTwoLinkedLists {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        Set<ListNode> res = new HashSet<>();
+        int aLength = 0;
+        int bLength = 0;
 
-        for (ListNode curA = headA; curA != null; curA = curA.next) {
-            res.add(curA);
+        ListNode a = headA;
+        ListNode b = headB;
+
+        while(a != null) {
+            a = a.next;
+            aLength++;
         }
 
-        for (ListNode curB = headB; curB != null; curB = curB.next) {
-            if (res.contains(curB)) {
-                return curB;
+        while(b != null) {
+            b = b.next;
+            bLength++;
+        }
+
+        a = headA;
+        b = headB;
+
+        int i;
+
+        if (aLength > bLength) {
+            i = aLength - bLength;
+
+            while (i > 0) {
+                a = a.next;
+                i--;
+            }
+        } else {
+            i = bLength - aLength;
+
+            while (i > 0) {
+                b = b.next;
+                i--;
             }
         }
 
-        return null;
+        while (a != b) {
+            a = a.next;
+            b = b.next;
+        }
+
+        return a;
     }
 
     public class ListNode {
