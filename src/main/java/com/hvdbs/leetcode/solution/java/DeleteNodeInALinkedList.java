@@ -5,7 +5,7 @@ import com.hvdbs.savra.statsgenerator.enums.Complexity;
 import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 @CodeInfo(
-        difficulty = Difficulty.BASIC,
+        difficulty = Difficulty.MEDIUM,
         url = "https://leetcode.com/problems/delete-node-in-a-linked-list",
         name = "Delete Node in a Linked List",
         spaceComplexity = Complexity.ConstantComplexity.CONSTANT,
