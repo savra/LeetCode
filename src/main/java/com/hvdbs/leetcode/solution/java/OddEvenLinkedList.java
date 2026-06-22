@@ -1,14 +1,15 @@
 package com.hvdbs.leetcode.solution.java;
 
 import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Complexity;
 import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 @CodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Odd Even Linked List",
         url = "https://leetcode.com/problems/odd-even-linked-list",
-        spaceComplexity = "O(1)",
-        timeComplexity = "O(N)")
+        spaceComplexity = Complexity.ConstantComplexity.CONSTANT,
+        timeComplexity = Complexity.ConstantComplexity.LINEAR)
 public class OddEvenLinkedList {
     public static class ListNode {
         int val;
@@ -28,34 +29,24 @@ public class OddEvenLinkedList {
     }
 
     public ListNode oddEvenList(ListNode head) {
-        if (head == null || head.next == null) {
+        if (head == null || head.next == null || head.next.next == null) {
             return head;
         }
 
-        ListNode even = head.next;
-        ListNode odd = head;
-        ListNode oddHead = odd;
-        ListNode evenHead = even;
+        ListNode evenHead = head.next;
+        ListNode currOdd = head;
+        ListNode currEven = evenHead;
 
-        while (true) {
-            if (odd.next.next != null) {
-                odd.next = odd.next.next;
-                odd = odd.next;
-            } else {
-                break;
-            }
+        while (currEven != null && currEven.next != null) {
+            currOdd.next = currEven.next;
+            currEven.next = currEven.next.next;
 
-            if (even.next.next != null) {
-                even.next = even.next.next;
-                even = even.next;
-            } else {
-                break;
-            }
+            currOdd = currOdd.next;
+            currEven = currEven.next;
         }
 
-        even.next = null;
-        odd.next = evenHead;
+        currOdd.next = evenHead;
 
-        return oddHead;
+        return head;
     }
 }

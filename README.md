@@ -1,6 +1,13 @@
 # Statistics of problem solving ⭐
 ## JAVA
 <details>
+<summary>HARD</summary>
+
+|Name|Problem|Solution|Time Complexity|Space complexity
+|---|---|---|---|---|
+|Minimum Window Substring|https://leetcode.com/problems/minimum-window-substring/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimumWindowSubstring.java'>Minimum Window Substring</a>|$O(N * M)$|$O(N)$
+</details>
+<details>
 <summary>MEDIUM</summary>
 
 |Name|Problem|Solution|Time Complexity|Space complexity
@@ -54,13 +61,6 @@
 |Two Sum II - Input Array Is Sorted|https://leetcode.com/problems/two-sum-ii-input-array-is-sorted|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/TwoSumIIInputArrayIsSorted.java'>Two Sum II - Input Array Is Sorted</a>|$O(N * LogN)$|$O(1)$
 |Validate Binary Search Tree|https://leetcode.com/problems/validate-binary-search-tree|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ValidateBinarySearchTree.java'>Validate Binary Search Tree</a>|$not specified$|$not specified$
 |Valid Sudoku|https://leetcode.com/problems/valid-sudoku|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/ValidSudoku.java'>Valid Sudoku</a>|$O(1)$|$O(1)$
-</details>
-<details>
-<summary>HARD</summary>
-
-|Name|Problem|Solution|Time Complexity|Space complexity
-|---|---|---|---|---|
-|Minimum Window Substring|https://leetcode.com/problems/minimum-window-substring/|<a href='https://github.com/savra/LeetCode/blob/master/src/main/java/com/hvdbs/leetcode/solution/java/MinimumWindowSubstring.java'>Minimum Window Substring</a>|$O(N * M)$|$O(N)$
 </details>
 <details>
 <summary>EASY</summary>
