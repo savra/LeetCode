@@ -1,12 +1,16 @@
 package com.hvdbs.leetcode.solution.java;
 
 import com.hvdbs.savra.statsgenerator.CodeInfo;
+import com.hvdbs.savra.statsgenerator.enums.Complexity;
 import com.hvdbs.savra.statsgenerator.enums.Difficulty;
 
 @CodeInfo(
         difficulty = Difficulty.MEDIUM,
         name = "Swap Nodes in Pairs",
-        url = "https://leetcode.com/problems/swap-nodes-in-pairs")
+        url = "https://leetcode.com/problems/swap-nodes-in-pairs",
+        spaceComplexity = Complexity.ConstantComplexity.CONSTANT,
+        timeComplexity = Complexity.ConstantComplexity.LINEAR
+)
 public class SwapNodesInPairs {
     public static class ListNode {
         int val;
@@ -25,36 +29,22 @@ public class SwapNodesInPairs {
         }
     }
 
-    public static ListNode swapPairs(ListNode head) {
-        ListNode newHeadNode = new ListNode(-1);
-        newHeadNode.next = swap(head);
+    public ListNode swapPairs(ListNode head) {
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode beforePair = dummy;
 
-        return newHeadNode.next;
-    }
+        while (beforePair.next != null && beforePair.next.next != null) {
+            ListNode left = beforePair.next;
+            ListNode right = left.next;
 
-    private static ListNode swap(ListNode head) {
-        if (head == null || head.next == null) {
-            return head;
+            left.next = right.next;
+            right.next = left;
+            beforePair.next = right;
+
+            beforePair = left;
         }
 
-        ListNode cur = head.next;
-        ListNode next = head.next.next;
-        cur.next = head;
-        head.next = swap(next);
-
-        return cur;
-    }
-
-    public static void main(String[] args) {
-        ListNode l = new ListNode(1);
-        ListNode l2 = new ListNode(2);
-        ListNode l3 = new ListNode(3);
-        ListNode l4 = new ListNode(4);
-
-        l.next = l2;
-        l2.next = l3;
-        l3.next = l4;
-
-        swapPairs(l);
+        return dummy.next;
     }
 }
